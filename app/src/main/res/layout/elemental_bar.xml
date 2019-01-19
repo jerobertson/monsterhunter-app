@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="5dp"
+        android:src="@drawable/ic_menu_unknown" />
+
+    <FrameLayout
+        android:id="@+id/amount"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="20"
+        android:background="@color/colorUnknown" />
+
+    <FrameLayout
+        android:id="@+id/remaining"
+        android:layout_width="0dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="30"
+        android:alpha="0.2"
+        android:background="@color/colorUnknown" />
+
+    <TextView
+        android:id="@+id/avg_text"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="\?\?"
+        android:textAppearance="?attr/textAppearanceListItemSecondary" />
+
+</LinearLayout>

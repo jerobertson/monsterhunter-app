@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f7719</color>
+    <color name="colorPrimaryTrans">#7f2f7719</color>
+    <color name="colorPrimaryDark">#16370c</color>
+    <color name="colorAccent">#c3571f</color>
+    <color name="colorAccentTrans">#7fc3571f</color>
+    <color name="colorUnknown">#999</color>
+    <color name="colorFire">#ff4802</color>
+    <color name="colorWater">#93ebff</color>
+    <color name="colorIce">#adcef7</color>
+    <color name="colorThunder">#fefd04</color>
+    <color name="colorDragon">#6b72b6</color>
+</resources>

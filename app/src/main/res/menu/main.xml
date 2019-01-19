@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/ic_menu_search"
+        app:showAsAction="collapseActionView|always"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/physiology"
+        android:title="Physiology"
+        android:icon="@drawable/ic_menu_book_w"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/desire"
+        android:title="Desire Sensor"
+        android:icon="@drawable/ic_menu_desire_w"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_menu_home_w"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/combination_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/combination_shim"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:visibility="invisible"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/combination_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:fontFamily="@font/imperator_small_caps"
+            android:textSize="20sp"
+            android:text="Alternative Combination"
+            android:ellipsize="end"
+            android:maxLines="1" />
+
+        <ImageView
+            android:id="@+id/combo_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/combination_title"
+            android:src="@drawable/ic_menu_unknown" />
+
+        <TextView
+            android:id="@+id/combo_1_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/combo_1"
+            android:layout_alignBottom="@+id/combo_1"
+            android:layout_toEndOf="@+id/combo_1"
+            android:layout_toStartOf="@+id/combination_shim"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:text="-" />
+
+        <ImageView
+            android:id="@+id/combo_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:layout_toEndOf="@id/combination_shim"
+            android:layout_below="@+id/combination_title"
+            android:src="@drawable/ic_menu_unknown" />
+
+        <TextView
+            android:id="@+id/combo_2_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/combo_2"
+            android:layout_alignBottom="@+id/combo_2"
+            android:layout_toEndOf="@+id/combo_2"
+            android:layout_marginEnd="5dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?attr/textAppearanceListItemSecondary"
+            android:text="-" />
+
+    </RelativeLayout>
+</LinearLayout>

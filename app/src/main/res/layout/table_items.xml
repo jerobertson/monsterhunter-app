@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_menu_unknown"/>
+
+    <TextView
+        android:id="@+id/var_type"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/var_part"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:text="Item Name"/>
+
+    <EditText
+        android:id="@+id/count"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="center_vertical"
+        android:textAlignment="center"
+        android:ems="2"
+        android:maxLength="2"
+        android:inputType="none"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/plus"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/minus"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="-" />
+
+</TableRow>

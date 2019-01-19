@@ -1,0 +1,3733 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item name="Potion" short="potion" tags="CONSUMABLE">
+    <description text="Restores a small amount of Health. Try to combine these into something Mega-better!" />
+    <combine first="herb" second="bluemushroom" />
+    <price sell="7" />
+  </item>
+  <item name="Mega Potion" short="megapotion" tags="CONSUMABLE">
+    <description text="Restores a moderate amount of Health. This potion is a hunter's best friend." />
+    <combine first="potion" second="honey" />
+    <price sell="16" />
+  </item>
+  <item name="Nutrients" short="nutrients" tags="CONSUMABLE">
+    <description text="Very slightly increases your maximum Health level." />
+    <combine first="bluemushroom" second="godbug" />
+    <price sell="25" />
+  </item>
+  <item name="Mega Nutrients" short="meganutrients" tags="CONSUMABLE">
+    <description text="Slightly increases your maximum Health level." />
+    <combine first="nutrients" second="honey" />
+    <price sell="92" />
+  </item>
+  <item name="Antidote" short="antidote" tags="CONSUMABLE">
+    <description text="Removes all traces of poison from your system." />
+    <ailmentcure text="Cures Poison and Deadly Poison." />
+    <combine first="antidoteherb" second="bluemushroom" />
+    <price sell="6" />
+  </item>
+  <item name="Immunizer" short="immunizer" tags="CONSUMABLE">
+    <description text="Boosts your natural ability to heal." />
+    <combine first="catalyst" second="dragontoadstool" />
+    <price sell="92" />
+  </item>
+  <item name="Dash Juice" short="dashjuice" tags="CONSUMABLE">
+    <description text="Lets you run without tiring for a short time." />
+    <combine first="catalyst" second="raresteak" />
+    <price sell="29" />
+  </item>
+  <item name="Mega Dash Juice" short="megadashjuice" tags="CONSUMABLE">
+    <description text="Lets you run without tiring for longer than with regular Dash Juice." />
+    <combine first="welldonesteak" second="dashextract" />
+    <price sell="205" />
+  </item>
+  <item name="Demondrug" short="demondrug" tags="CONSUMABLE">
+    <description text="Boosts your Attack by filling you with -- guess what? -- demonic strength." />
+    <combine first="catalyst" second="mightseed" />
+    <price sell="67" />
+  </item>
+  <item name="Mega Demondrug" short="megademondrug" tags="CONSUMABLE">
+    <description text="Boosts your Attack even more than a regular Demondrug." />
+    <combine first="demondrug" second="paleextract" />
+    <price sell="283" />
+  </item>
+  <item name="Might Pill" short="mightpill" tags="CONSUMABLE">
+    <description text="Temporarily endows you with the strength of a mighty god. Potent!" />
+    <combine first="immunizer" second="mightseed" />
+    <price sell="67" />
+  </item>
+  <item name="Armorskin" short="armorskin" tags="CONSUMABLE">
+    <description text="Boosts your Defense by turning your skin as hard as rock." />
+    <ailmentcure text="Increases defence." />
+    <combine first="catalyst" second="adamantseed" />
+    <price sell="58" />
+  </item>
+  <item name="Mega Armorskin" short="megaarmorskin" tags="CONSUMABLE">
+    <description text="Boosts your Defense even more than a regular Armorskin." />
+    <combine first="armorskin" second="paleextract" />
+    <price sell="269" />
+  </item>
+  <item name="Adamant Pill" short="adamantpill" tags="CONSUMABLE">
+    <description text="Boosts your Defense even more than a regular Armorskin." />
+    <combine first="immunizer" second="adamantseed" />
+    <price sell="260" />
+  </item>
+  <item name="Cool Drink" short="cooldrink" tags="CONSUMABLE">
+    <description text="Provides temporary relief from extreme heat." />
+    <combine first="icecrystal" second="bitterbug" />
+    <price sell="30" />
+  </item>
+  <item name="Hot Drink" short="hotdrink" tags="CONSUMABLE">
+    <description text="Provides temporary relief from extreme cold." />
+    <combine first="hotpepper" second="bitterbug" />
+    <price sell="25" />
+  </item>
+  <item name="Cleanser" short="cleanser" tags="CONSUMABLE">
+    <description text="Immediately removes any ice or mud on your body. Clean as a whistle!" />
+    <ailmentcure text="Cures Snowman, Muddy, Webbed and Tarred." />
+    <combine first="catalyst" second="popfish" />
+    <price sell="14" />
+  </item>
+  <item name="Deoderant" short="deoderant" tags="CONSUMABLE">
+    <description text="An item that cures Soiled. Releases a puff of deoderizing smoke when thrown down." />
+    <ailmentcure text="Cures Soiled and Blastblight." />
+    <combine first="bombcasing" second="bitterbug" />
+    <price sell="8" />
+  </item>
+  <item name="Psychoserum" short="psychoserum" tags="CONSUMABLE">
+    <description text="Temporarily sharpens your sixth sense and attunes you to the ways of monsters." />
+    <price sell="30" />
+  </item>
+  <item name="Herbal Medicine" short="herbalmedicine" tags="CONSUMABLE">
+    <description text="Removes all traces of poison and restores a slight amount of Health." />
+    <combine first="gloamgrassroot" second="bitterbug" />
+    <price sell="25" />
+  </item>
+  <item name="Max Potion" short="maxpotion" tags="CONSUMABLE">
+    <description text="Fully restores health and increases your maximum Health level all the way." />
+    <combine first="meganutrients" second="dragontoadstool" />
+    <price sell="210" />
+  </item>
+  <item name="Ancient Potion" short="ancientpotion" tags="CONSUMABLE">
+    <description text="Fully restores Health and Stamina, and raises the max levels of both all the way." />
+    <combine first="immunizer" second="kelbihorn" altfirst="kelbihorn" altsecond="gloamgrassbud" />
+    <price sell="345" />
+  </item>
+  <item name="Catalyst" short="catalyst">
+    <description text="Works with other materials to enhance their effects. Cannot be used by itself." />
+    <combine first="honey" second="bitterbug" />
+    <price sell="48" />
+  </item>
+  <item name="Energy Drink" short="energydrink" tags="CONSUMABLE">
+    <description text="This bottle is all you'll need to wake up! Shakes off sleep and restores Stamina." />
+    <ailmentcure text="Cures Sleep and Fatigue." />
+    <combine first="honey" second="nitroshroom" />
+    <price sell="6" />
+  </item>
+  <item name="Gunpowder" short="gunpowder">
+    <description text="A dangerous substance that explodes when struck or heated." />
+    <combine first="fireherb" second="nitroshroom" />
+    <price sell="45" />
+  </item>
+  <item name="Lifecrystals" short="lifecrystals">
+    <description text="Mysterious crystals long worshipped as a source of life." />
+    <combine first="godbug" second="wyvernfang" />
+    <price sell="59" />
+  </item>
+  <item name="Lifepowder" short="lifepowder" tags="CONSUMABLE">
+    <description text="A Lifecrystal combination used as medicine. Heals with a single touch." />
+    <combine first="lifecrystals" second="wyvernclaw" />
+    <price sell="315" />
+  </item>
+  <item name="Dust of Life" short="dustoflife" tags="CONSUMABLE">
+    <description text="A medicine with strong curative properties. Studied in secret, it is said to restore youth." />
+    <price sell="100" />
+  </item>
+  <item name="Disposable Earplugs" short="disposableearplugs">
+    <price sell="40" />
+  </item>
+  <item name="Tranquilizer" short="tranquilizer">
+    <description text="Medicine that works as an anesthetic when combined." />
+    <combine first="sleepherb" second="parashroom" />
+    <price sell="15" />
+  </item>
+  <item name="Mystery Charm" short="mysterycharm" tags="CHARM">
+    <description text="A modest good-luck charm. What does it do? Finish the Quest and you'll find out." />
+  </item>
+  <item name="Shining Charm" short="shiningcharm" tags="CHARM">
+    <description text="A curious good-luck charm. What does it do? Finish the Quest and you'll find out." />
+  </item>
+  <item name="Timeworn Charm" short="timeworncharm" tags="CHARM">
+    <description text="A powerful good-luck charm. What does it do? Finish the Quest and you'll find out." />
+  </item>
+  <item name="Enduring Charm" short="enduringcharm" tags="CHARM" />
+  <item name="Distorted Charm" short="distortedcharm" tags="CHARM" />
+  <item name="Graven Charm" short="gravencharm" tags="CHARM" />
+  <item name="Powercharm" short="powercharm">
+    <description text="An amulet that raises Attack. Just carrying this gives you demonic strength." />
+    <price sell="3600" />
+  </item>
+  <item name="Powertalon" short="powertalon">
+    <description text="A powerful amulet that raises Attack. Made with a Deviljho Talon." />
+    <combine first="powercharm" second="deviljhotalon" />
+    <price sell="6840" />
+  </item>
+  <item name="Armorcharm" short="armorcharm">
+    <description text="An amulet that raises Defense. Just carrying this hardens your skin like rock." />
+    <price sell="2400" />
+  </item>
+  <item name="Armortalon" short="armortalon">
+    <description text="A powerful amulet that raises Defense. Made with a Deviljho Talon." />
+    <combine first="armorcharm" second="deviljhotalon" />
+    <price sell="5040" />
+  </item>
+  <item name="Raw Meat" short="rawmeat" tags="MEAT">
+    <description text="Meat carved from a monster. Can be cooked, combined, or use to set a trap." />
+    <price sell="5" />
+  </item>
+  <item name="Poison Meat" short="poisonmeat" tags="MEAT">
+    <description text="Raw Meat that poisons whatever eats it. Makes great bait for traps." />
+    <combine first="rawmeat" second="toadstool" />
+    <price sell="19" />
+  </item>
+  <item name="Tinged Meat" short="tingedmeat" tags="MEAT">
+    <description text="Raw Meat that paralyzes whatever eats it. Makes great bait for traps." />
+    <combine first="rawmeat" second="parashroom" />
+    <price sell="30" />
+  </item>
+  <item name="Drugged Meat" short="druggedmeat" tags="MEAT">
+    <description text="Raw Meat that puts whatever eats it to sleep. Makes great bait for traps." />
+    <combine first="rawmeat" second="sleepherb" />
+    <price sell="32" />
+  </item>
+  <item name="Rare Steak" short="raresteak" tags="consumable,meat">
+    <description text="Provides a small boost to your Stamina. This one's still red in the middle." />
+    <price sell="3" />
+  </item>
+  <item name="Well-Done Steak" short="welldonesteak" tags="consumable,meat">
+    <description text="Provides a moderate boost to your Stamina. Meat done right!" />
+    <ailmentcure text="Cures Bleeding." />
+    <price sell="48" />
+  </item>
+  <item name="Burnt Meat" short="burntmeat" tags="consumable,meat">
+    <description text="Meat that has been burnt to a crisp. It might boost your Stamina, or it might drain it..." />
+    <price sell="1" />
+  </item>
+  <item name="Chilled Meat" short="chilledmeat" tags="consumable,meat">
+    <description text="Meat that cools the body, wards off heat, and boosts a moderate amount of Stamina." />
+    <combine first="welldonesteak" second="icecrystal" />
+    <price sell="30" />
+  </item>
+  <item name="Hot Meat" short="hotmeat" tags="consumable,meat">
+    <description text="Meat that warms the body, wards off the cold, and boosts a moderate amount of Stamina." />
+    <combine first="welldonesteak" second="hotpepper" />
+    <price sell="25" />
+  </item>
+  <item name="Mosswine Jerky" short="mosswinejerky" tags="consumable,meat">
+    <ailmentcure text="Cures Bleeding." />
+    <price sell="10" />
+  </item>
+  <item name="Boomerang" short="boomerang" tags="THROWABLE">
+    <description text="An unusually-shaped weapon from abroad that returns to its user when thrown." />
+    <combine first="whetstone" second="monsterbones" />
+    <price sell="15" />
+  </item>
+  <item name="Throwing Knife" short="throwingknife" tags="throwable,knife">
+    <description text="A standard throwing knife. Flies straight and true." />
+  </item>
+  <item name="Poison Knife" short="poisonknife" tags="throwable,knife">
+    <description text="A throwing knife with a venom-coated blade. Poisons targets." />
+    <combine first="throwingknife" second="toadstool" />
+  </item>
+  <item name="Sleep Knife" short="sleepknife" tags="throwable,knife">
+    <description text="A throwing knife whose blade has been dusted with sleeping agents." />
+    <combine first="throwingknife" second="sleepherb" />
+  </item>
+  <item name="Paralysis Knife" short="paralysisknife" tags="throwable,knife">
+    <description text="A throwing knife coated with toxins that paralyze a target." />
+    <combine first="throwingknife" second="parashroom" />
+  </item>
+  <item name="Tranq Knife" short="tranqknife" tags="throwable,knife">
+    <description text="A throwing knife used for capturing monsters ensnared in traps." />
+    <combine first="throwingknife" second="tranquilizer" />
+  </item>
+  <item name="Bomb Casing" short="bombcasing" tags="bomb">
+    <description text="A base material for making hand-thrown bombs." />
+    <combine first="sapplant" second="stone" altfirst="sapplant" altsecond="ironore" />
+    <combineamount alt="1-3" />
+    <price sell="15" />
+  </item>
+  <item name="Paintball" short="paintball" tags="throwable,bomb">
+    <description text="Toss this scented paint at a monster to mark it, allowing you to track its position." />
+    <combine first="sapplant" second="paintberry" />
+    <price sell="10" />
+  </item>
+  <item name="Flash Bomb" short="flashbomb" tags="throwable,bomb">
+    <description text="Flashes brightly on impact. Toss this right under a monster's nose to blind it." />
+    <combine first="bombcasing" second="flashbug" />
+    <price sell="57" />
+  </item>
+  <item name="Sonic Bomb" short="sonicbomb" tags="throwable,bomb">
+    <description text="A grenade-like item that emits a high frequency blast of sound on detonation." />
+    <combine first="gunpowder" second="screamersac" />
+    <price sell="45" />
+  </item>
+  <item name="Dung" short="dung">
+    <description text="That's right: monster poop. The odor reveals too much much about the monster's diet." />
+    <combine first="bombcasing" second="flashbug" />
+    <price sell="1" />
+  </item>
+  <item name="Dung Bomb" short="dungbomb" tags="throwable,bomb">
+    <description text="Releases an odor monster find repulsive. It may even drive them away... or not." />
+    <combine first="bombcasing" second="dung" />
+    <price sell="80" />
+  </item>
+  <item name="Smoke Bomb" short="smokebomb" tags="throwable,bomb">
+    <description text="Creates a large cloud of smoke wherever it lands." />
+    <combine first="bombcasing" second="ivy" />
+    <price sell="44" />
+  </item>
+  <item name="Poison Smoke Bomb" short="poisonsmokebomb" tags="throwable,bomb">
+    <combine first="bombcasing" second="toadstool" altfirst="bombcasing" altsecond="poisonsac" />
+    <combineamount alt="2" />
+    <price sell="60" />
+  </item>
+  <item name="Farcaster" short="farcaster" tags="throwable,bomb">
+    <description text="Instantly transports you back to base camp." />
+    <combine first="bombcasing" second="exciteshroom" />
+    <price sell="30" />
+  </item>
+  <item name="Portable Steam Bomb" short="portablesteambomb" tags="throwable,bomb">
+    <price sell="60" />
+  </item>
+  <item name="Tranq Bomb" short="tranqbomb" tags="throwable,bomb">
+    <description text="A hand grenade used to capture monsters ensnared in traps." />
+    <combine first="tranquilizer" second="bombcasing" />
+    <price sell="35" />
+  </item>
+  <item name="Spider Web" short="spiderweb">
+    <description text="A very sticky web." />
+    <price sell="6" />
+  </item>
+  <item name="Net" short="net">
+    <description text="A sturdy net able to support a certain amount of weight without breaking." />
+    <combine first="spiderweb" second="ivy" />
+    <price sell="54" />
+  </item>
+  <item name="Trap Tool" short="traptool">
+    <description text="A tool you'll need to put a Pitfall Trap or other traps together with." />
+    <price sell="20" />
+  </item>
+  <item name="Pitfall Trap" short="pitfalltrap" tags="placeable,trap">
+    <description text="Activates when something heavy walks across. use this to capture monsters." />
+    <combine first="net" second="traptool" />
+    <price sell="46" />
+  </item>
+  <item name="Shock Trap" short="shocktrap" tags="placeable,trap">
+    <description text="Immobilizes a target. You can use this to capture monsters." />
+    <combine first="traptool" second="thunderbug" altfirst="traptool" altsecond="genpreyfang" />
+    <price sell="160" />
+  </item>
+  <item name="Small Barrel" short="smallbarrel">
+    <description text="How many whiffs does it take to find out what as in this empty barrel? Just one!" />
+    <price sell="8" />
+  </item>
+  <item name="Large Barrel" short="largebarrel">
+    <description text="How many licks does it take to find out what was in this empty barrel? Just one!" />
+    <price sell="21" />
+  </item>
+  <item name="Barrel Bomb S" short="barrelbombs" tags="placeable,bomb">
+    <description text="A small time bomb. You can use it underwater." />
+    <combine first="smallbarrel" second="fireherb" />
+    <price sell="16" />
+  </item>
+  <item name="Barrel Bomb S+" short="barrelbombs+" tags="placeable,bomb">
+    <description text="A powered-up Barrel Bomb S. Small, but it packs a punch. You can use it underwater." />
+    <combine first="barrelbombs" second="burstarowana" />
+    <price sell="52" />
+  </item>
+  <item name="Barrel Bomb L" short="barrelbombl" tags="placeable,bomb">
+    <description text="A potent bomb that detonates on impact. Waterproofed, so it still works underwater." />
+    <combine first="gunpowder" second="largebarrel" />
+    <price sell="52" />
+  </item>
+  <item name="Barrel Bomb L+" short="barrelbombl+" tags="placeable,bomb">
+    <description text="A powered-up Barrel Bomb L. Deadly. Waterproof, so it still works underwater." />
+    <combine first="barrelbombl" second="scatterfish" />
+    <price sell="80" />
+  </item>
+  <item name="Bounce Bomb" short="bouncebomb" tags="placeable,bomb">
+    <price sell="18" />
+  </item>
+  <item name="Bounce Bomb+" short="bouncebomb+" tags="placeable,bomb">
+    <description text="An improved version of the Bounce Bomb. Requires some skill to use." />
+    <combine first="bouncebomb" second="bombarowana" />
+    <price sell="68" />
+  </item>
+  <item name="Felvine Bomb" short="felvinebomb" tags="placeable,bomb">
+    <description text="Emits a scent Felynes love. Try hitting monsters with it." />
+    <combine first="barrelbombs" second="felvine" />
+    <price sell="12" />
+  </item>
+  <item name="Huskberry" short="huskberry">
+    <description text="A berry that is hollow on the inside." />
+    <price sell="1" />
+  </item>
+  <item name="Bone Husk" short="bonehusk">
+    <description text="" />
+    <combine first="" second="" />
+    <price sell="" />
+  </item>
+  <item name="Normal S Lv1" short="normalslv1" tags="ammo" />
+  <item name="Normal S Lv2" short="normalslv2" tags="ammo">
+    <description text="Non-specialized ammo. More powerful than Lv1." />
+    <combine first="huskberry" second="needleberry" />
+    <combineamount primary="2-4" />
+    <price sell="1" />
+  </item>
+  <item name="Normal S Lv3" short="normalslv3" tags="ammo">
+    <description text="Non-specialized ammo that richochets, resulting in high damage." />
+    <combine first="huskberry" second="popfish" />
+    <combineamount primary="2-4" />
+    <price sell="2" />
+  </item>
+  <item name="Pierce S Lv1" short="pierceslv1" tags="ammo">
+    <description text="Armor-piercing ammo that deals multiple hits to some monsters." />
+    <combine first="huskberry" second="latchberry" />
+    <combineamount primary="1-3" />
+    <price sell="1" />
+  </item>
+  <item name="Pierce S Lv2" short="pierceslv2" tags="ammo">
+    <description text="Armor-piercing ammo. Higher-level ammo deals additional hits." />
+    <combine first="bonehusk" second="birdwyvernfang" />
+    <combineamount primary="1-3" />
+    <price sell="2" />
+  </item>
+  <item name="Pierce S Lv3" short="pierceslv3" tags="ammo">
+    <description text="Armor-piercing ammo. This highest level deals the most hits." />
+    <combine first="bonehusk" second="pintuna" />
+    <combineamount primary="1-2" />
+    <price sell="3" />
+  </item>
+  <item name="Pellet S Lv1" short="pelletslv1" tags="ammo">
+    <description text="Ammo that his a wide area. Deals multiple hits at close range." />
+    <combine first="huskberry" second="scatternut" />
+    <combineamount primary="1-3" />
+    <price sell="1" />
+  </item>
+  <item name="Pellet S Lv2" short="pelletslv2" tags="ammo">
+    <description text="Ammo that hits a wide area. Higher-level ammo deals additional hits." />
+    <combine first="huskberry" second="wyvernfang" />
+    <combineamount primary="1-3" />
+    <price sell="2" />
+  </item>
+  <item name="Pellet S Lv3" short="pelletslv3" tags="ammo">
+    <description text="Ammo that hits a wide area. This highest level deals the most hits." />
+    <combine first="bonehusk" second="wyvernfang" />
+    <combineamount primary="1-3" />
+    <price sell="2" />
+  </item>
+  <item name="Crag S Lv1" short="cragslv1" tags="ammo">
+    <description text="Powerful ammo that lodges in a target, then explodes." />
+    <combine first="huskberry" second="nitroshroom" />
+    <price sell="4" />
+  </item>
+  <item name="Crag S Lv2" short="cragslv2" tags="ammo">
+    <description text="Very powerful ammo that lodges in a target, then explodes." />
+    <combine first="huskberry" second="burstarowana" />
+    <price sell="7" />
+  </item>
+  <item name="Crag S Lv3" short="cragslv3" tags="ammo">
+    <description text="Extremely powerful ammo that lodges in a target, then explodes." />
+    <combine first="bonehusk" second="bombarowana" />
+    <price sell="7" />
+  </item>
+  <item name="Clust S Lv1" short="clustslv1" tags="ammo">
+    <description text="Fragments into three shells upon impact. Beware of friendly fire!" />
+    <combine first="huskberry" second="bomberry" />
+    <price sell="4" />
+  </item>
+  <item name="Clust S Lv2" short="clustslv2" tags="ammo">
+    <description text="Fragments into four shells upon impact. Beware of friendly fire!" />
+    <combine first="bonehusk" second="wyvernclaw" />
+    <price sell="6" />
+  </item>
+  <item name="Clust S Lv3" short="clustslv3" tags="ammo">
+    <description text="Fragments into five shells upon impact. Beware of friendly fire!" />
+    <combine first="bonehusk" second="scatterfish" />
+    <price sell="10" />
+  </item>
+  <item name="Flaming S" short="flamings" tags="ammo">
+    <description text="Ammo that packs extra punch against monsters susceptible to Fire." />
+    <combine first="huskberry" second="fireherb" />
+    <price sell="2" />
+  </item>
+  <item name="Water S" short="waters" tags="ammo">
+    <description text="Ammo that packs extra punch against monsters susceptible to Water." />
+    <combine first="huskberry" second="whetfish" />
+    <combineamount primary="1-3" />
+    <price sell="2" />
+  </item>
+  <item name="Thunder S" short="thunders" tags="ammo">
+    <description text="Ammo that packs extra punch against monsters susceptible to Thunder." />
+    <combine first="huskberry" second="flashbug" />
+    <combineamount primary="2-4" />
+    <price sell="2" />
+  </item>
+  <item name="Freeze S" short="freezes" tags="ammo">
+    <description text="Ammo that packs extra punch against monsters susceptible to Ice." />
+    <combine first="huskberry" second="icecrystal" />
+    <combineamount primary="1-3" />
+    <price sell="2" />
+  </item>
+  <item name="Dragon S" short="dragons" tags="ammo">
+    <description text="Mysterious ammo that won't work in regular bowguns." />
+    <combine first="bonehusk" second="dragonfellberry" />
+    <price sell="10" />
+  </item>
+  <item name="Poison S Lv1" short="poisonslv1" tags="ammo">
+    <description text="Ammo dipped in poison. Some targets require multiple shots." />
+    <combine first="huskberry" second="toadstool" />
+    <price sell="2" />
+  </item>
+  <item name="Poison S Lv2" short="poisonslv2" tags="ammo">
+    <description text="Ammo dipped in deadly poison. Some targets require multiple shots." />
+    <combine first="bonehusk" second="iopreyfang" />
+    <price sell="2" />
+  </item>
+  <item name="Para S Lv1" short="paraslv1" tags="ammo">
+    <description text="Ammo that causes paralysis. Some targets require multiple shots." />
+    <combine first="huskberry" second="parashroom" />
+    <price sell="3" />
+  </item>
+  <item name="Para S Lv2" short="paraslv2" tags="ammo">
+    <description text="Ammo that paralyzes quickly. Some targets require multiple shots." />
+    <combine first="bonehusk" second="genpreyfang" />
+    <price sell="5" />
+  </item>
+  <item name="Sleep S Lv1" short="sleepslv1" tags="ammo">
+    <description text="Ammo containing a sleeping agent. Some targets require multiple shots." />
+    <combine first="huskberry" second="sleepherb" />
+    <price sell="2" />
+  </item>
+  <item name="Sleep S Lv2" short="sleepslv2" tags="ammo">
+    <description text="Ammo packed with sleeping agents. Some targets require multiple shots." />
+    <combine first="bonehusk" second="sleepyfish" />
+    <price sell="3" />
+  </item>
+  <item name="Exhaust S Lv1" short="exhaustslv1" tags="ammo">
+    <description text="Special ammo that drains monsters' stamina." />
+    <combine first="huskberry" second="mopeshroom" />
+    <price sell="3" />
+  </item>
+  <item name="Exhaust S Lv2" short="exhaustslv2" tags="ammo">
+    <description text="Enhanced special ammo that drains monsters' stamina." />
+    <combine first="bonehusk" second="wanchovy" />
+    <price sell="5" />
+  </item>
+  <item name="Slicing S" short="slicings" tags="ammo">
+    <description text="Special ammo that ejects sharp blades on impact. Can it sever tails?" />
+    <combine first="huskberry" second="whetstone" />
+    <combineamount primary="1-3" />
+    <price sell="3" />
+  </item>
+  <item name="WyvernFire" short="wyvernfire" tags="ammo">
+    <description text="Ammo patterned after Wyvern's Fire. Not as potent, but can be rapid-fired." />
+    <combine first="bonehusk" second="burstarowana" />
+    <price sell="6" />
+  </item>
+  <item name="Blast S" short="blasts" tags="ammo">
+    <combine first="huskberry" second="bombarowana" />
+    <combineamount primary="1-3" />
+    <price sell="6" />
+  </item>
+  <item name="Recover S Lv1" short="recoverslv1" tags="ammo">
+    <description text="Ammo that restores a small amount of Health to the target." />
+    <combine first="huskberry" second="herb" />
+    <price sell="2" />
+  </item>
+  <item name="Recover S Lv2" short="recoverslv2" tags="ammo">
+    <description text="Ammo that restores a moderate amount of Health to the target." />
+    <combine first="potion" second="huskberry" />
+    <price sell="2" />
+  </item>
+  <item name="Demon S" short="demons" tags="ammo">
+    <description text="Ammo that fills the target with savage amounts of strength." />
+    <combine first="demondrug" second="bonehusk" />
+    <price sell="9" />
+  </item>
+  <item name="Armor S" short="armors" tags="ammo">
+    <description text="Ammo that hardens the skin, guarding against attacks and Wind Pressure." />
+    <combine first="armorskin" second="bonehusk" />
+    <price sell="7" />
+  </item>
+  <item name="Paint S" short="paints" tags="ammo">
+    <description text="Ammo that marks a monster's position on your Map for a limited time." />
+    <combine first="huskberry" second="paintberry" />
+    <price sell="6" />
+  </item>
+  <item name="Tranq S" short="tranqs" tags="ammo">
+    <description text="Bowgun ammo used to capture monsters ensnared in traps." />
+    <combine first="tranquilizer" second="bonehusk" />
+    <price sell="4" />
+  </item>
+  <item name="Empty Phial" short="emptyphial">
+    <description text="A regular old empty phial." />
+    <combine first="bonehusk" second="whetstone" />
+    <price sell="1" />
+  </item>
+  <item name="Power Coating" short="powercoating" tags="ammo">
+    <description text="An arrow coating that increases the Attack of arrows fired. Capacity 50." />
+    <combine first="emptyphial" second="nitroshroom" />
+    <price sell="3" />
+  </item>
+  <item name="C.Range Coating" short="crangecoating" tags="ammo">
+    <description text="An arrow coating that increases close-range power and melee Sharpness. Capacity 20." />
+    <combine first="emptyphial" second="whetfish" />
+    <price sell="3" />
+  </item>
+  <item name="Poison Coating" short="poisoncoating" tags="ammo">
+    <description text="An arrow coating that applies Poison effects to arrows fired. Capacity 20." />
+    <combine first="emptyphial" second="toadstool" />
+    <price sell="2" />
+  </item>
+  <item name="Para Coating" short="paracoating" tags="ammo">
+    <description text="An arrow coating that applies Paralysis effects to arrows fired. Capacity 20." />
+    <combine first="emptyphial" second="parashroom" />
+    <price sell="3" />
+  </item>
+  <item name="Sleep Coating" short="sleepcoating" tags="ammo">
+    <description text="An arrow coating that applies Sleep effects to arrows fired. Capacity 20." />
+    <combine first="emptyphial" second="sleepherb" />
+    <price sell="2" />
+  </item>
+  <item name="Exhaust Coating" short="exhaustcoating" tags="ammo">
+    <description text="An arrow coating that causes arrows fired to drain monsters' stamina. Capacity 20." />
+    <combine first="emptyphial" second="mopeshroom" />
+    <price sell="2" />
+  </item>
+  <item name="Blast Coating" short="blastcoating" tags="ammo">
+    <combine first="emptyphial" second="bombarowana" />
+    <price sell="6" />
+  </item>
+  <item name="Paint Coating" short="paintcoating" tags="ammo">
+    <description text="An arrow coating that marks a monster's position on the map for a limited time. Capacity 99." />
+    <combine first="emptyphial" second="paintberry" />
+    <price sell="6" />
+  </item>
+  <item name="Worm" short="worm" tags="bait">
+    <description text="A fishing lure. Wriggles underwater, enticing those fishies to bite." />
+    <price sell="2" />
+  </item>
+  <item name="Mega Fishing Fly" short="megafishingfly" tags="bait">
+    <description text="A fishing lure. Causes a feeding frenzy. No fish can resist this one!" />
+    <price sell="3" />
+  </item>
+  <item name="Frog" short="frog" tags="bait">
+    <description text="Know any monsters good at fishing? Try fighting fire with fire." />
+    <price sell="15" />
+  </item>
+  <item name="Sushifish Bait" short="sushifishbait" tags="bait">
+    <description text="A fishing lure with chum that makes Sushifish go &quot;mmm&quot;." />
+    <combine first="megafishingfly" second="insecthusk" />
+    <combineamount primary="1-2" />
+    <price sell="2" />
+  </item>
+  <item name="Burst Bait" short="burstbait" tags="bait">
+    <description text="A fishing lure with chum that makes fish that rupture on death go &quot;mmm&quot;." />
+    <combine first="megafishingfly" second="insecthusk" />
+    <price sell="7" />
+  </item>
+  <item name="Goldenfish Bait" short="goldenfishbait" tags="bait">
+    <description text="A fishing lure with chum that makes Goldenfish go &quot;mmm&quot;." />
+    <combine first="megafishingfly" second="snakebeelarva" />
+    <price sell="30" />
+  </item>
+  <item name="Old Pickaxe" short="oldpickaxe" tags="gathering,pickaxe">
+    <description text="A cheap pickaxe with an easily nicked blade." />
+    <combine first="stone" second="mysterybone" />
+    <price sell="6" />
+  </item>
+  <item name="Iron Pickaxe" short="ironpickaxe" tags="gathering,pickaxe">
+    <description text="A pickaxe with a reasonably strong blade." />
+    <combine first="ironore" second="mysterybone" />
+    <price sell="16" />
+  </item>
+  <item name="Mega Pickaxe" short="megapickaxe" tags="gathering,pickaxe">
+    <description text="A pickaxe tempered with steel. This one won't nick easily." />
+    <combine first="machaliteore" second="mysterybone" />
+    <price sell="24" />
+  </item>
+  <item name="Old Bug Net" short="oldbugnet" tags="gathering,bugnet">
+    <description text="A cheap net for catching bugs. it tears easily." />
+    <combine first="ivy" second="mysterybone" />
+    <price sell="3" />
+  </item>
+  <item name="Bug Net" short="bugnet" tags="gathering,bugnet">
+    <description text="A durable net for catching bugs." />
+    <combine first="ivy" second="monsterbones" />
+    <price sell="8" />
+  </item>
+  <item name="Mega Bug Net" short="megabugnet" tags="gathering,bugnet">
+    <description text="An extremely durable net for catching bugs. This one is made t olast." />
+    <combine first="ivy" second="monsterbonem" />
+    <price sell="12" />
+  </item>
+  <item name="BBQ Spit" short="bbqspit">
+    <description text="Just what you need to cook meat. A must-have item for any hungry hunter." />
+    <price sell="56" />
+  </item>
+  <item name="Whetstone" short="whetstone" tags="consumable,ore">
+    <description text="A standard-sized Whetstone. Use it to restore a weapon's Sharpness." />
+    <price sell="8" />
+  </item>
+  <item name="Binoculars" short="binoculars">
+    <description text="Allow you to see farther and observe from a distance." />
+    <price sell="5" />
+  </item>
+  <item name="Garbage" short="garbage">
+    <description text="Junk created when a combination attempt fails." />
+    <price sell="1" />
+  </item>
+  <item name="Field Horn" short="fieldhorn" tags="horn">
+    <description text="Used to attract certain monsters - blow at your own risk. May break when used." />
+    <price sell="48" />
+  </item>
+  <item name="Health Horn" short="healthhorn" tags="horn">
+    <description text="Restores Health to those who hear it. May break when used." />
+    <combine first="lifecrystals" second="fieldhorn" />
+    <price sell="550" />
+  </item>
+  <item name="Antidote Horn" short="antidotehorn" tags="horn">
+    <description text="Eliminates poison in the blood of those who hear it. May break when used." />
+    <combine first="antidote" second="fieldhorn" />
+    <price sell="270" />
+  </item>
+  <item name="Demon Horn" short="demonhorn" tags="horn">
+    <description text="Increases the strength of those who hear it. May break when used." />
+    <combine first="megademondrug" second="monsterbonem" />
+    <price sell="1080" />
+  </item>
+  <item name="Armor Horn" short="armorhorn" tags="horn">
+    <description text="Bolsters the defenses of those who hear it. May break when used." />
+    <combine first="megaarmorskin" second="monsterbonem" />
+    <price sell="986" />
+  </item>
+  <item name="Wystone Lv1: Brace" short="wystonelv1brace" tags="wystone" />
+  <item name="Wystone Lv2: Brace" short="wystonelv2brace" tags="wystone" />
+  <item name="Wystone Lv1: Element" short="wystonelv1element" tags="wystone" />
+  <item name="Wystone Lv2: Element" short="wystonelv2element" tags="wystone" />
+  <item name="Wystone Lv1: Force" short="wystonelv1force" tags="wystone" />
+  <item name="Wystone Lv2: Force" short="wystonelv2force" tags="wystone" />
+  <item name="Wystone Lv1: Drive" short="wystonelv1drive" tags="wystone" />
+  <item name="Wystone Lv2: Drive" short="wystonelv2drive" tags="wystone" />
+  <item name="Garrison Bllsta Ammo" short="garrisonbllstaammo">
+    <price sell="10" />
+  </item>
+  <item name="Dense Marcoal" short="densemarcoal">
+    <price sell="200" />
+  </item>
+  <item name="Honey" short="honey">
+    <description text="Full of nutrients, but indigestible in this form." />
+    <price sell="45" />
+  </item>
+  <item name="Herb" short="herb" tags="consumable,plant">
+    <description text="Restores a very small amount of Health, but the flavor's not too hot." />
+    <price sell="2" />
+  </item>
+  <item name="Antidote Herb" short="antidoteherb" tags="consumable,plant">
+    <description text="A plant used in antidotes. Sometimes cures poison when eaten by itself." />
+    <price sell="2" />
+  </item>
+  <item name="Fire Herb" short="fireherb" tags="plant">
+    <description text="A wondrous, flammable plant." />
+    <price sell="4" />
+  </item>
+  <item name="Ivy" short="ivy" tags="plant">
+    <description text="A vine of tough fibers. Woven, it is sturdy enough to hold a person's weight." />
+    <price sell="8" />
+  </item>
+  <item name="Sleep Herb" short="sleepherb" tags="plant">
+    <description text="A plant containing sleeping agents." />
+    <price sell="5" />
+  </item>
+  <item name="Sap Plant" short="sapplant" tags="plant">
+    <description text="The sap it secretes is a strong adhesive. Careful you don't glue your pouch shut!" />
+    <price sell="2" />
+  </item>
+  <item name="Felvine" short="felvine" tags="plant">
+    <description text="Melynxes' favorite food -- they just have to steal it." />
+    <price sell="1" />
+  </item>
+  <item name="Gloamgrass Root" short="gloamgrassroot" tags="plant">
+    <price sell="10" />
+  </item>
+  <item name="Gloamgrass Bud" short="gloamgrassbug" tags="plant">
+    <description text="A night-blooming flower from a special herb native to Moga. It may have healing properties." />
+    <price sell="350" />
+  </item>
+  <item name="Hot Pepper" short="hotpepper" tags="plant">
+    <description text="Blazingly spicy. Sure, it'll warm you up, but it's too hot to handle on its own." />
+    <price sell="4" />
+  </item>
+  <item name="Frozen Berry" short="frozenberry" tags="berry">
+    <combine first="icecrystal" second="tropicalberry" />
+    <price sell="54" />
+  </item>
+  <item name="Cathangea Seed" short="cathangeaseed" tags="berry">
+    <price sell="100" />
+  </item>
+  <item name="Cathangea" short="cathangea" tags="plant">
+    <price sell="200" />
+  </item>
+  <item name="Cathangea Elixir" short="cathangeaelixir">
+    <price sell="300" />
+  </item>
+  <item name="Blue Mushroom" short="bluemushroom" tags="mushroom,MATERIAL">
+    <description text="A well-known combo material used to augment power. The deeper the blue, the better." />
+    <price sell="2" />
+  </item>
+  <item name="Nitroshroom" short="nitroshroom" tags="mushroom,MATERIAL">
+    <description text="A hard-to-find mushroom with the power to generate blazing heat." />
+    <price sell="6" />
+  </item>
+  <item name="Parashroom" short="parashroom" tags="mushroom">
+    <description text="A mushroom that induces paralysis." />
+    <price sell="15" />
+  </item>
+  <item name="Toadstool" short="toadstool" tags="mushroom">
+    <description text="Logic says not to eat this poisonous fungus, but don't write it off completely." />
+    <price sell="8" />
+  </item>
+  <item name="Exciteshroom" short="exciteshroom" tags="mushroom,MATERIAL">
+    <description text="Thie one has a very strange aroma... Edible? Only one way to find out." />
+    <price sell="18" />
+  </item>
+  <item name="Dragon Toadstool" short="dragontoadstool" tags="mushroom,MATERIAL">
+    <description text="A dangerous fungus said to suck the life out of the one who plucks it. Beware." />
+    <price sell="40" />
+  </item>
+  <item name="Paintberry" short="paintberry" tags="berry">
+    <description text="A berry with a shocking hue and an overwhelming scent. Look out: It WILL stain!" />
+    <price sell="6" />
+  </item>
+  <item name="Might Seed" short="mightseed" tags="berry">
+    <description text="Temporarily raises your Attack when ingested by improving energy flow." />
+    <price sell="140" />
+  </item>
+  <item name="Adamant Seed" short="adamantseed" tags="berry">
+    <description text="Temporarily raises yoru Defense when ingested by hardening tissue." />
+    <price sell="110" />
+  </item>
+  <item name="Paintberry" short="paintberry" tags="berry">
+    <description text="A berry with a shocking hue and an overwhelming scent. Look out: It WILL stain!" />
+    <price sell="6" />
+  </item>
+  <item name="Nulberry" short="nulberry" tags="berry">
+    <description text="A mysterious berry that cures all elemental Blights." />
+    <ailmentcure text="Cures all elemental ailments." />
+    <price sell="120" />
+  </item>
+  <item name="Dragonfell Berry" short="dragonfellberry" tags="berry">
+    <description text="Eat this to cure Dragonblight and temporarily increase Dragon Resistance." />
+    <price sell="78" />
+  </item>
+  <item name="Scatternut" short="scatternut" tags="berry">
+    <description text="A nut that violently ejects its contents when struck." />
+    <price sell="4" />
+  </item>
+  <item name="Needleberry" short="needleberry" tags="berry">
+    <description text="A berry covered with needle-like thorns." />
+    <price sell="1" />
+  </item>
+  <item name="Latchberry" short="latchberry" tags="berry">
+    <price sell="4" />
+  </item>
+  <item name="Bomberry" short="bomberry" tags="berry">
+    <description text="A berry that explodes when struck." />
+    <price sell="12" />
+  </item>
+  <item name="Blumblepumpkin" short="blumblepumpkin" tags="berry">
+    <description text="A trendy orange pumpkin. If left undisturbed, it can grow to gigantic proportions." />
+    <price sell="20" />
+  </item>
+  <item name="Stone" short="stone" tags="ore">
+    <description text="A rock with just the right heft for throwing. Tried and tested!" />
+    <price sell="1" />
+  </item>
+  <item name="Iron Ore" short="ironore" tags="ore,MATERIAL">
+    <description text="Ore with high iron content. Can be smelted and forget into various equipment." />
+    <combine first="ironore" second="slickaxe" />
+    <combineamount primary="5" />
+    <price sell="60" />
+  </item>
+  <item name="Earth Crystal" short="earthcrystal" tags="ore,MATERIAL">
+    <description text="Crystallized microbes which are prized as an abrasive when forging weapons." />
+    <combine first="earthcrystal" second="slickaxe" />
+    <combineamount primary="5" />
+    <price sell="80" />
+  </item>
+  <item name="Machalite Ore" short="machaliteore" tags="ore,MATERIAL">
+    <description text="An ore harder than iron, but also several times more difficult to forge with." />
+    <combine first="machaliteore" second="slickaxe" />
+    <combineamount primary="3" />
+    <price sell="160" />
+  </item>
+  <item name="Dragonite Ore" short="dragoniteore" tags="ore,MATERIAL">
+    <description text="An ore that yields metal superior to that of Machalite. Rare and valuable." />
+    <combine first="dragoniteeore" second="slickaxe" />
+    <combineamount primary="3" />
+    <price sell="480" />
+  </item>
+  <item name="Light Crystal" short="lightcrystal" tags="ore,MATERIAL">
+    <description text="An extremely hard substance with a faint glow. Sometimes used for cragting tools." />
+    <combine first="machaliteore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1150" />
+  </item>
+  <item name="Ice Crystal" short="icecrystal" tags="ore,MATERIAL">
+    <description text="Ice that will note melt at room temperatures. Can be used to create denser ore." />
+    <price sell="60" />
+  </item>
+  <item name="Firestone" short="firestone" tags="ore,MATERIAL">
+    <description text="Combusts even at room temperature. Its high heat can be used to fuse materials." />
+    <combine first="firestone" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="860" />
+  </item>
+  <item name="Gossamite Ore" short="gossamiteore" tags="ore,MATERIAL">
+    <combine first="gossamiteeore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="720" />
+  </item>
+  <item name="Light Crystal" short="lightcrystal" tags="ore">
+    <description text="An extremely hard substance with a faint glow. Sometimes used for cragting tools." />
+    <combine first="machaliteore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1150" />
+  </item>
+  <item name="Heavenly Crystal" short="heavenlycrystal" tags="ore,MATERIAL">
+    <combine first="heavenlycrystal" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="80" />
+  </item>
+  <item name="Meteor Crystal" short="meteorcrystal" tags="ore,MATERIAL">
+    <combine first="meteorcrystal" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1280" />
+  </item>
+  <item name="Carbalite Ore" short="carbaliteore" tags="ore,MATERIAL">
+    <description text="An ore still being researched. It yields even better metal than Dragonite." />
+    <combine first="carbaliteore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="680" />
+  </item>
+  <item name="Novacrystal" short="novacrystal" tags="ore,MATERIAL">
+    <combine first="novacrystal" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="2440" />
+  </item>
+  <item name="Fucium Ore" short="fuciumore" tags="ore,MATERIAL">
+    <description text="An ore composed of a mysterious metal, capable of fusing nearly any two materials together." />
+    <combine first="fuciumore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1020" />
+  </item>
+  <item name="Eltalite Ore" short="eltaliteore" tags="ore,MATERIAL">
+    <description text="A promising new ore that produces higher quality metal than Carbalite Ore." />
+    <combine first="eltaliteore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1280" />
+  </item>
+  <item name="Meldspar Ore" short="meldsparore" tags="ore,MATERIAL">
+    <description text="An ore composed of a durable, flexible metal that works well as a combining agent." />
+    <combine first="meldsparore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1920" />
+  </item>
+  <item name="Firecell Stone" short="firecellstone" tags="ore,MATERIAL">
+    <description text="A magma-like deposit that only trained hands can properly work with." />
+    <combine first="firecellstone" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1720" />
+  </item>
+  <item name="Allfire Stone" short="allfirestone" tags="ore,MATERIAL">
+    <description text="An ore that blazes with an all-consuming flame. Requires considerable skill to mine." />
+    <combine first="allfirestone" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="5160" />
+  </item>
+  <item name="Yoldspar Ore" short="yoldsparore" tags="ore,MATERIAL">
+    <combine first="yoldsparore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1440" />
+  </item>
+  <item name="Cosmicite Ore" short="cosmiciteore" tags="ore,MATERIAL">
+    <combine first="cosmiciteore" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="4320" />
+  </item>
+  <item name="Purecrystal" short="purecrystal" tags="ore,MATERIAL">
+    <description text="A crystal that's 100% pure. Hard enough to be used in workshop tools." />
+    <combine first="purecrystal" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="7320" />
+  </item>
+  <item name="Abrasive" short="abrasive" tags="abrasive">
+    <price sell="100" />
+  </item>
+  <item name="Quality Abrasive" short="qualityabrasive" tags="abrasive">
+    <price sell="200" />
+  </item>
+  <item name="Awesome Abrasive" short="awesomeabrasive" tags="abrasive">
+    <price sell="300" />
+  </item>
+  <item name="Ultimate Abrasive" short="ultimateabrasive" tags="abrasive">
+    <price sell="400" />
+  </item>
+  <item name="Armor Stone" short="armorstone">
+    <description text="Reacts uniquely to heat. Combine with other materials to create coating for armor." />
+    <price sell="150" />
+  </item>
+  <item name="Armor Sphere" short="armorsphere" tags="armoursphere">
+    <description text="Reacts uniquely to heat. Fuse this to armor to increase its strength." />
+    <combine first="machaliteore" second="armorstone" altfirst="armorstone" altsecond="glueglopper" />
+    <price sell="80" />
+  </item>
+  <item name="Armor Sphere+" short="armorsphere+" tags="armoursphere">
+    <description text="Fuse this high-quality Armor Sphere to existing armor to increase its strength." />
+    <combine first="dragoniteore" second="armorstone" altfirst="armorstone" altsecond="killerbeetle" />
+    <price sell="300" />
+  </item>
+  <item name="Adv Armor Sphere" short="advarmorsphere" tags="armoursphere">
+    <description text="An advanced Armor Sphere. Rare in Moga Village. Save it for that special upgrade." />
+    <combine first="carbaliteore" second="armorstone" altfirst="armorstone" altsecond="hercudrome" />
+    <price sell="300" />
+  </item>
+  <item name="Hard Armor Sphere" short="hardarmorsphere" tags="armoursphere">
+    <description text="A thick, dense Armor Sphere. Use this precious rarity to push equipment to the limit." />
+    <combine first="fuciumore" second="armorstone" altfirst="armorstone" altsecond="rarescarab" />
+    <price sell="400" />
+  </item>
+  <item name="Heavy Armor Sphere" short="heavyarmorsphere" tags="armoursphere">
+    <description text="A thick, dense Armor Sphere. Use this precious rarity to push armor to the limit." />
+    <combine first="firecellstone" second="armorstone" altfirst="yoldsparore" altsecond="armorstone" />
+    <price sell="600" />
+  </item>
+  <item name="True Armor Sphere" short="truearmorsphere" tags="armoursphere">
+    <description text="An Armor Sphere of near-perfect purity. Its abilities require advanced techniques to extract." />
+    <combine first="armorstone" second="meldsparore" altfirst="armorstone" altsecond="flutterfly" />
+    <price sell="700" />
+  </item>
+  <item name="Strong Armor Sphere" short="strongarmorsphere" tags="armoursphere">
+    <description text="An Armor Sphere with secret power that a true master can harness to upgrade gear." />
+    <combine first="armorstone" second="allfirestone" altfirst="armorstone" altsecond="cosmiciteore" />
+    <price sell="800" />
+  </item>
+  <item name="Divine Armor Sphere" short="divinearmorsphere" tags="armoursphere">
+    <description text="An Armor Sphere with so much power that all but the most gifted craftsmen keep away." />
+    <price sell="900" />
+  </item>
+  <item name="Whetfish" short="whetfish" tags="fish">
+    <description text="A fish with a dorsal fin hard enough to sharpen weapons with." />
+    <price sell="45" />
+  </item>
+  <item name="Sushifish" short="sushifish" tags="fish">
+    <description text="A fatty, delicious fish that restores a small amount of Health when consumed." />
+    <price sell="45" />
+  </item>
+  <item name="Sleepyfish" short="sleepyfish" tags="fish">
+    <description text="A fish that contains sleeping agents." />
+    <price sell="45" />
+  </item>
+  <item name="Pin Tuna" short="pintuna" tags="fish">
+    <description text="A fish with jaws covered in tiny, needle-like spikes." />
+    <price sell="50" />
+  </item>
+  <item name="Spear Tuna" short="speartuna" tags="fish">
+    <price sell="1000" />
+  </item>
+  <item name="Popfish" short="popfish" tags="fish">
+    <description text="A fish that literally pops when it dies." />
+    <price sell="15" />
+  </item>
+  <item name="Scatterfish" short="scatterfish" tags="fish">
+    <description text="A fish that dashes itself to pieces when it dies." />
+    <price sell="150" />
+  </item>
+  <item name="Burst Arowana" short="burstarowana" tags="fish">
+    <description text="A fish that burts open when it dies." />
+    <price sell="45" />
+  </item>
+  <item name="Bomb Arowana" short="bombarowana" tags="fish">
+    <description text="A fish that explodes when it dies." />
+    <price sell="135" />
+  </item>
+  <item name="Glutton Tuna" short="gluttontuna" tags="fish">
+    <description text="A fish that eats anything -- allowing you to somtimes get items from its stomach." />
+    <price sell="13" />
+  </item>
+  <item name="Gastronome Tuna" short="gastronometuna" tags="fish">
+    <price sell="23" />
+  </item>
+  <item name="Small Goldenfish" short="smallgoldenfish" tags="fish">
+    <description text="A rare fish that commands a high price, but beware its ferocity, rookies!" />
+    <price sell="500" />
+  </item>
+  <item name="Wanchovy" short="wanchovy" tags="fish">
+    <description text="A fish that can induce exhaustion." />
+    <price sell="48" />
+  </item>
+  <item name="Ancient Fish" short="ancientfish" tags="fish">
+    <price sell="1500" />
+  </item>
+  <item name="Blue Cutthroat" short="bluecutthroat" tags="fish">
+    <description text="A fish that emits blue light. Its sharp body will cut you to pieces if you're not careful." />
+    <price sell="100" />
+  </item>
+  <item name="Coinperch S" short="coinperchs" tags="fish">
+    <price sell="150" />
+  </item>
+  <item name="Coinperch M" short="coinperchm" tags="fish">
+    <price sell="500" />
+  </item>
+  <item name="Coinperch L" short="coinperchl" tags="fish">
+    <price sell="2500" />
+  </item>
+  <item name="Dundorma Tuna" short="dundormatuna" tags="fish">
+    <price sell="20" />
+  </item>
+  <item name="Cathangeafish Fry" short="cathangeafishfry" tags="fish">
+    <price sell="80" />
+  </item>
+  <item name="Cathangeafish" short="cathangeafish" tags="fish">
+    <price sell="120" />
+  </item>
+  <item name="Insect Husk" short="insecthusk" tags="insect">
+    <description text="The remains of an insect. You must be one hardcore collector to hang onto this!" />
+    <price sell="1" />
+  </item>
+  <item name="Stinkhopper" short="stinkhopper" tags="insect">
+    <description text="A grasshopper with a foul odor. Make fishing lures with it; its scent drives explosive fish wild." />
+    <price sell="6" />
+  </item>
+  <item name="Snakebee Larva" short="snakebeelarva" tags="insect">
+    <description text="An unusual larva. Make fishing lures with it; its scent drives Goldenfish wild." />
+    <price sell="30" />
+  </item>
+  <item name="Godbug" short="godbug" tags="insect">
+    <description text="An insect said to live 1000 years -- but no one's lived long enough to prove it." />
+    <price sell="210" />
+  </item>
+  <item name="Bitterbug" short="bitterbug" tags="insect">
+    <description text="Boosts your natural ability to heal when eaten. It also cures poison... sometimes." />
+    <price sell="2" />
+  </item>
+  <item name="Flashbug" short="flashbug" tags="insect">
+    <description text="A nocturnal insect sometimes found in daylight. They emit a bright flash upon death." />
+    <price sell="48" />
+  </item>
+  <item name="Thunderbug" short="thunderbug" tags="insect">
+    <description text="Releases an electric shock when struck. Used to light rooms and start fires." />
+    <price sell="150" />
+  </item>
+  <item name="Glueglopper" short="glueglopper" tags="insect">
+    <combine first="glueglopper" second="slickaxe" />
+    <combineamount primary="5" />
+    <price sell="120" />
+  </item>
+  <item name="Killer Beetle" short="killerbeetle" tags="insect">
+    <description text="The insect's hard shell is often used as an abrasive." />
+    <combine first="killerbeetle" second="slickaxe" />
+    <combineamount primary="3" />
+    <price sell="200" />
+  </item>
+  <item name="Hercudrome" short="hercudrome" tags="insect">
+    <description text="Said to be the world's strongest bug. Use in forging, cooking, and more." />
+    <combine first="hercudrome" second="slickaxe" />
+    <combineamount primary="3" />
+    <price sell="540" />
+  </item>
+  <item name="Fulgurbug" short="fulgurbug" tags="insect,MATERIAL">
+    <description text="Thunderbugs which have been stimulated by Zinogre. They emit a pale blue light." />
+    <price sell="350" />
+  </item>
+  <item name="Rare Scarab" short="rarescarab" tags="insect">
+    <description text="A rare and valuable insect that greatly assists in the bonding of metals." />
+    <combine first="rarescarab" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1000" />
+  </item>
+  <item name="Emperor Hopper" short="emperorhopper" tags="insect">
+    <description text="A grasshoper with an exceptionally strong shell. Prized as a crafting material." />
+    <combine first="emperorhopper" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1200" />
+  </item>
+  <item name="Flutterfly" short="flutterfly" tags="insect">
+    <description text="A butterfly with shimmering wings. So rarely seen in the wild, many believe it to be a myth." />
+    <combine first="flutterfly" second="slickaxe" />
+    <combineamount primary="2" />
+    <price sell="1800" />
+  </item>
+  <item name="Great Hornfly" short="greathornfly" tags="insect">
+    <price sell="60" />
+  </item>
+  <item name="Elder Bfly Beetle" short="elderbflybeetle" tags="insect">
+    <price sell="500" />
+  </item>
+  <item name="Butterfly Beetle" short="butterflybeetle" tags="insect">
+    <description text="A strange insect with the large jaws of a beetle and the delicate wings of a butterfly." />
+    <price sell="220" />
+  </item>
+  <item name="Great Elder Hornfly" short="greatelederhornfly" tags="insect">
+    <price sell="330" />
+  </item>
+  <item name="Power Nectar: Fire" short="powernectarfire" tags="nectar">
+    <price sell="10" />
+  </item>
+  <item name="Power Nectar: Fire+" short="powernectarfire+" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Power+ Nectar" short="power+nectar" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Power+ Nectar: Fire" short="power+nectarfire" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Power++ Nectar" short="power++nectar" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Stam Nectar: Water" short="stamnectarwater" tags="nectar">
+    <price sell="10" />
+  </item>
+  <item name="Stam Nectar: Dragon" short="stamnectardragon" tags="nectar">
+    <price sell="10" />
+  </item>
+  <item name="Stam Nectar: Dragon+" short="stamnectardragon+" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Stamina+ Nectar" short="stamina+nectar" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Stam+ Nectar: Water" short="stam+nectarwater" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Stamina++ Nectar" short="stamina++nectar" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Speed Nectar: Water+" short="speednectarwater+" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Spd Nectar: Thunder" short="spdnectarthunder" tags="nectar">
+    <price sell="10" />
+  </item>
+  <item name="Spd Nectar: Thunder+" short="spdnectarthunder+" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Spd Nectar: Ice" short="spdnectarice" tags="nectar">
+    <price sell="10" />
+  </item>
+  <item name="Spd Nectar: Ice+" short="spdnectarice+" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Speed+ Nectar" short="speed+nectar" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Spd Nectar: Thunder" short="spdnectarthunder" tags="nectar">
+    <price sell="10" />
+  </item>
+  <item name="Spd+ Nectar: Thunder" short="spd+nectarthunder" tags="nectar">
+    <price sell="30" />
+  </item>
+  <item name="Speed++ Nectar" short="speed++nectar" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Nectar: Fire+" short="nectarfire+" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Nectar: Fire++" short="nectarfire++" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Nectar: Water+" short="nectarwater+" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Nectar: Water++" short="nectarwater++" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Nectar: Thunder+" short="nectarthunder+" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Nectar: Thunder++" short="nectarthunder++" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Nectar: Ice+" short="nectarice+" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Nectar: Ice++" short="nectarice++" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Nectar: Dragon+" short="nectardragon+" tags="nectar">
+    <price sell="20" />
+  </item>
+  <item name="Nectar: Dragon++" short="nectardragon++" tags="nectar">
+    <price sell="60" />
+  </item>
+  <item name="Rustshard" short="rustshard" tags="relic">
+    <description text="A hunk of rock? No, it seems to be metal... With a little polish, it could be more." />
+  </item>
+  <item name="Ancient Shard" short="ancientshard" tags="relic">
+    <description text="A fossil? No, it seems to be metal... With a little polish, it could be more." />
+  </item>
+  <item name="Rusted Fragment" short="rustedfragment" tags="relic">
+    <description text="A uniquely shaped metal fragment covered in rust. It looks like it could be used for something." />
+    <price sell="180" />
+  </item>
+  <item name="Ancient Fragment" short="ancientfragment" tags="relic">
+    <price sell="360" />
+  </item>
+  <item name="Distorted Fragment" short="distortedfragment" tags="relic">
+    <price sell="720" />
+  </item>
+  <item name="Battered Weapon" short="batteredweapon" tags="relic" />
+  <item name="Battered Armor" short="batteredarmor" tags="relic" />
+  <item name="Seasoned Weapon" short="seasonedweapon" tags="relic" />
+  <item name="Seasoned Armor" short="seasonedarmor" tags="relic" />
+  <item name="Venerable Weapon" short="venerableweapon" tags="relic" />
+  <item name="Venerable Armor" short="venerablearmor" tags="relic" />
+  <item name="Champion's Weapon" short="championsweapon" tags="relic" />
+  <item name="Champion's Armor" short="championsarmor" tags="relic" />
+  <item name="Beshackled Weapon" short="beshackledweapon" tags="relic" />
+  <item name="Beshackled Armor" short="beshackledarmor" tags="relic" />
+  <item name="Map" short="map" tags="FIELD_ITEM">
+    <description text="A map of the hunting ground." />
+  </item>
+  <item name="First-aid Med" short="firstaidmed" tags="FIELD_ITEM,consumable">
+    <description text="Restores a tiny bit of Health. It does a body... sort of good!" />
+  </item>
+  <item name="First-aid Med+" short="firstaidmed+" tags="FIELD_ITEM,consumable" />
+  <item name="Ration" short="ration" tags="FIELD_ITEM,consumable">
+    <description text="Slightly boosts current/max Stamina. Most hunters agree: it's gross." />
+  </item>
+  <item name="Portable Spit" short="portablespit" tags="FIELD_ITEM">
+    <description text="A Guild-provisioned BBQ Spit useful for novice hunters." />
+  </item>
+  <item name="Mini Whestone" short="miniwhetstone" tags="FIELD_ITEM,consumable">
+    <description text="A portable Whetstone you can use to sharpend weapons." />
+  </item>
+  <item name="EZ Shock Trap" short="ezshocktrap" tags="FIELD_ITEM,placeable,trap">
+    <description text="Immobilizes a target for easy capture." />
+  </item>
+  <item name="EZ Flash Bomb" short="ezflashbomb" tags="FIELD_ITEM,throwable,bomb">
+    <description text="A grenade-like bomb that flashes brightly on impact." />
+  </item>
+  <item name="EZ Sonic Bomb" short="ezsonicbomb" tags="FIELD_ITEM,throwable,bomb" />
+  <item name="EZ Farcaster" short="ezfarcaster" tags="FIELD_ITEM,throwable,bomb" />
+  <item name="EZ Max Potion" short="ezmaxpotion" tags="FIELD_ITEM,consumable" />
+  <item name="EZ Lifepowder" short="ezlifepowder" tags="FIELD_ITEM,consumable" />
+  <item name="EZ Dust of Life" short="ezdustoflife" tags="FIELD_ITEM,consumable" />
+  <item name="EZ Pitfall Trap" short="ezpitfalltrap" tags="FIELD_ITEM,placeable,trap" />
+  <item name="EZ Barrel Bomb L" short="ezbarrelbombl" tags="FIELD_ITEM,placeable,bomb">
+    <description text="A powered-up Barrel Bomb L (as potent as a B. Bomb L+). OK underwater." />
+  </item>
+  <item name="Ballista Ammo" short="ballistaammo" tags="FIELD_ITEM,ammo">
+    <description text="Ammunition for a large mounted Bowgun." />
+  </item>
+  <item name="Ballista Binder" short="ballistabinder" tags="FIELD_ITEM,ammo">
+    <description text="Ammunition for a large mounted Bowgun. Keep giants from moving!" />
+  </item>
+  <item name="One-shot Binder" short="oneshotbinder" tags="FIELD_ITEM,ammo" />
+  <item name="Cannon Ammo" short="cannonammo" tags="FIELD_ITEM,ammo">
+    <description text="Special ammunition for an anti-dragon cannon. Not fun to lug around." />
+  </item>
+  <item name="Anti-dragon Bomb" short="antidragonbomb" tags="FIELD_ITEM,placeable,bomb">
+    <description text="A small time bomb that sticks to targets." />
+  </item>
+  <item name="Proto Dense Marcoal" short="protodensemarcoal" tags="FIELD_ITEM" />
+  <item name="EZ Marcoal" short="ezmarcoal" tags="FIELD_ITEM" />
+  <item name="Torch" short="torch" tags="FIELD_ITEM">
+    <description text="Use this to light up dark places and stave off certain monsters." />
+  </item>
+  <item name="Paw Pass Ticket" short="pawpassticket" tags="ACCOUNT_ITEM">
+    <description text="Deliver to end the Quest. Maybe the Felynes will take you home..." />
+  </item>
+  <item name="Unique Mushroom" short="uniquemushroom" tags="ACCOUNT_ITEM,mushroom">
+    <description text="A pinky-sized mushroom valued for its unusual aroma." />
+    <price sell="40" />
+  </item>
+  <item name="Choice Mushroom" short="choicemushroom" tags="ACCOUNT_ITEM,mushroom">
+    <description text="The perfect shape and aroma. Even better than a Unique Mushroom." />
+    <price sell="300" />
+  </item>
+  <item name="Ripened Mushroom" short="ripenedmushroom" tags="ACCOUNT_ITEM,mushroom">
+    <description text="A unique Mushroom made more unique by maturing its aroma and flavor." />
+    <price sell="50" />
+  </item>
+  <item name="Goldenfish" short="goldenfish" tags="ACCOUNT_ITEM,fish">
+    <description text="A rare fish made of solid gold. Sell it for a tidy sum." />
+    <price sell="500" />
+  </item>
+  <item name="Silverfish" short="silverfish" tags="ACCOUNT_ITEM,fish">
+    <price sell="1500" />
+  </item>
+  <item name="Live Bombfish" short="livebombfish" tags="ACCOUNT_ITEM,fish">
+    <price sell="50" />
+  </item>
+  <item name="Blue Marlin" short="bluemarlin" tags="ACCOUNT_ITEM,fish">
+    <price sell="1000" />
+  </item>
+  <item name="Horse Mackerel" short="horsemackerel" tags="ACCOUNT_ITEM,fish">
+    <price sell="150" />
+  </item>
+  <item name="Pop-eyed Goldfish" short="popeyedgoldfish" tags="ACCOUNT_ITEM,fish">
+    <price sell="130" />
+  </item>
+  <item name="Royal Rhino" short="royalrhino" tags="ACCOUNT_ITEM,insect">
+    <description text="A beetle with a jewel-like gleam. Prized by bug fans of all ages." />
+    <price sell="80" />
+  </item>
+  <item name="Divine Rhino" short="divinerhino" tags="ACCOUNT_ITEM,insect">
+    <price sell="1000" />
+  </item>
+  <item name="Giant Stag" short="giantstag" tags="ACCOUNT_ITEM,insect">
+    <price sell="1000" />
+  </item>
+  <item name="Darner Dragonfly" short="darnerdragonfly" tags="ACCOUNT_ITEM,insect">
+    <price sell="200" />
+  </item>
+  <item name="Common Butterfly" short="commonbutterfly" tags="ACCOUNT_ITEM,insect">
+    <price sell="90" />
+  </item>
+  <item name="Flea" short="flea" tags="ACCOUNT_ITEM,insect">
+    <price sell="7" />
+  </item>
+  <item name="Sulfur Crystal" short="sulfurcrystal" tags="ACCOUNT_ITEM,ore">
+    <price sell="50" />
+  </item>
+  <item name="Auristone Chunk" short="auristonechunk" tags="ACCOUNT_ITEM,ore">
+    <price sell="1000" />
+  </item>
+  <item name="Crystal Bone" short="crystalbone" tags="ACCOUNT_ITEM,ore">
+    <description text="A unique bone prized in the village for reasons unknown." />
+    <price sell="60" />
+  </item>
+  <item name="Bloodstone" short="bloodstone" tags="ACCOUNT_ITEM,ore">
+    <description text="Is this crimson stone the relic of some ancient beast?" />
+    <price sell="60" />
+  </item>
+  <item name="Coal" short="coal" tags="ACCOUNT_ITEM,ore">
+    <price sell="60" />
+  </item>
+  <item name="Fossilized Bone" short="fossilizedbone" tags="ACCOUNT_ITEM,bone">
+    <price sell="60" />
+  </item>
+  <item name="Mistentoe" short="mistentoe" tags="ACCOUNT_ITEM,plant">
+    <price sell="100" />
+  </item>
+  <item name="Tropical Berry" short="tropicalberry" tags="ACCOUNT_ITEM,berry">
+    <price sell="40" />
+  </item>
+  <item name="Decayed Scale" short="decayedscale" tags="ACCOUNT_ITEM,scale">
+    <price sell="200" />
+  </item>
+  <item name="Tiny Spall" short="tinyspall" tags="ACCOUNT_ITEM,scale" />
+  <item name="Lucky Spall" short="tinyspall" tags="ACCOUNT_ITEM,scale" />
+  <item name="Miracle Spall" short="tinyspall" tags="ACCOUNT_ITEM,scale" />
+  <item name="Poogie Pearl" short="tinyspall" tags="ACCOUNT_ITEM,scale" />
+  <item name="White Liver" short="whiteliver" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="50" />
+  </item>
+  <item name="Slagtoth Oil" short="slagtothoil" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="60" />
+  </item>
+  <item name="Secret Stash" short="secretstash" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="80" />
+  </item>
+  <item name="Round Acorn" short="roundacorn" tags="ACCOUNT_ITEM,MATERIAL,berry" />
+  <item name="Fine Stomach" short="finestomach" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="400" />
+  </item>
+  <item name="Luminous Stomach" short="luminousstomach" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="800" />
+  </item>
+  <item name="Monster Guts" short="monsterguts" tags="ACCOUNT_ITEM,MATERIAL">
+    <description text="Monster innards galore. A prized delicacy." />
+    <price sell="90" />
+  </item>
+  <item name="Piscene Liver" short="pisceneliver" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="90" />
+  </item>
+  <item name="Popo Tongue" short="poptongue" tags="ACCOUNT_ITEM,MATERIAL">
+    <description tex="Popo Tongue are popular, healthy, and fun to eat." />
+    <price sell="60" />
+  </item>
+  <item name="Carapaceon Brains" short="carapaceonbrains" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="10" />
+  </item>
+  <item name="Carapaceon Brains+" short="carapaceonbrains+" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="50" />
+  </item>
+  <item name="Fardrake's Eye" short="fardrakeseye" tags="ACCOUNT_ITEM,MATERIAL">
+    <price sell="1000" />
+  </item>
+  <item name="Gargwa Egg" short="gargwaegg" tags="ACCOUNT_ITEM,MATERIAL,dropable,egg" />
+  <item name="Golden Gargwa Egg" short="goldengargwaegg" tags="ACCOUNT_ITEM,MATERIAL,dropable,egg">
+    <price sell="500" />
+  </item>
+  <item name="Wyvern Egg" short="wyvernegg" tags="ACCOUNT_ITEM,dropable,egg">
+    <description text="An egg taken from a flying wyvern's nest. Very fragile, so handle with care." />
+  </item>
+  <item name="Herbivore Egg" short="herbivoreegg" tags="ACCOUNT_ITEM,dropable,egg">
+    <description text="An egg stolen from a herbivore's nest. It looks pretty tasty." />
+  </item>
+  <item name="Sootstone Ore" short="sootstoneore" tags="ACCOUNT_ITEM,dropable,ore">
+    <price sell="500" />
+  </item>
+  <item name="Powderstone" short="powderstone" tags="ACCOUNT_ITEM,dropable,ore">
+    <description text="A rock that explodes with even the slightest jolt. Careful!" />
+    <price sell="800" />
+  </item>
+  <item name="Meteor Chunk" short="meteorchunk" tags="ACCOUNT_ITEM,dropable,ore">
+    <price sell="100" />
+  </item>
+  <item name="Gargwa Guano" short="gargwaguano" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Territorial Dung" short="territorialdung" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Territorial Dung+" short="territorialdung+" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Drone Substance" short="dronesubstance" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Queen Substance" short="queensubstance" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Toad Tear" short="toadtear" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Large Toad Tear" short="largetoadtear" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Wyvern Tear" short="wyverntear" tags="ACCOUNT_ITEM,MATERIAL">
+    <description text="Mysterious tears wept only on special occasions." />
+  </item>
+  <item name="Large Wyvern Tear" short="largewyverntear" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Beast Tear" short="beasttear" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Large Beast Tear" short="largebeasttear" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Crab Pearl" short="crabpearl" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Crab Pearl+" short="crabpearl+" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Dragon Treasure" short="dragontreasure" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Old Dragon Treasure" short="olddragontreasure" tags="ACCOUNT_ITEM,MATERIAL" />
+  <item name="Akantor Scale+" short="akantorscale+" tags="MATERIAL">
+    <price sell="4272" />
+  </item>
+  <item name="Akantor Carapace" short="akantorcarapace" tags="MATERIAL">
+    <price sell="5580" />
+  </item>
+  <item name="Akantor Hardclaw" short="akantorhardclaw" tags="MATERIAL">
+    <price sell="5700" />
+  </item>
+  <item name="Akantor Tallfang" short="akantortallfang" tags="MATERIAL">
+    <price sell="8500" />
+  </item>
+  <item name="Akantor Gem" short="akantorgem" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Akantor Tail" short="akantortail" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Akantor Spike" short="akantorspike" tags="MATERIAL">
+    <price sell="9500" />
+  </item>
+  <item name="Akantor Shard" short="akantorshard" tags="MATERIAL">
+    <price sell="10680" />
+  </item>
+  <item name="Akantor Cortex" short="akantorcortex" tags="MATERIAL">
+    <price sell="13950" />
+  </item>
+  <item name="Akantor Shredtalon" short="akantorshredtalon" tags="MATERIAL">
+    <price sell="14250" />
+  </item>
+  <item name="Akantor Greatfang" short="akantorgreatfang" tags="MATERIAL">
+    <price sell="21250" />
+  </item>
+  <item name="Conquest Sphere" short="conquestsphere" tags="MATERIAL">
+    <price sell="30000" />
+  </item>
+  <item name="Akantor Flail" short="akantorflail" tags="MATERIAL">
+    <price sell="20000" />
+  </item>
+  <item name="Akantor Thickspike" short="akantorthickspike" tags="MATERIAL">
+    <price sell="23750" />
+  </item>
+  <item name="Basarios Shell" short="basariosshell" tags="MATERIAL">
+    <price sell="440" />
+  </item>
+  <item name="Poison Sac" short="poisonsac" tags="MATERIAL">
+    <price sell="96" />
+  </item>
+  <item name="Monster Bone M" short="monsterbonem" tags="MATERIAL">
+    <price sell="210" />
+  </item>
+  <item name="Basarios Wing" short="basarioswing" tags="MATERIAL">
+    <price sell="1420" />
+  </item>
+  <item name="Frenzy Shard" short="frenzyshard" tags="MATERIAL">
+    <price sell="1000" />
+  </item>
+  <item name="Frenzy Crystal" short="frenzycrystal" tags="MATERIAL">
+    <price sell="2000" />
+  </item>
+  <item name="Basarios Carapace" short="basarioscarapace" tags="MATERIAL">
+    <price sell="1320" />
+  </item>
+  <item name="Monster Keenbone" short="monsterkeenbone" tags="MATERIAL">
+    <price sell="660" />
+  </item>
+  <item name="Basarios Tears" short="basariostears" tags="MATERIAL">
+    <price sell="8888" />
+  </item>
+  <item name="Wyvern Gem" short="wyverngem" tags="MATERIAL">
+    <price sell="6000" />
+  </item>
+  <item name="Vile Frenzy Crystal" short="vilefrenzycrystal" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="Basarios Cortex" short="basarioscortex" tags="MATERIAL">
+    <price sell="3960" />
+  </item>
+  <item name="Deadly Poison Sac" short="deadlypoisonsac" tags="MATERIAL">
+    <price sell="864" />
+  </item>
+  <item name="Monster Slogbone" short="monsterslogbone" tags="MATERIAL">
+    <price sell="1320" />
+  </item>
+  <item name="Basarios Fellwing" short="basariosfellwing" tags="MATERIAL">
+    <price sell="11000" />
+  </item>
+  <item name="Lrg Wyvern Gem" short="lrgwyverngem" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Pure Frenzy Crystal" short="purefrenzycrystal" tags="MATERIAL">
+    <price sell="4000" />
+  </item>
+  <item name="R.Basarios Carapace" short="rbasarioscarapace" tags="MATERIAL">
+    <price sell="1860" />
+  </item>
+  <item name="Toxin Sac" short="toxinsac" tags="MATERIAL">
+    <price sell="288" />
+  </item>
+  <item name="R.Basarios Wing" short="rbasarioswing" tags="MATERIAL">
+    <price sell="2080" />
+  </item>
+  <item name="R.Basarios Cortex" short="rbasarioscortex" tags="MATERIAL">
+    <price sell="5580" />
+  </item>
+  <item name="R.Basarios Fellwing" short="rbasariosfellwing" tags="MATERIAL">
+    <price sell="14300" />
+  </item>
+  <item name="Brach Shell" short="brachshell" tags="MATERIAL">
+    <price sell="1000" />
+  </item>
+  <item name="Brach Ebonshell" short="brachebonshell" tags="MATERIAL">
+    <price sell="980" />
+  </item>
+  <item name="Mystery Slime" short="mysteryslime" tags="MATERIAL">
+    <price sell="1230" />
+  </item>
+  <item name="Brach Scalp" short="brachscalp" tags="MATERIAL">
+    <price sell="1180" />
+  </item>
+  <item name="Brach Marrow" short="brachmarrow" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Brach Tail" short="brachtail" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Brach Hammer" short="brachhammer" tags="MATERIAL">
+    <price sell="1280" />
+  </item>
+  <item name="Brach Carapace" short="brachcarapace" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Brach Ebonshell+" short="brachebonshell+" tags="MATERIAL">
+    <price sell="1900" />
+  </item>
+  <item name="Brach Scalp+" short="brachscalp+" tags="MATERIAL">
+    <price sell="2430" />
+  </item>
+  <item name="Brach Gem" short="brachgem" tags="MATERIAL">
+    <price sell="9300" />
+  </item>
+  <item name="Brach Pounder" short="brachpounder" tags="MATERIAL">
+    <price sell="2740" />
+  </item>
+  <item name="Brach Cortex" short="brachcortex" tags="MATERIAL">
+    <price sell="4500" />
+  </item>
+  <item name="Fine Brach Ebonshell" short="finebrachebonshell" tags="MATERIAL">
+    <price sell="5700" />
+  </item>
+  <item name="Glowing Slime" short="glowingslime" tags="MATERIAL">
+    <price sell="3690" />
+  </item>
+  <item name="Brach Crown" short="brachcrown" tags="MATERIAL">
+    <price sell="7290" />
+  </item>
+  <item name="Brach Pallium" short="brachpallium" tags="MATERIAL">
+    <price sell="14400" />
+  </item>
+  <item name="Brach Lash" short="brachlash" tags="MATERIAL">
+    <price sell="3200" />
+  </item>
+  <item name="Brach Pounder+" short="brachpounder+" tags="MATERIAL">
+    <price sell="8220" />
+  </item>
+  <item name="Flashpoint Slime" short="flashpointslime" tags="MATERIAL">
+    <price sell="4790" />
+  </item>
+  <item name="Brach Warhead" short="brachwarhead" tags="MATERIAL">
+    <price sell="9470" />
+  </item>
+  <item name="Immortal Reactor" short="immortalreactor" tags="MATERIAL">
+    <price sell="18720" />
+  </item>
+  <item name="Brach Obliterator" short="brachobliterator" tags="MATERIAL">
+    <price sell="10680" />
+  </item>
+  <item name="Cephalos Scale+" short="cephalosscale+" tags="MATERIAL">
+    <price sell="780" />
+  </item>
+  <item name="Cephalos Fang+" short="cephalosfang+" tags="MATERIAL">
+    <price sell="840" />
+  </item>
+  <item name="Cephalos Fin+" short="cephalosfin+" tags="MATERIAL">
+    <price sell="540" />
+  </item>
+  <item name="Piscine Liver" short="piscineliver" tags="MATERIAL">
+    <price sell="90" />
+  </item>
+  <item name="Cephalos Shard" short="cephalosshard" tags="MATERIAL">
+    <price sell="3600" />
+  </item>
+  <item name="Cephalos Hardfang" short="cephaloshardfang" tags="MATERIAL">
+    <price sell="2520" />
+  </item>
+  <item name="Cephalos Grandfin" short="cephalosgrandfin" tags="MATERIAL">
+    <price sell="3150" />
+  </item>
+  <item name="Cephalos Purpscale" short="cephalospurpscale" tags="MATERIAL">
+    <price sell="2400" />
+  </item>
+  <item name="Cephalos Pinkfin" short="cephalospinkfin" tags="MATERIAL">
+    <price sell="2750" />
+  </item>
+  <item name="Chameleos Finehide" short="chameleosfinehide" tags="MATERIAL">
+    <price sell="9500" />
+  </item>
+  <item name="Chameleos Fellwing" short="chameleosfellwing" tags="MATERIAL">
+    <price sell="14620" />
+  </item>
+  <item name="Elder Dragon Blood" short="elderdragonblood" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Chameleos Gem" short="chameleosgem" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Lrg Elder Dragon Gem" short="lrgelderdragongem" tags="MATERIAL">
+    <price sell="18000" />
+  </item>
+  <item name="Chameleos Lash" short="chameleoslash" tags="MATERIAL">
+    <price sell="17620" />
+  </item>
+  <item name="Chameleos Hardhorn" short="chameleoshardhorn" tags="MATERIAL">
+    <price sell="22250" />
+  </item>
+  <item name="Congalala Pelt" short="congalalapelt" tags="MATERIAL">
+    <price sell="550" />
+  </item>
+  <item name="Congalala Fang" short="congalalafang" tags="MATERIAL">
+    <price sell="770" />
+  </item>
+  <item name="Jumbo Bone" short="jumbobone" tags="MATERIAL">
+    <price sell="150" />
+  </item>
+  <item name="Monster Bone S" short="monsterbones" tags="MATERIAL">
+    <price sell="10" />
+  </item>
+  <item name="Brute Bone" short="brutebone" tags="MATERIAL">
+    <price sell="20" />
+  </item>
+  <item name="Vibrant Pelt" short="vibrantpelt" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Congalala Claw" short="congalalaclaw" tags="MATERIAL">
+    <price sell="880" />
+  </item>
+  <item name="Congalala Pelt+" short="congalalapelt+" tags="MATERIAL">
+    <price sell="1100" />
+  </item>
+  <item name="Stoutbone" short="stoutbone" tags="MATERIAL">
+    <price sell="600" />
+  </item>
+  <item name="Monster Bone+" short="monsterbone+" tags="MATERIAL">
+    <price sell="560" />
+  </item>
+  <item name="Congalala Claw+" short="congalalaclaw+" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Congalala Fur" short="congalalafur" tags="MATERIAL">
+    <price sell="3300" />
+  </item>
+  <item name="Beastly Fang" short="beastlyfang" tags="MATERIAL">
+    <price sell="3850" />
+  </item>
+  <item name="Massive Bone" short="massivebone" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Monster Hardbone" short="monsterhardbone" tags="MATERIAL">
+    <price sell="840" />
+  </item>
+  <item name="Congalala Hardclaw" short="congalalahardclaw" tags="MATERIAL">
+    <price sell="4500" />
+  </item>
+  <item name="E.Congalala Pelt+" short="econgalalapelt+" tags="MATERIAL">
+    <price sell="1650" />
+  </item>
+  <item name="E.Congalala Fang+" short="econgalalafang+" tags="MATERIAL">
+    <price sell="2400" />
+  </item>
+  <item name="E.Congalala Claw+" short="econgalalaclaw+" tags="MATERIAL">
+    <price sell="2250" />
+  </item>
+  <item name="E.Congalala Fur" short="econgalalafur" tags="MATERIAL">
+    <price sell="4950" />
+  </item>
+  <item name="Vibrant Comb" short="vibrantcomb" tags="MATERIAL">
+    <price sell="9600" />
+  </item>
+  <item name="E.Congalala Hardclaw" short="econgalalahardclaw" tags="MATERIAL">
+    <price sell="6750" />
+  </item>
+  <item name="D.Mohran Shell" short="dmohranshell" tags="MATERIAL">
+    <price sell="850" />
+  </item>
+  <item name="D.Mohran Bloodscale" short="dmohranbloodscale" tags="MATERIAL">
+    <price sell="680" />
+  </item>
+  <item name="Burtal Horn" short="burtalhorn" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Earth Dragongem" short="earthdragongem" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Dah'renstone" short="dahrenstone" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Sharp Fang" short="sharpfang" tags="MATERIAL">
+    <price sell="170" />
+  </item>
+  <item name="Brutal Horn" short="brutalhorn" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="D.Mohran Brace" short="dmohranbrace" tags="MATERIAL">
+    <price sell="1000" />
+  </item>
+  <item name="D.Mohran Carapace" short="dmohrancarapace" tags="MATERIAL">
+    <price sell="2550" />
+  </item>
+  <item name="D.Mohran Bloodscale+" short="dmohranbloodscale+" tags="MATERIAL">
+    <price sell="2040" />
+  </item>
+  <item name="Burtal Horn+" short="burtalhorn+" tags="MATERIAL">
+    <price sell="5200" />
+  </item>
+  <item name="D.Mohran Brace+" short="dmohranbrace+" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="D.Mohran Rockskin" short="dmohranrockskin" tags="MATERIAL">
+    <price sell="7650" />
+  </item>
+  <item name="D.Mohran Heavyscale" short="dmohranheavyscale" tags="MATERIAL">
+    <price sell="6120" />
+  </item>
+  <item name="Brutal Biter" short="brutalbiter" tags="MATERIAL">
+    <price sell="15600" />
+  </item>
+  <item name="Earth Dragonsphire" short="earthdragonsphire" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Crushing Fang" short="crushingfang" tags="MATERIAL">
+    <price sell="4500" />
+  </item>
+  <item name="D.Mohran Allbrace" short="dmohranallbrace" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="Hermitaur Carapace" short="hermitaurcarapace" tags="MATERIAL">
+    <price sell="1100" />
+  </item>
+  <item name="Hermitaur Claw+" short="hermitaurclaw+" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Black Pearl" short="blackpearl" tags="MATERIAL">
+    <price sell="190" />
+  </item>
+  <item name="Wyvern Scalp" short="wyvernscalp" tags="MATERIAL">
+    <price sell="1410" />
+  </item>
+  <item name="Hermitaur Cortex" short="hermitaurcortex" tags="MATERIAL">
+    <price sell="4290" />
+  </item>
+  <item name="Hermitaur Hardclaw" short="hermitaurhardclaw" tags="MATERIAL">
+    <price sell="7600" />
+  </item>
+  <item name="Fine Black Pearl" short="fineblackpearl" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Hermitaur Hardlcaw" short="hermitaurhardlcaw" tags="MATERIAL">
+    <price sell="7600" />
+  </item>
+  <item name="Scarlet Finehorn" short="scarletfinehorn" tags="MATERIAL">
+    <price sell="2280" />
+  </item>
+  <item name="Monoblos Heart" short="monoblosheart" tags="MATERIAL">
+    <price sell="4600" />
+  </item>
+  <item name="Hermitaur Purpshell" short="hermitaurpurpshell" tags="MATERIAL">
+    <price sell="5570" />
+  </item>
+  <item name="Hermitaur Purpclaw" short="hermitaurpurpclaw" tags="MATERIAL">
+    <price sell="9880" />
+  </item>
+  <item name="Majestic Horn" short="majestichorn" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Dalamadur Glaive" short="dalamadurglaive" tags="MATERIAL">
+    <price sell="6000" />
+  </item>
+  <item name="Dalamadur Gazer" short="dalamadurgazer" tags="MATERIAL">
+    <price sell="10000" />
+  </item>
+  <item name="Dalamadur Steel" short="dalamadursteel" tags="MATERIAL">
+    <price sell="5000" />
+  </item>
+  <item name="Vortex Bone" short="vortexbone" tags="MATERIAL">
+    <price sell="4800" />
+  </item>
+  <item name="Dalamadur Pectus" short="dalamadurpectus" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="Dalamadur Talon" short="dalamadurtalon" tags="MATERIAL">
+    <price sell="7000" />
+  </item>
+  <item name="Skyblade Gem" short="skybladegem" tags="MATERIAL">
+    <price sell="20000" />
+  </item>
+  <item name="Dalam Tail Scale" short="dalamtailscale" tags="MATERIAL">
+    <price sell="4000" />
+  </item>
+  <item name="Dalam Tail Shell" short="dalamtailshell" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Shattered Omen" short="shatteredomen" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="Dalamadur Fanblade" short="dalamadurfanblade" tags="MATERIAL">
+    <price sell="9500" />
+  </item>
+  <item name="Dalamadur Glaive+" short="dalamadurglaive+" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Dalamadur Steel+" short="dalamadursteel+" tags="MATERIAL">
+    <price sell="12500" />
+  </item>
+  <item name="Dalamadur Pectus+" short="dalamadurpectus+" tags="MATERIAL">
+    <price sell="22500" />
+  </item>
+  <item name="Dalamadur Ripper" short="dalamadurripper" tags="MATERIAL">
+    <price sell="17500" />
+  </item>
+  <item name="Skyblade Drgnsphire" short="skybladedrgnsphire" tags="MATERIAL">
+    <price sell="40000" />
+  </item>
+  <item name="Dalam Tail Scale+" short="dalamtailscale+" tags="MATERIAL">
+    <price sell="10000" />
+  </item>
+  <item name="Dalam Tail Shell+" short="dalamtailshell+" tags="MATERIAL">
+    <price sell="20000" />
+  </item>
+  <item name="Dalamadur Fanblade+" short="dalamadurfanblade+" tags="MATERIAL">
+    <price sell="23750" />
+  </item>
+  <item name="S.Dalamadur Glaive+" short="sdalamadurglaive+" tags="MATERIAL">
+    <price sell="19500" />
+  </item>
+  <item name="S.Dalamadur Gazer" short="sdalamadurgazer" tags="MATERIAL">
+    <price sell="32500" />
+  </item>
+  <item name="S.Dalamadur Steel+" short="sdalamadursteel+" tags="MATERIAL">
+    <price sell="16250" />
+  </item>
+  <item name="S.Dalamadur Pectus+" short="sdalamadurpectus+" tags="MATERIAL">
+    <price sell="29250" />
+  </item>
+  <item name="S.Dalamadur Ripper" short="sdalamadurripper" tags="MATERIAL">
+    <price sell="22750" />
+  </item>
+  <item name="S.Dalam Tail Scale+" short="sdalamtailscale+" tags="MATERIAL">
+    <price sell="13000" />
+  </item>
+  <item name="S.Dalam Tail Shell+" short="sdalamtailshell+" tags="MATERIAL">
+    <price sell="26000" />
+  </item>
+  <item name="S.Dalam Fanblade+" short="sdalamfanblade+" tags="MATERIAL">
+    <price sell="30875" />
+  </item>
+  <item name="Deviljho Scale" short="deviljhoscale" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Deviljho Hide" short="deviljhohide" tags="MATERIAL">
+    <price sell="2800" />
+  </item>
+  <item name="Deviljho Talon" short="deviljhotalon" tags="MATERIAL">
+    <price sell="2600" />
+  </item>
+  <item name="Deviljho Tallfang" short="deviljhotallfang" tags="MATERIAL">
+    <price sell="2980" />
+  </item>
+  <item name="Deviljho Gem" short="deviljhogem" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="Deviljho Tail" short="deviljhotail" tags="MATERIAL">
+    <price sell="4000" />
+  </item>
+  <item name="Deviljho Scalp" short="deviljhoscalp" tags="MATERIAL">
+    <price sell="3800" />
+  </item>
+  <item name="Deviljho Shard" short="deviljhoshard" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Deviljho Blackpiel" short="deviljhoblackpiel" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="Deviljho Ripper" short="deviljhoripper" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Deviljho Hardfang" short="deviljhohardfang" tags="MATERIAL">
+    <price sell="8940" />
+  </item>
+  <item name="Deviljho Crook" short="deviljhocrook" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Deviljho Flail" short="deviljhoflail" tags="MATERIAL">
+    <price sell="9200" />
+  </item>
+  <item name="Zenith Wyvern Gem" short="zenithwyverngem" tags="MATERIAL">
+    <price sell="5000" />
+  </item>
+  <item name="Zenith Wyvern Gem L" short="zenithwyverngeml" tags="MATERIAL">
+    <price sell="6000" />
+  </item>
+  <item name="Spattered Hide" short="spatteredhide" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="Black Blood" short="blackblood" tags="MATERIAL">
+    <price sell="5100" />
+  </item>
+  <item name="Bloodied Ebonhide" short="bloodiedebonhide" tags="MATERIAL">
+    <price sell="10410" />
+  </item>
+  <item name="Vile Fang" short="vilefang" tags="MATERIAL">
+    <price sell="8940" />
+  </item>
+  <item name="Diablos Cortex" short="diabloscortex" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Diablos Chine" short="diabloschine" tags="MATERIAL">
+    <price sell="7500" />
+  </item>
+  <item name="Blos Medulla" short="blosmedulla" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Diablos Tailcase+" short="diablostailcase+" tags="MATERIAL">
+    <price sell="7680" />
+  </item>
+  <item name="Twisted Stouthorn" short="twistedstouthorn" tags="MATERIAL">
+    <price sell="7200" />
+  </item>
+  <item name="Diablos Hardhorn" short="diabloshardhorn" tags="MATERIAL">
+    <price sell="11530" />
+  </item>
+  <item name="B.Diablos Cortex" short="bdiabloscortex" tags="MATERIAL">
+    <price sell="8200" />
+  </item>
+  <item name="B.Diablos Chine" short="bdiabloschine" tags="MATERIAL">
+    <price sell="9045" />
+  </item>
+  <item name="Blackcurl Stouthorn" short="blackcurlstouthorn" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="Fatalis Shell" short="fatalisshell" tags="MATERIAL">
+    <price sell="4272" />
+  </item>
+  <item name="Fatalis Scale" short="fatalisscale" tags="MATERIAL">
+    <price sell="5580" />
+  </item>
+  <item name="Fatalis Horn" short="fatalishorn" tags="MATERIAL">
+    <price sell="7860" />
+  </item>
+  <item name="Fatalis Eye" short="fataliseye" tags="MATERIAL">
+    <price sell="13000" />
+  </item>
+  <item name="Fatalis Webbing" short="fataliswebbing" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="Fatalis Cortex" short="fataliscortex" tags="MATERIAL">
+    <price sell="10680" />
+  </item>
+  <item name="Fatalis Shard" short="fatalisshard" tags="MATERIAL">
+    <price sell="13950" />
+  </item>
+  <item name="Fatalis Hardhorn" short="fatalishardhorn" tags="MATERIAL">
+    <price sell="19650" />
+  </item>
+  <item name="Fatalis Evil Eye" short="fatalisevileye" tags="MATERIAL">
+    <price sell="26000" />
+  </item>
+  <item name="Fatalis Fellwing" short="fatalisfellwing" tags="MATERIAL">
+    <price sell="22500" />
+  </item>
+  <item name="Fatalis Bloodshell" short="fatalisbloodshell" tags="MATERIAL">
+    <price sell="4272" />
+  </item>
+  <item name="Fatalis Bloodscale" short="fatalisbloodscale" tags="MATERIAL">
+    <price sell="5580" />
+  </item>
+  <item name="Fatalis Bloodhorn" short="fatalisbloodhorn" tags="MATERIAL">
+    <price sell="7860" />
+  </item>
+  <item name="Fatalis Devileye" short="fatalisdevileye" tags="MATERIAL">
+    <price sell="25000" />
+  </item>
+  <item name="Fatalis Bloodwing" short="fatalisbloodwing" tags="MATERIAL">
+    <price sell="9500" />
+  </item>
+  <item name="Fatalis Flameshell" short="fatalisflameshell" tags="MATERIAL">
+    <price sell="10680" />
+  </item>
+  <item name="Fatalis Flamescale" short="fatalisflamescale" tags="MATERIAL">
+    <price sell="13650" />
+  </item>
+  <item name="Fatalis Flamehorn" short="fatalisflamehorn" tags="MATERIAL">
+    <price sell="19650" />
+  </item>
+  <item name="Fatalis Devileye+" short="fatalisdevileye+" tags="MATERIAL">
+    <price sell="32500" />
+  </item>
+  <item name="Fatalis Flamewing" short="fatalisflamewing" tags="MATERIAL">
+    <price sell="23750" />
+  </item>
+  <item name="Old Fatalis Cortex" short="oldfataliscortex" tags="MATERIAL">
+    <price sell="13880" />
+  </item>
+  <item name="Old Fatalis Shard" short="oldfatalisshard" tags="MATERIAL">
+    <price sell="18130" />
+  </item>
+  <item name="Old Fatalis Hardhorn" short="oldfatalishardhorn" tags="MATERIAL">
+    <price sell="25540" />
+  </item>
+  <item name="Old Fatalis Souleye" short="oldfatalissouleye" tags="MATERIAL">
+    <price sell="33800" />
+  </item>
+  <item name="Old Fatalis Fellwing" short="oldfatalisfellwing" tags="MATERIAL">
+    <price sell="29250" />
+  </item>
+  <item name="Gendrome Hide" short="gendromehide" tags="MATERIAL">
+    <price sell="560" />
+  </item>
+  <item name="Paralysis Sac" short="paralysissac" tags="MATERIAL">
+    <price sell="120" />
+  </item>
+  <item name="Genprey Scale" short="genpreyscale" tags="MATERIAL">
+    <price sell="40" />
+  </item>
+  <item name="Gendrome Head" short="gendromehead" tags="MATERIAL">
+    <price sell="665" />
+  </item>
+  <item name="Gendrome Tail" short="gendrometail" tags="MATERIAL">
+    <price sell="600" />
+  </item>
+  <item name="Tough Bird Wyv Hide" short="toughbirdwyvhide" tags="MATERIAL">
+    <price sell="750" />
+  </item>
+  <item name="Genprey Scale+" short="genpreyscale+" tags="MATERIAL">
+    <price sell="180" />
+  </item>
+  <item name="Genprey Hide+" short="genpreyhide+" tags="MATERIAL">
+    <price sell="126" />
+  </item>
+  <item name="Bird Wyvern Gem" short="birdwyverngem" tags="MATERIAL">
+    <price sell="4850" />
+  </item>
+  <item name="Gogmazios Battlement" short="gogmaziosbattlement" tags="MATERIAL">
+    <price sell="13000" />
+  </item>
+  <item name="Gogmazios Fortress" short="gogmaziosfortress" tags="MATERIAL">
+    <price sell="16250" />
+  </item>
+  <item name="Gogmazios Offenders" short="gogmaziosoffenders" tags="MATERIAL">
+    <price sell="26000" />
+  </item>
+  <item name="Gogmazios Fiberwing" short="gogmaziosfiberwing" tags="MATERIAL">
+    <price sell="23750" />
+  </item>
+  <item name="Heavy Drakesbone Oil" short="heavydrakesboneoil" tags="MATERIAL">
+    <price sell="13000" />
+  </item>
+  <item name="Wartorn Dragonsphire" short="wartorndragonsphire" tags="MATERIAL">
+    <price sell="40000" />
+  </item>
+  <item name="Gogmazios Briartail" short="gogmaziosbriartail" tags="MATERIAL">
+    <price sell="23500" />
+  </item>
+  <item name="Gogmazios Gasher" short="gogmaziosgasher" tags="MATERIAL">
+    <price sell="22750" />
+  </item>
+  <item name="Gore Magala Scale" short="goremagalascale" tags="MATERIAL">
+    <price sell="540" />
+  </item>
+  <item name="Gore Magala Shell" short="goremagalashell" tags="MATERIAL">
+    <price sell="420" />
+  </item>
+  <item name="Gore Magala Ripclaw" short="goremagalaripclaw" tags="MATERIAL">
+    <price sell="680" />
+  </item>
+  <item name="Gore Magala Wing" short="goremagalawing" tags="MATERIAL">
+    <price sell="980" />
+  </item>
+  <item name="Gore Magala Plate" short="goremagalaplate" tags="MATERIAL">
+    <price sell="5040" />
+  </item>
+  <item name="Gore Magala Tail" short="goremagalatail" tags="MATERIAL">
+    <price sell="1100" />
+  </item>
+  <item name="Defiled Scale" short="defiledscale" tags="MATERIAL">
+    <price sell="560" />
+  </item>
+  <item name="Gore Magala Feeler" short="goremagalafeeler" tags="MATERIAL">
+    <price sell="1240" />
+  </item>
+  <item name="Gore Magala Scale+" short="goremagalascale+" tags="MATERIAL">
+    <price sell="1290" />
+  </item>
+  <item name="Gore Magala Carapace" short="goremagalacarapace" tags="MATERIAL">
+    <price sell="1150" />
+  </item>
+  <item name="Gore Magala Ripclaw+" short="goremagalaripclaw+" tags="MATERIAL">
+    <price sell="1580" />
+  </item>
+  <item name="Gore Magala Wing+" short="goremagalawing+" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Gore Magala Nyctgem" short="goremagalanyctgem" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Gore Magala Feeler+" short="goremagalafeeler+" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Gore Magala Shard" short="goremagalashard" tags="MATERIAL">
+    <price sell="3870" />
+  </item>
+  <item name="Gore Magala Cortex" short="goremagalacortex" tags="MATERIAL">
+    <price sell="3450" />
+  </item>
+  <item name="Gore Magala Shredder" short="goremagalashredder" tags="MATERIAL">
+    <price sell="4740" />
+  </item>
+  <item name="Gore Magala Eclipse" short="goremagalaeclipse" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Gore Magala Mantle" short="goremagalamantle" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Gore Magala Lash" short="goremagalalash" tags="MATERIAL">
+    <price sell="3300" />
+  </item>
+  <item name="Gore Magala Sensor" short="goremagalasensor" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Chaos Scale" short="chaosscale" tags="MATERIAL">
+    <price sell="5030" />
+  </item>
+  <item name="Antinomic Wing" short="antinomicwing" tags="MATERIAL">
+    <price sell="8190" />
+  </item>
+  <item name="Contrary Scale" short="contraryscale" tags="MATERIAL">
+    <price sell="15600" />
+  </item>
+  <item name="Diametrical Horn" short="diametricalhorn" tags="MATERIAL">
+    <price sell="8190" />
+  </item>
+  <item name="S.Magala Purifier" short="smagalapurifier" tags="MATERIAL">
+    <price sell="6150" />
+  </item>
+  <item name="S.Magala Scale" short="smagalascale" tags="MATERIAL">
+    <price sell="700" />
+  </item>
+  <item name="S.Magala Shell" short="smagalashell" tags="MATERIAL">
+    <price sell="550" />
+  </item>
+  <item name="S.Magala Caress" short="smagalacaress" tags="MATERIAL">
+    <price sell="880" />
+  </item>
+  <item name="S.Magala Prismwing" short="smagalaprismwing" tags="MATERIAL">
+    <price sell="1270" />
+  </item>
+  <item name="S.Magala Tail" short="smagalatail" tags="MATERIAL">
+    <price sell="1430" />
+  </item>
+  <item name="S.Magala Plate" short="smagalaplate" tags="MATERIAL">
+    <price sell="6550" />
+  </item>
+  <item name="Pure Scale" short="purescale" tags="MATERIAL">
+    <price sell="720" />
+  </item>
+  <item name="S.Magala Horn" short="smagalahorn" tags="MATERIAL">
+    <price sell="1600" />
+  </item>
+  <item name="S.Magala Scale+" short="smagalascale+" tags="MATERIAL">
+    <price sell="1650" />
+  </item>
+  <item name="S.Magala Carapace" short="smagalacarapace" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="S.Magala Caress+" short="smagalacaress+" tags="MATERIAL">
+    <price sell="2050" />
+  </item>
+  <item name="S.Magala Prismwing+" short="smagalaprismwing+" tags="MATERIAL">
+    <price sell="2730" />
+  </item>
+  <item name="S.Magala Phosgem" short="smagalaphosgem" tags="MATERIAL">
+    <price sell="10000" />
+  </item>
+  <item name="S.Magala Horn+" short="smagalahorn+" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="S.Magala Shard" short="smagalashard" tags="MATERIAL">
+    <price sell="4950" />
+  </item>
+  <item name="S.Magala Cortex" short="smagalacortex" tags="MATERIAL">
+    <price sell="4500" />
+  </item>
+  <item name="S.Magala Lightwing" short="smagalalightwing" tags="MATERIAL">
+    <price sell="8190" />
+  </item>
+  <item name="S.Magala Mantle" short="smagalamantle" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="S.Magala Lash" short="smagalalash" tags="MATERIAL">
+    <price sell="8580" />
+  </item>
+  <item name="S.Magala Hardhorn" short="smagalahardhorn" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="Gravios Shell" short="graviosshell" tags="MATERIAL">
+    <price sell="970" />
+  </item>
+  <item name="Sleep Sac" short="sleepsac" tags="MATERIAL">
+    <price sell="230" />
+  </item>
+  <item name="Flame Sac" short="flamesac" tags="MATERIAL">
+    <price sell="240" />
+  </item>
+  <item name="Gravios Scalp" short="graviosscalp" tags="MATERIAL">
+    <price sell="2550" />
+  </item>
+  <item name="Monster Bone L" short="monsterbonel" tags="MATERIAL">
+    <price sell="440" />
+  </item>
+  <item name="Gravios Wing" short="gravioswing" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Gravios Carapace" short="gravioscarapace" tags="MATERIAL">
+    <price sell="1880" />
+  </item>
+  <item name="Inferno Sac" short="infernosac" tags="MATERIAL">
+    <price sell="720" />
+  </item>
+  <item name="Gravios Medulla" short="graviosmedulla" tags="MATERIAL">
+    <price sell="6260" />
+  </item>
+  <item name="Gravios Cortex" short="gravioscortex" tags="MATERIAL">
+    <price sell="5640" />
+  </item>
+  <item name="Coma Sac" short="comasac" tags="MATERIAL">
+    <price sell="690" />
+  </item>
+  <item name="Conflagrant Sac" short="conflagrantsac" tags="MATERIAL">
+    <price sell="1920" />
+  </item>
+  <item name="Gravios Crown" short="gravioscrown" tags="MATERIAL">
+    <price sell="7650" />
+  </item>
+  <item name="Gravios Pallium" short="graviospallium" tags="MATERIAL">
+    <price sell="16000" />
+  </item>
+  <item name="Gravios Fellwing" short="graviosfellwing" tags="MATERIAL">
+    <price sell="7200" />
+  </item>
+  <item name="B.Gravios Carapace" short="bgravioscarapace" tags="MATERIAL">
+    <price sell="2910" />
+  </item>
+  <item name="B.Gravios Scalp" short="bgraviosscalp" tags="MATERIAL">
+    <price sell="3825" />
+  </item>
+  <item name="B.Gravios Cortex" short="bgravioscortex" tags="MATERIAL">
+    <price sell="8730" />
+  </item>
+  <item name="B.Gravios Crown" short="bgravioscrown" tags="MATERIAL">
+    <price sell="9560" />
+  </item>
+  <item name="B.Gravios Pallium" short="bgraviospallium" tags="MATERIAL">
+    <price sell="16000" />
+  </item>
+  <item name="G.Jaggi Hide" short="gjaggihide" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="G.Jaggi Claw" short="gjaggiclaw" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Screamer Sac" short="screamersac" tags="MATERIAL">
+    <price sell="15" />
+  </item>
+  <item name="Jaggi Scale" short="jaggiscale" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Great Jaggi Head" short="greatjaggihead" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Kings Frill" short="kingsfrill" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="G.Jaggi Hide+" short="gjaggihide+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="G.Jaggi Claw+" short="gjaggiclaw+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Rubbery Hide" short="rubberyhide" tags="MATERIAL">
+    <price sell="370" />
+  </item>
+  <item name="Dash Extract" short="dashextract" tags="MATERIAL">
+    <price sell="56" />
+  </item>
+  <item name="Gypceros Head" short="gypceroshead" tags="MATERIAL">
+    <price sell="2200" />
+  </item>
+  <item name="Rubbery Hide+" short="rubberyhide+" tags="MATERIAL">
+    <price sell="1110" />
+  </item>
+  <item name="Rubbery Finehide" short="rubberyfinehide" tags="MATERIAL">
+    <price sell="3330" />
+  </item>
+  <item name="Gypceros Hardhead" short="gypceroshardhead" tags="MATERIAL">
+    <price sell="8800" />
+  </item>
+  <item name="Rubbery Purple Hide" short="rubberypurplehide" tags="MATERIAL">
+    <price sell="1280" />
+  </item>
+  <item name="P.Gypceros Wing" short="pgypceroswing" tags="MATERIAL">
+    <price sell="3900" />
+  </item>
+  <item name="Rubbery Purple Hide+" short="rubberypurplehide+" tags="MATERIAL">
+    <price sell="3840" />
+  </item>
+  <item name="P.Gypceros Fellwing" short="pgypcerosfellwing" tags="MATERIAL">
+    <price sell="7800" />
+  </item>
+  <item name="Iodrome Hide" short="iodromehide" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Ioprey Scale" short="iopreyscale" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Iodrome Head" short="iodromehead" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Ioprey Scale+" short="iopreyscale+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Ioprey Hide+" short="iopreyhide+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Ioprey Piel" short="iopreypiel" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Fey Wyvern Gem" short="feywyverngem" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="Kecha Pelt" short="kechapelt" tags="MATERIAL">
+    <price sell="280" />
+  </item>
+  <item name="Kecha Longbone" short="kechalongbone" tags="MATERIAL">
+    <price sell="490" />
+  </item>
+  <item name="Kecha Tail" short="kechatail" tags="MATERIAL">
+    <price sell="720" />
+  </item>
+  <item name="Kecha Ear" short="kechaear" tags="MATERIAL">
+    <price sell="1300" />
+  </item>
+  <item name="Aqua Sac" short="aquasac" tags="MATERIAL">
+    <price sell="170" />
+  </item>
+  <item name="Kecha Talon" short="kechatalon" tags="MATERIAL">
+    <price sell="560" />
+  </item>
+  <item name="Kecha Pelt+" short="kechapelt+" tags="MATERIAL">
+    <price sell="840" />
+  </item>
+  <item name="Kecha Grandbone" short="kechagrandbone" tags="MATERIAL">
+    <price sell="1470" />
+  </item>
+  <item name="Kecha Ear+" short="kechaear+" tags="MATERIAL">
+    <price sell="2600" />
+  </item>
+  <item name="Torrent Sac" short="torrentsac" tags="MATERIAL">
+    <price sell="510" />
+  </item>
+  <item name="Kecha Fur" short="kechafur" tags="MATERIAL">
+    <price sell="2520" />
+  </item>
+  <item name="Kecha Leadbone" short="kechaleadbone" tags="MATERIAL">
+    <price sell="4410" />
+  </item>
+  <item name="Kecha Lash" short="kechalash" tags="MATERIAL">
+    <price sell="2880" />
+  </item>
+  <item name="Kecha Auricle" short="kechaauricle" tags="MATERIAL">
+    <price sell="5200" />
+  </item>
+  <item name="Kecha Ripper" short="kecharipper" tags="MATERIAL">
+    <price sell="2240" />
+  </item>
+  <item name="Flood Sac" short="floodsac" tags="MATERIAL">
+    <price sell="1020" />
+  </item>
+  <item name="A.Kecha Fur" short="akechafur" tags="MATERIAL">
+    <price sell="3270" />
+  </item>
+  <item name="A.Kecha Leadbone" short="akechaleadbone" tags="MATERIAL">
+    <price sell="5730" />
+  </item>
+  <item name="A.Kecha Lash" short="akechalash" tags="MATERIAL">
+    <price sell="3740" />
+  </item>
+  <item name="A.Kecha Auricle" short="akechaauricle" tags="MATERIAL">
+    <price sell="6760" />
+  </item>
+  <item name="A.Kecha Ripper" short="akecharipper" tags="MATERIAL">
+    <price sell="2910" />
+  </item>
+  <item name="Flabby Hide" short="flabbyhide" tags="MATERIAL">
+    <price sell="760" />
+  </item>
+  <item name="Pale Extract" short="paleextract" tags="MATERIAL">
+    <price sell="122" />
+  </item>
+  <item name="Electro Sac" short="electrosac" tags="MATERIAL">
+    <price sell="480" />
+  </item>
+  <item name="Pale Bone" short="palebone" tags="MATERIAL">
+    <price sell="2380" />
+  </item>
+  <item name="Pearl Hide" short="pearlhide" tags="MATERIAL">
+    <price sell="1520" />
+  </item>
+  <item name="Thunder Sac" short="thundersac" tags="MATERIAL">
+    <price sell="960" />
+  </item>
+  <item name="Pale Steak" short="palesteak" tags="MATERIAL">
+    <price sell="3580" />
+  </item>
+  <item name="Pearl Glosshide" short="pearlglosshide" tags="MATERIAL">
+    <price sell="4560" />
+  </item>
+  <item name="Lightning Sac" short="lightningsac" tags="MATERIAL">
+    <price sell="2400" />
+  </item>
+  <item name="Khezu Special Cut" short="khezuspecialcut" tags="MATERIAL">
+    <price sell="10740" />
+  </item>
+  <item name="Alluring Hide" short="alluringhide" tags="MATERIAL">
+    <price sell="1960" />
+  </item>
+  <item name="Alluring Webbing" short="alluringwebbing" tags="MATERIAL">
+    <price sell="3100" />
+  </item>
+  <item name="Alluring Glosshide" short="alluringglosshide" tags="MATERIAL">
+    <price sell="5880" />
+  </item>
+  <item name="Alluring Fellwing" short="alluringfellwing" tags="MATERIAL">
+    <price sell="9300" />
+  </item>
+  <item name="Kirin Hide" short="kirinhide" tags="MATERIAL">
+    <price sell="680" />
+  </item>
+  <item name="Kirin Mane" short="kirinmane" tags="MATERIAL">
+    <price sell="2500" />
+  </item>
+  <item name="Kirin Thunderhorn" short="kirinthunderhorn" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Kirin Hide+" short="kirinhide+" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Kirin Thundertail" short="kirinthundertail" tags="MATERIAL">
+    <price sell="4000" />
+  </item>
+  <item name="Kirin Azure Horn" short="kirinazurehorn" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="Kirin Finehide" short="kirinfinehide" tags="MATERIAL">
+    <price sell="5250" />
+  </item>
+  <item name="Kirin Thunderlash" short="kirinthunderlash" tags="MATERIAL">
+    <price sell="10000" />
+  </item>
+  <item name="Kirin Azure Peak" short="kirinazurepeak" tags="MATERIAL">
+    <price sell="13500" />
+  </item>
+  <item name="Kirin Frost Tail" short="kirinfrosttail" tags="MATERIAL">
+    <price sell="4300" />
+  </item>
+  <item name="Kirin Icehorn" short="kirinicehorn" tags="MATERIAL">
+    <price sell="5800" />
+  </item>
+  <item name="Kirin Frostlash" short="kirinfrostlash" tags="MATERIAL">
+    <price sell="10750" />
+  </item>
+  <item name="Kirin Ice Peak" short="kirinicepeak" tags="MATERIAL">
+    <price sell="14500" />
+  </item>
+  <item name="Daora Carapace" short="daoracarapace" tags="MATERIAL">
+    <price sell="3100" />
+  </item>
+  <item name="Daora Scale" short="daorascale" tags="MATERIAL">
+    <price sell="3900" />
+  </item>
+  <item name="Daora Claw+" short="daoraclaw+" tags="MATERIAL">
+    <price sell="5500" />
+  </item>
+  <item name="Daora Gem" short="daoragem" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Daora Tail" short="daoratail" tags="MATERIAL">
+    <price sell="7000" />
+  </item>
+  <item name="Daora Horn+" short="daorahorn+" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="Daora Webbing" short="daorawebbing" tags="MATERIAL">
+    <price sell="6400" />
+  </item>
+  <item name="Daora Cortex" short="daoracortex" tags="MATERIAL">
+    <price sell="7750" />
+  </item>
+  <item name="Daora Shard" short="daorashard" tags="MATERIAL">
+    <price sell="9750" />
+  </item>
+  <item name="Daora Hardclaw" short="daorahardclaw" tags="MATERIAL">
+    <price sell="13750" />
+  </item>
+  <item name="Daora Lash" short="daoralash" tags="MATERIAL">
+    <price sell="17500" />
+  </item>
+  <item name="Daora Hardhorn" short="daorahardhorn" tags="MATERIAL">
+    <price sell="18000" />
+  </item>
+  <item name="Daora Fellwing" short="daorafellwing" tags="MATERIAL">
+    <price sell="16000" />
+  </item>
+  <item name="Steelrust Drakeshell" short="steelrustdrakeshell" tags="MATERIAL">
+    <price sell="10070" />
+  </item>
+  <item name="Steelrust Scale" short="steelrustscale" tags="MATERIAL">
+    <price sell="12675" />
+  </item>
+  <item name="Steelrust Claw" short="steelrustclaw" tags="MATERIAL">
+    <price sell="17870" />
+  </item>
+  <item name="Silverpeak Corona" short="silverpeakcorona" tags="MATERIAL">
+    <price sell="29250" />
+  </item>
+  <item name="Maelstriker Wing" short="maelstrikerwing" tags="MATERIAL">
+    <price sell="20800" />
+  </item>
+  <item name="Lagombi Pelt" short="lagombipelt" tags="MATERIAL">
+    <price sell="280" />
+  </item>
+  <item name="Lagombi Plastron" short="lagombiplastron" tags="MATERIAL">
+    <price sell="320" />
+  </item>
+  <item name="Lagombi Iceclaw" short="lagombiiceclaw" tags="MATERIAL">
+    <price sell="210" />
+  </item>
+  <item name="Lagombi Ear" short="lagombiear" tags="MATERIAL">
+    <price sell="420" />
+  </item>
+  <item name="Lagombi Pelt+" short="lagombipelt+" tags="MATERIAL">
+    <price sell="840" />
+  </item>
+  <item name="Lagombi Plastron+" short="lagombiplastron+" tags="MATERIAL">
+    <price sell="960" />
+  </item>
+  <item name="Lagombi Frozenclaw" short="lagombifrozenclaw" tags="MATERIAL">
+    <price sell="630" />
+  </item>
+  <item name="Lagombi Ear+" short="lagombiear+" tags="MATERIAL">
+    <price sell="1260" />
+  </item>
+  <item name="Lagombi Fur" short="lagombifur" tags="MATERIAL">
+    <price sell="2520" />
+  </item>
+  <item name="Lagombi Auricle" short="lagombiauricle" tags="MATERIAL">
+    <price sell="3780" />
+  </item>
+  <item name="Monoblos Carapace" short="monobloscarapace" tags="MATERIAL">
+    <price sell="1850" />
+  </item>
+  <item name="Monoblos Thoracic" short="monoblosthoracic" tags="MATERIAL">
+    <price sell="2850" />
+  </item>
+  <item name="Monoblos Cortex" short="monobloscortex" tags="MATERIAL">
+    <price sell="5550" />
+  </item>
+  <item name="Monoblos Chine" short="monobloschine" tags="MATERIAL">
+    <price sell="7125" />
+  </item>
+  <item name="Scarlet Stouthorn" short="scarletstouthorn" tags="MATERIAL">
+    <price sell="6840" />
+  </item>
+  <item name="W.Monoblos Cortex" short="wmonobloscortex" tags="MATERIAL">
+    <price sell="7210" />
+  </item>
+  <item name="W.Monoblos Chine" short="wmonobloschine" tags="MATERIAL">
+    <price sell="9260" />
+  </item>
+  <item name="Argent Stouthorn" short="argentstouthorn" tags="MATERIAL">
+    <price sell="8890" />
+  </item>
+  <item name="Najarala Shell" short="najaralashell" tags="MATERIAL">
+    <price sell="480" />
+  </item>
+  <item name="Najarala Fang" short="najaralafang" tags="MATERIAL">
+    <price sell="750" />
+  </item>
+  <item name="Najarala Hide" short="najaralahide" tags="MATERIAL">
+    <price sell="600" />
+  </item>
+  <item name="Chilling Beak" short="chillingbeak" tags="MATERIAL">
+    <price sell="2400" />
+  </item>
+  <item name="Najarala Sounder" short="najaralasounder" tags="MATERIAL">
+    <price sell="820" />
+  </item>
+  <item name="Najarala Marrow" short="najaralamarrow" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Najarala Carapace" short="najaralacarapace" tags="MATERIAL">
+    <price sell="1440" />
+  </item>
+  <item name="Najarala Hide+" short="najaralahide+" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Najarala Medulla" short="najaralamedulla" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Najarala Sounder+" short="najaralasounder+" tags="MATERIAL">
+    <price sell="2460" />
+  </item>
+  <item name="Najarala Cortex" short="najaralacortex" tags="MATERIAL">
+    <price sell="4320" />
+  </item>
+  <item name="Najarala Piel" short="najaralapiel" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="Omniplegia Sac" short="omniplegiasac" tags="MATERIAL">
+    <price sell="360" />
+  </item>
+  <item name="Heart-stopping Beak" short="heartstoppingbeak" tags="MATERIAL">
+    <price sell="9600" />
+  </item>
+  <item name="Najarala Ampsounder" short="najaralaampsounder" tags="MATERIAL">
+    <price sell="7380" />
+  </item>
+  <item name="T.Najarala Cortex" short="tnajaralacortex" tags="MATERIAL">
+    <price sell="5610" />
+  </item>
+  <item name="T.Najarala Piel" short="tnajaralapiel" tags="MATERIAL">
+    <price sell="7020" />
+  </item>
+  <item name="T.Najarala Splasher" short="tnajaralasplasher" tags="MATERIAL">
+    <price sell="9590" />
+  </item>
+  <item name="Nerscylla Shell" short="nerscyllashell" tags="MATERIAL">
+    <price sell="390" />
+  </item>
+  <item name="Nerscylla Chelicera" short="nerscyllachelicera" tags="MATERIAL">
+    <price sell="480" />
+  </item>
+  <item name="Nerscylla Claw" short="nerscyllaclaw" tags="MATERIAL">
+    <price sell="520" />
+  </item>
+  <item name="Nerscylla Spike" short="nerscyllaspike" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Monster Fluid" short="monsterfluid" tags="MATERIAL">
+    <price sell="500" />
+  </item>
+  <item name="Nerscylla Carapace" short="nerscyllacarapace" tags="MATERIAL">
+    <price sell="1170" />
+  </item>
+  <item name="Nerscylla Shear" short="nerscyllashear" tags="MATERIAL">
+    <price sell="1440" />
+  </item>
+  <item name="Nerscylla Sharpclaw" short="nerscyllasharpclaw" tags="MATERIAL">
+    <price sell="1560" />
+  </item>
+  <item name="Nerscylla Spike+" short="nerscyllaspike+" tags="MATERIAL">
+    <price sell="2800" />
+  </item>
+  <item name="Monster Broth" short="monsterbroth" tags="MATERIAL">
+    <price sell="1000" />
+  </item>
+  <item name="Nerscylla Cortex" short="nerscyllacortex" tags="MATERIAL">
+    <price sell="3510" />
+  </item>
+  <item name="Nerscylla Scishorn" short="nerscyllascishorn" tags="MATERIAL">
+    <price sell="4320" />
+  </item>
+  <item name="Nerscylla Hardclaw" short="nerscyllahardclaw" tags="MATERIAL">
+    <price sell="4680" />
+  </item>
+  <item name="Nerscylla Surspike" short="nerscyllasurspike" tags="MATERIAL">
+    <price sell="5600" />
+  </item>
+  <item name="Monster Essence" short="monsteressence" tags="MATERIAL">
+    <price sell="2000" />
+  </item>
+  <item name="S.Nerscylla Cortex" short="snerscyllacortex" tags="MATERIAL">
+    <price sell="4560" />
+  </item>
+  <item name="S.Nerscylla Scishorn" short="snerscyllascishorn" tags="MATERIAL">
+    <price sell="5610" />
+  </item>
+  <item name="S.Nerscylla Hardclaw" short="snerscyllahardclaw" tags="MATERIAL">
+    <price sell="6080" />
+  </item>
+  <item name="S.Nerscylla Surspike" short="snerscyllasurspike" tags="MATERIAL">
+    <price sell="7280" />
+  </item>
+  <item name="Rajang Fang+" short="rajangfang+" tags="MATERIAL">
+    <price sell="2700" />
+  </item>
+  <item name="Rajang Blackfur" short="rajangblackfur" tags="MATERIAL">
+    <price sell="2280" />
+  </item>
+  <item name="Rajang Claw+" short="rajangclaw+" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="Gold Rajang Pelt" short="goldrajangpelt" tags="MATERIAL">
+    <price sell="9600" />
+  </item>
+  <item name="Rajang Horn+" short="rajanghorn+" tags="MATERIAL">
+    <price sell="3200" />
+  </item>
+  <item name="Rajang Tail" short="rajangtail" tags="MATERIAL">
+    <price sell="4500" />
+  </item>
+  <item name="Rajang Hardfang" short="rajanghardfang" tags="MATERIAL">
+    <price sell="6750" />
+  </item>
+  <item name="Rajang Wildpelt" short="rajangwildpelt" tags="MATERIAL">
+    <price sell="5700" />
+  </item>
+  <item name="Rajang Hardclaw" short="rajanghardclaw" tags="MATERIAL">
+    <price sell="7500" />
+  </item>
+  <item name="Gold Rajang Pelt+" short="goldrajangpelt+" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Rajang Hardhorn" short="rajanghardhorn" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Rajang Ragehair" short="rajangragehair" tags="MATERIAL">
+    <price sell="3420" />
+  </item>
+  <item name="Rajang Nerve" short="rajangnerve" tags="MATERIAL">
+    <price sell="4800" />
+  </item>
+  <item name="Ghoulish Gold Horn" short="ghoulishgoldhorn" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Rajang Apoplexy" short="rajangapoplexy" tags="MATERIAL">
+    <price sell="8550" />
+  </item>
+  <item name="Rajang Heart" short="rajangheart" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Ghoulish Gold Gorer" short="ghoulishgoldgorer" tags="MATERIAL">
+    <price sell="30000" />
+  </item>
+  <item name="Rathalos Scale" short="rathalosscale" tags="MATERIAL">
+    <price sell="490" />
+  </item>
+  <item name="Rathalos Shell" short="rathalosshell" tags="MATERIAL">
+    <price sell="650" />
+  </item>
+  <item name="Rathalos Webbing" short="rathaloswebbing" tags="MATERIAL">
+    <price sell="880" />
+  </item>
+  <item name="Rath Marrow" short="rathmarrow" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Rathalos Tail" short="rathalostail" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Rathalos Plate" short="rathalosplate" tags="MATERIAL">
+    <price sell="4850" />
+  </item>
+  <item name="Rath Wingtalon" short="rathwingtalon" tags="MATERIAL">
+    <price sell="600" />
+  </item>
+  <item name="Wyvern Claw" short="wyvernclaw" tags="MATERIAL">
+    <price sell="18" />
+  </item>
+  <item name="Rathalos Scale+" short="rathalosscale+" tags="MATERIAL">
+    <price sell="1470" />
+  </item>
+  <item name="Rathalos Carapace" short="rathaloscarapace" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Rathalos Wing" short="rathaloswing" tags="MATERIAL">
+    <price sell="2550" />
+  </item>
+  <item name="Rath Medulla" short="rathmedulla" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Rathalos Ruby" short="rathalosruby" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="Rathalos Shard" short="rathalosshard" tags="MATERIAL">
+    <price sell="4410" />
+  </item>
+  <item name="Rathalos Cortex" short="rathaloscortex" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Rathalos Fellwing" short="rathalosfellwing" tags="MATERIAL">
+    <price sell="7650" />
+  </item>
+  <item name="Rathalos Lash" short="rathaloslash" tags="MATERIAL">
+    <price sell="7200" />
+  </item>
+  <item name="Rathalos Mantle" short="rathalosmantle" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Rath Wingtalon+" short="rathwingtalon+" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="A.Rathalos Scale+" short="arathalosscale+" tags="MATERIAL">
+    <price sell="1960" />
+  </item>
+  <item name="A.Rathalos Carapace" short="arathaloscarapace" tags="MATERIAL">
+    <price sell="2600" />
+  </item>
+  <item name="A.Rathalos Wing" short="arathaloswing" tags="MATERIAL">
+    <price sell="3825" />
+  </item>
+  <item name="A.Rathalos Tail" short="arathalostail" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="A.Rathalos Shard" short="arathalosshard" tags="MATERIAL">
+    <price sell="5880" />
+  </item>
+  <item name="A.Rathalos Cortex" short="arathaloscortex" tags="MATERIAL">
+    <price sell="7800" />
+  </item>
+  <item name="A.Rathalos Lash" short="arathaloslash" tags="MATERIAL">
+    <price sell="9000" />
+  </item>
+  <item name="S.Rathalos Scale+" short="srathalosscale+" tags="MATERIAL">
+    <price sell="2200" />
+  </item>
+  <item name="S.Rathalos Carapace" short="srathaloscarapace" tags="MATERIAL">
+    <price sell="3900" />
+  </item>
+  <item name="Rath Gleam" short="rathgleam" tags="MATERIAL">
+    <price sell="2500" />
+  </item>
+  <item name="S.Rathalos Tail" short="srathalostail" tags="MATERIAL">
+    <price sell="4800" />
+  </item>
+  <item name="S.Rathalos Shard" short="srathalosshard" tags="MATERIAL">
+    <price sell="6600" />
+  </item>
+  <item name="S.Rath Cortex" short="srathcortex" tags="MATERIAL">
+    <price sell="8775" />
+  </item>
+  <item name="Firegleam Dollop" short="firegleamdollop" tags="MATERIAL">
+    <price sell="7500" />
+  </item>
+  <item name="S.Rath Lash" short="srathlash" tags="MATERIAL">
+    <price sell="9600" />
+  </item>
+  <item name="Rathian Scale" short="rathianscale" tags="MATERIAL">
+    <price sell="490" />
+  </item>
+  <item name="Rathian Shell" short="rathianshell" tags="MATERIAL">
+    <price sell="650" />
+  </item>
+  <item name="Rathian Webbing" short="rathianwebbing" tags="MATERIAL">
+    <price sell="780" />
+  </item>
+  <item name="Rathian Spike" short="rathianspike" tags="MATERIAL">
+    <price sell="2000" />
+  </item>
+  <item name="Rathian Plate" short="rathianplate" tags="MATERIAL">
+    <price sell="4850" />
+  </item>
+  <item name="Rathian Scale+" short="rathianscale+" tags="MATERIAL">
+    <price sell="1470" />
+  </item>
+  <item name="Rathian Carapace" short="rathiancarapace" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Rathian Spike+" short="rathianspike+" tags="MATERIAL">
+    <price sell="4000" />
+  </item>
+  <item name="Rathian Ruby" short="rathianruby" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="Rathian Shard" short="rathianshard" tags="MATERIAL">
+    <price sell="4410" />
+  </item>
+  <item name="Rathian Cortex" short="rathiancortex" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Rathian Surspike" short="rathiansurspike" tags="MATERIAL">
+    <price sell="9180" />
+  </item>
+  <item name="Rathian Mantle" short="rathianmantle" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="P.Rathian Scale+" short="prathianscale+" tags="MATERIAL">
+    <price sell="1960" />
+  </item>
+  <item name="P.Rathian Carapace" short="prathiancarapace" tags="MATERIAL">
+    <price sell="2600" />
+  </item>
+  <item name="P.Rathian Shard" short="prathianshard" tags="MATERIAL">
+    <price sell="5880" />
+  </item>
+  <item name="P.Rathian Cortex" short="prathiancortex" tags="MATERIAL">
+    <price sell="7800" />
+  </item>
+  <item name="G.Rathian Scale+" short="grathianscale+" tags="MATERIAL">
+    <price sell="2200" />
+  </item>
+  <item name="G.Rathian Carapace" short="grathiancarapace" tags="MATERIAL">
+    <price sell="3900" />
+  </item>
+  <item name="G.Rathian Spike+" short="grathianspike+" tags="MATERIAL">
+    <price sell="5600" />
+  </item>
+  <item name="G.Rathian Shard" short="grathianshard" tags="MATERIAL">
+    <price sell="6600" />
+  </item>
+  <item name="G.Rathian Cortex" short="grathiancortex" tags="MATERIAL">
+    <price sell="8775" />
+  </item>
+  <item name="G.Rath Surspike" short="grathsurspike" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Seltas Shell" short="seltasshell" tags="MATERIAL">
+    <price sell="220" />
+  </item>
+  <item name="Seltas Wing" short="seltaswing" tags="MATERIAL">
+    <price sell="270" />
+  </item>
+  <item name="Seltas Horn" short="seltashorn" tags="MATERIAL">
+    <price sell="360" />
+  </item>
+  <item name="Seltas Carapace" short="seltascarapace" tags="MATERIAL">
+    <price sell="660" />
+  </item>
+  <item name="Seltas Innerwing" short="seltasinnerwing" tags="MATERIAL">
+    <price sell="810" />
+  </item>
+  <item name="Seltas Horn+" short="seltashorn+" tags="MATERIAL">
+    <price sell="1080" />
+  </item>
+  <item name="Seltas Cortex" short="seltascortex" tags="MATERIAL">
+    <price sell="1980" />
+  </item>
+  <item name="Seltas Razorwing" short="seltasrazorwing" tags="MATERIAL">
+    <price sell="2430" />
+  </item>
+  <item name="Seltas Hardhorn" short="seltashardhorn" tags="MATERIAL">
+    <price sell="3240" />
+  </item>
+  <item name="D.Seltas Cortex" short="dseltascortex" tags="MATERIAL">
+    <price sell="2570" />
+  </item>
+  <item name="D.Seltas Razorwing" short="dseltasrazorwing" tags="MATERIAL">
+    <price sell="3150" />
+  </item>
+  <item name="D.Seltas Hardhorn" short="dseltashardhorn" tags="MATERIAL">
+    <price sell="4210" />
+  </item>
+  <item name="S.Queen Shell" short="squeenshell" tags="MATERIAL">
+    <price sell="830" />
+  </item>
+  <item name="S.Queen Pectus" short="squeenpectus" tags="MATERIAL">
+    <price sell="880" />
+  </item>
+  <item name="S.Queen Claw" short="squeenclaw" tags="MATERIAL">
+    <price sell="1320" />
+  </item>
+  <item name="S.Queen Extract" short="squeenextract" tags="MATERIAL">
+    <price sell="2500" />
+  </item>
+  <item name="S.Queen Jaw" short="squeenjaw" tags="MATERIAL">
+    <price sell="1250" />
+  </item>
+  <item name="S.Queen Crescent" short="squeencrescent" tags="MATERIAL">
+    <price sell="1400" />
+  </item>
+  <item name="S.Queen Carapace" short="squeencarapace" tags="MATERIAL">
+    <price sell="2490" />
+  </item>
+  <item name="S.Queen Hardpectus" short="squeenhardpectus" tags="MATERIAL">
+    <price sell="2640" />
+  </item>
+  <item name="S.Queen Sharpclaw" short="squeensharpclaw" tags="MATERIAL">
+    <price sell="3960" />
+  </item>
+  <item name="S.Queen Concentrate" short="squeenconcentrate" tags="MATERIAL">
+    <price sell="7000" />
+  </item>
+  <item name="S.Queen Cortex" short="squeencortex" tags="MATERIAL">
+    <price sell="5600" />
+  </item>
+  <item name="S.Queen Pectus+" short="squeenpectus+" tags="MATERIAL">
+    <price sell="5940" />
+  </item>
+  <item name="S.Queen Hardclaw" short="squeenhardclaw" tags="MATERIAL">
+    <price sell="8910" />
+  </item>
+  <item name="S.Queen Maw" short="squeenmaw" tags="MATERIAL">
+    <price sell="6320" />
+  </item>
+  <item name="D.S.QueenConcentrate" short="dsqueenconcentrate" tags="MATERIAL">
+    <price sell="14000" />
+  </item>
+  <item name="S.Queen Moonlash" short="squeenmoonlash" tags="MATERIAL">
+    <price sell="7080" />
+  </item>
+  <item name="D.S.Queen Cortex" short="dsqueencortex" tags="MATERIAL">
+    <price sell="7280" />
+  </item>
+  <item name="D.S.Queen Pectus+" short="dsqueenpectus+" tags="MATERIAL">
+    <price sell="7720" />
+  </item>
+  <item name="D.S.Queen Hardclaw" short="dsqueenhardclaw" tags="MATERIAL">
+    <price sell="11580" />
+  </item>
+  <item name="D.S.Queen Maw" short="dsqueenmaw" tags="MATERIAL">
+    <price sell="8210" />
+  </item>
+  <item name="D.S.Queen Moonlash" short="dsqueenmoonlash" tags="MATERIAL">
+    <price sell="9200" />
+  </item>
+  <item name="Seregios Slavescale" short="seregiosslavescale" tags="MATERIAL">
+    <price sell="1470" />
+  </item>
+  <item name="Seregios Airblade" short="seregiosairblade" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Seregios Carver" short="seregioscarver" tags="MATERIAL">
+    <price sell="2550" />
+  </item>
+  <item name="Seregios Scraper" short="seregiosscraper" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Seregios Dissenter" short="seregiosdissenter" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="Seregios Impaler" short="seregiosimpaler" tags="MATERIAL">
+    <price sell="2400" />
+  </item>
+  <item name="Seregios Breacher" short="seregiosbreacher" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Seregios Slavescale+" short="seregiosslavescale+" tags="MATERIAL">
+    <price sell="4410" />
+  </item>
+  <item name="Seregios Airblade+" short="seregiosairblade+" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Seregios Carver+" short="seregioscarver+" tags="MATERIAL">
+    <price sell="7650" />
+  </item>
+  <item name="Seregios Scraper+" short="seregiosscraper+" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="Seregios Lens" short="seregioslens" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Seregios Impaler+" short="seregiosimpaler+" tags="MATERIAL">
+    <price sell="7200" />
+  </item>
+  <item name="Seregios Breacher+" short="seregiosbreacher+" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Teostra Carapace" short="teostracarapace" tags="MATERIAL">
+    <price sell="3100" />
+  </item>
+  <item name="Fire Dragon Scale+" short="firedragonscale+" tags="MATERIAL">
+    <price sell="3700" />
+  </item>
+  <item name="Teostra Mane" short="teostramane" tags="MATERIAL">
+    <price sell="4600" />
+  </item>
+  <item name="Teostra Claw+" short="teostraclaw+" tags="MATERIAL">
+    <price sell="5300" />
+  </item>
+  <item name="Teostra Gem" short="teostragem" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="Teostra Tail" short="teostratail" tags="MATERIAL">
+    <price sell="7100" />
+  </item>
+  <item name="Teostra Powder" short="teostrapowder" tags="MATERIAL">
+    <price sell="3900" />
+  </item>
+  <item name="Teostra Horn+" short="teostrahorn+" tags="MATERIAL">
+    <price sell="8800" />
+  </item>
+  <item name="Teostra Webbing" short="teostrawebbing" tags="MATERIAL">
+    <price sell="6600" />
+  </item>
+  <item name="Teostra Cortex" short="teostracortex" tags="MATERIAL">
+    <price sell="7750" />
+  </item>
+  <item name="Flame Shard" short="flameshard" tags="MATERIAL">
+    <price sell="9250" />
+  </item>
+  <item name="Fire Dragon Hardclaw" short="firedragonhardclaw" tags="MATERIAL">
+    <price sell="13250" />
+  </item>
+  <item name="Teostra Lash" short="teostralash" tags="MATERIAL">
+    <price sell="17750" />
+  </item>
+  <item name="Teostra Hardhorn" short="teostrahardhorn" tags="MATERIAL">
+    <price sell="22000" />
+  </item>
+  <item name="Tetsucabra Scale" short="tetsucabrascale" tags="MATERIAL">
+    <price sell="320" />
+  </item>
+  <item name="Tetsucabra Shell" short="tetsucabrashell" tags="MATERIAL">
+    <price sell="220" />
+  </item>
+  <item name="Tetsucabra Claw" short="tetsucabraclaw" tags="MATERIAL">
+    <price sell="580" />
+  </item>
+  <item name="Dignified Skull" short="dignifiedskull" tags="MATERIAL">
+    <price sell="760" />
+  </item>
+  <item name="Paddock Oil" short="paddockoil" tags="MATERIAL">
+    <price sell="200" />
+  </item>
+  <item name="Tetsucabra Tusks" short="tetsucabratusks" tags="MATERIAL">
+    <price sell="1020" />
+  </item>
+  <item name="Tetsucabra Scale+" short="tetsucabrascale+" tags="MATERIAL">
+    <price sell="960" />
+  </item>
+  <item name="Tetsucabra Carapace" short="tetsucabracarapace" tags="MATERIAL">
+    <price sell="660" />
+  </item>
+  <item name="Tetsucabra Claw+" short="tetsucabraclaw+" tags="MATERIAL">
+    <price sell="1740" />
+  </item>
+  <item name="Paddock Oil+" short="paddockoil+" tags="MATERIAL">
+    <price sell="600" />
+  </item>
+  <item name="Tetsucabra Tusks+" short="tetsucabratusks+" tags="MATERIAL">
+    <price sell="3060" />
+  </item>
+  <item name="Tetsucabra Shard" short="tetsucabrashard" tags="MATERIAL">
+    <price sell="2880" />
+  </item>
+  <item name="Tetsucabra Cortex" short="tetsucabracortex" tags="MATERIAL">
+    <price sell="1980" />
+  </item>
+  <item name="Tetsucabra Hardclaw" short="tetsucabrahardclaw" tags="MATERIAL">
+    <price sell="5220" />
+  </item>
+  <item name="Vicious Visage" short="viciousvisage" tags="MATERIAL">
+    <price sell="6840" />
+  </item>
+  <item name="Paddock Cream" short="paddockcream" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Tetsucabra Gnawrl" short="tetsucabragnawrl" tags="MATERIAL">
+    <price sell="9180" />
+  </item>
+  <item name="B.Tetsucabra Shard" short="btetsucabrashard" tags="MATERIAL">
+    <price sell="3740" />
+  </item>
+  <item name="B.Tetsucabra Cortex" short="btetsucabracortex" tags="MATERIAL">
+    <price sell="2570" />
+  </item>
+  <item name="B.TetsucabraHardclaw" short="btetsucabrahardclaw" tags="MATERIAL">
+    <price sell="6780" />
+  </item>
+  <item name="B.Tetsucabra Gnawrl" short="btetsucabragnawrl" tags="MATERIAL">
+    <price sell="11930" />
+  </item>
+  <item name="Tigrex Scale" short="tigrexscale" tags="MATERIAL">
+    <price sell="520" />
+  </item>
+  <item name="Tigrex Claw" short="tigrexclaw" tags="MATERIAL">
+    <price sell="700" />
+  </item>
+  <item name="Tigrex Shell" short="tigrexshell" tags="MATERIAL">
+    <price sell="750" />
+  </item>
+  <item name="Tigrex Scalp" short="tigrexscalp" tags="MATERIAL">
+    <price sell="2300" />
+  </item>
+  <item name="Tigrex Tail" short="tigrextail" tags="MATERIAL">
+    <price sell="1250" />
+  </item>
+  <item name="Tigrex Fang" short="tigrexfang" tags="MATERIAL">
+    <price sell="600" />
+  </item>
+  <item name="Tigrex Scale+" short="tigrexscale+" tags="MATERIAL">
+    <price sell="1560" />
+  </item>
+  <item name="Tigrex Claw+" short="tigrexclaw+" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Tigrex Carapace" short="tigrexcarapace" tags="MATERIAL">
+    <price sell="2250" />
+  </item>
+  <item name="Tigrex Maw" short="tigrexmaw" tags="MATERIAL">
+    <price sell="6800" />
+  </item>
+  <item name="Tigrex Fang+" short="tigrexfang+" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Tigrex Shard" short="tigrexshard" tags="MATERIAL">
+    <price sell="4680" />
+  </item>
+  <item name="Tigrex Hardclaw" short="tigrexhardclaw" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Tigrex Cortex" short="tigrexcortex" tags="MATERIAL">
+    <price sell="6750" />
+  </item>
+  <item name="Tigrex Mantle" short="tigrexmantle" tags="MATERIAL">
+    <price sell="10200" />
+  </item>
+  <item name="Tigrex Lash" short="tigrexlash" tags="MATERIAL">
+    <price sell="7500" />
+  </item>
+  <item name="Tigrex Hardfang" short="tigrexhardfang" tags="MATERIAL">
+    <price sell="5400" />
+  </item>
+  <item name="B.Tigrex Scale+" short="btigrexscale+" tags="MATERIAL">
+    <price sell="2050" />
+  </item>
+  <item name="B.Tigrex Claw+" short="btigrexclaw+" tags="MATERIAL">
+    <price sell="2940" />
+  </item>
+  <item name="B.Tigrex Carapace" short="btigrexcarapace" tags="MATERIAL">
+    <price sell="2730" />
+  </item>
+  <item name="B.Tigrex Fang+" short="btigrexfang+" tags="MATERIAL">
+    <price sell="2520" />
+  </item>
+  <item name="B.Tigrex Shard" short="btigrexshard" tags="MATERIAL">
+    <price sell="6150" />
+  </item>
+  <item name="B.Tigrex Hardclaw" short="btigrexhardclaw" tags="MATERIAL">
+    <price sell="8820" />
+  </item>
+  <item name="B.Tigrex Cortex" short="btigrexcortex" tags="MATERIAL">
+    <price sell="8190" />
+  </item>
+  <item name="B.Tigrex Hardfang" short="btigrexhardfang" tags="MATERIAL">
+    <price sell="7560" />
+  </item>
+  <item name="M.Tigrex Scale+" short="mtigrexscale+" tags="MATERIAL">
+    <price sell="2960" />
+  </item>
+  <item name="M.Tigrex Blastclaw" short="mtigrexblastclaw" tags="MATERIAL">
+    <price sell="3460" />
+  </item>
+  <item name="M.Tigrex Carapace" short="mtigrexcarapace" tags="MATERIAL">
+    <price sell="5380" />
+  </item>
+  <item name="Pulsating Blastheart" short="pulsatingblastheart" tags="MATERIAL">
+    <price sell="12000" />
+  </item>
+  <item name="M.Tigrex Tail" short="mtigrextail" tags="MATERIAL">
+    <price sell="9200" />
+  </item>
+  <item name="M.Tigrex Fang+" short="mtigrexfang+" tags="MATERIAL">
+    <price sell="3020" />
+  </item>
+  <item name="M.Tigrex Shard" short="mtigrexshard" tags="MATERIAL">
+    <price sell="8880" />
+  </item>
+  <item name="M.Tigrex Trigger" short="mtigrextrigger" tags="MATERIAL">
+    <price sell="10380" />
+  </item>
+  <item name="M.Tigrex Cortex" short="mtigrexcortex" tags="MATERIAL">
+    <price sell="16140" />
+  </item>
+  <item name="Dire Blastheart" short="direblastheart" tags="MATERIAL">
+    <price sell="18000" />
+  </item>
+  <item name="M.Tigrex Lash" short="mtigrexlash" tags="MATERIAL">
+    <price sell="15600" />
+  </item>
+  <item name="M.Tigrex Hardfang" short="mtigrexhardfang" tags="MATERIAL">
+    <price sell="9060" />
+  </item>
+  <item name="Ukanlos Carapace" short="ukanloscarapace" tags="MATERIAL">
+    <price sell="5580" />
+  </item>
+  <item name="Ukanlos Underscale" short="ukanlosunderscale" tags="MATERIAL">
+    <price sell="4500" />
+  </item>
+  <item name="Ukanlos Fin+" short="ukanlosfin+" tags="MATERIAL">
+    <price sell="8500" />
+  </item>
+  <item name="Ukanlos Tail" short="ukanlostail" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Ukanlos Shoveljaw" short="ukanlosshoveljaw" tags="MATERIAL">
+    <price sell="8500" />
+  </item>
+  <item name="Ukanlos Gem" short="ukanlosgem" tags="MATERIAL">
+    <price sell="15000" />
+  </item>
+  <item name="Ukanlos Digger" short="ukanlosdigger" tags="MATERIAL">
+    <price sell="5700" />
+  </item>
+  <item name="Ukanlos Cortex" short="ukanloscortex" tags="MATERIAL">
+    <price sell="15250" />
+  </item>
+  <item name="Ukanlos Underscale+" short="ukanlosunderscale+" tags="MATERIAL">
+    <price sell="11250" />
+  </item>
+  <item name="Ukanlos Strongfin" short="ukanlosstrongfin" tags="MATERIAL">
+    <price sell="21250" />
+  </item>
+  <item name="Ukanlos Flail" short="ukanlosflail" tags="MATERIAL">
+    <price sell="20000" />
+  </item>
+  <item name="Ukanlos Shoveljaw+" short="ukanlosshoveljaw+" tags="MATERIAL">
+    <price sell="23750" />
+  </item>
+  <item name="Ukanlos Stone" short="ukanlosstone" tags="MATERIAL">
+    <price sell="30000" />
+  </item>
+  <item name="Ukanlos Digger+" short="ukanlosdigger+" tags="MATERIAL">
+    <price sell="14250" />
+  </item>
+  <item name="Velocidrome Claw" short="velocidromeclaw" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velocidrome Hide" short="velocidromehide" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velociprey Scale" short="velocipreyscale" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velocidrome Head" short="velocidromehead" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velocidrome Claw+" short="velocidromeclaw+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velociprey Scale+" short="velocipreyscale+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velociprey Hide+" short="velocipreyhide+" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Velocidrome Hardclaw" short="velocidromehardclaw" tags="MATERIAL">
+    <price sell="" />
+  </item>
+  <item name="Garuga Scale" short="garugascale" tags="MATERIAL">
+    <price sell="490" />
+  </item>
+  <item name="Garuga Shell" short="garugashell" tags="MATERIAL">
+    <price sell="650" />
+  </item>
+  <item name="Garuga Mane" short="garugamane" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Garuga Wing" short="garugawing" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Garuga Tail" short="garugatail" tags="MATERIAL">
+    <price sell="2000" />
+  </item>
+  <item name="Garuga Ear" short="garugaear" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Sharpened Beak" short="sharpenedbeak" tags="MATERIAL">
+    <price sell="1800" />
+  </item>
+  <item name="Garuga Scale+" short="garugascale+" tags="MATERIAL">
+    <price sell="1470" />
+  </item>
+  <item name="Garuga Carapace" short="garugacarapace" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Rejuvenated Beak" short="rejuvenatedbeak" tags="MATERIAL">
+    <price sell="3600" />
+  </item>
+  <item name="Garuga Auricle" short="garugaauricle" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="Garuga Shard" short="garugashard" tags="MATERIAL">
+    <price sell="4410" />
+  </item>
+  <item name="Garuga Cortex" short="garugacortex" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Garuga Silverpelt" short="garugasilverpelt" tags="MATERIAL">
+    <price sell="7200" />
+  </item>
+  <item name="Garuga Fellwing" short="garugafellwing" tags="MATERIAL">
+    <price sell="7800" />
+  </item>
+  <item name="Garuga Lash" short="garugalash" tags="MATERIAL">
+    <price sell="8000" />
+  </item>
+  <item name="Kut-Ku Shell" short="kutkushell" tags="MATERIAL">
+    <price sell="345" />
+  </item>
+  <item name="Kut-Ku Webbing" short="kutkuwebbing" tags="MATERIAL">
+    <price sell="650" />
+  </item>
+  <item name="Kut-Ku Scale" short="kutkuscale" tags="MATERIAL">
+    <price sell="250" />
+  </item>
+  <item name="Giant Beak" short="giantbeak" tags="MATERIAL">
+    <price sell="1500" />
+  </item>
+  <item name="Kut-Ku Ear" short="kutkuear" tags="MATERIAL">
+    <price sell="1280" />
+  </item>
+  <item name="Kut-Ku Scale+" short="kutkuscale+" tags="MATERIAL">
+    <price sell="750" />
+  </item>
+  <item name="Kut-Ku Carapace" short="kutkucarapace" tags="MATERIAL">
+    <price sell="1035" />
+  </item>
+  <item name="Splendid Beak" short="splendidbeak" tags="MATERIAL">
+    <price sell="3000" />
+  </item>
+  <item name="Kut-Ku Auricle" short="kutkuauricle" tags="MATERIAL">
+    <price sell="2560" />
+  </item>
+  <item name="Kut-Ku Shard" short="kutkushard" tags="MATERIAL">
+    <price sell="2250" />
+  </item>
+  <item name="Kut-Ku Fellwing" short="kutkufellwing" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Kut-Ku Cortex" short="kutkucortex" tags="MATERIAL">
+    <price sell="3105" />
+  </item>
+  <item name="Kut-Ku Luckear" short="kutkuluckear" tags="MATERIAL">
+    <price sell="5120" />
+  </item>
+  <item name="Blue Kut-Ku Scale+" short="bluekutkuscale+" tags="MATERIAL">
+    <price sell="1125" />
+  </item>
+  <item name="Blue Kut-Ku Carapace" short="bluekutkucarapace" tags="MATERIAL">
+    <price sell="1380" />
+  </item>
+  <item name="Blue Kut-Ku Shard" short="bluekutkushard" tags="MATERIAL">
+    <price sell="3375" />
+  </item>
+  <item name="Blue Kut-Ku Cortex" short="bluekutkucortex" tags="MATERIAL">
+    <price sell="4140" />
+  </item>
+  <item name="Zamtrios Hide" short="zamtrioshide" tags="MATERIAL">
+    <price sell="410" />
+  </item>
+  <item name="Zamtrios Scale" short="zamtriosscale" tags="MATERIAL">
+    <price sell="740" />
+  </item>
+  <item name="Frost Sac" short="frostsac" tags="MATERIAL">
+    <price sell="290" />
+  </item>
+  <item name="Zamtrios Fin" short="zamtriosfin" tags="MATERIAL">
+    <price sell="830" />
+  </item>
+  <item name="Zamtrios Sawtooth" short="zamtriossawtooth" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Zamtrios Tailblade" short="zamtriostailblade" tags="MATERIAL">
+    <price sell="1080" />
+  </item>
+  <item name="Zamtrios Hide+" short="zamtrioshide+" tags="MATERIAL">
+    <price sell="1230" />
+  </item>
+  <item name="Zamtrios Scale+" short="zamtriosscale+" tags="MATERIAL">
+    <price sell="2220" />
+  </item>
+  <item name="Freezer Sac" short="freezersac" tags="MATERIAL">
+    <price sell="870" />
+  </item>
+  <item name="Zamtrios Fin+" short="zamtriosfin+" tags="MATERIAL">
+    <price sell="2490" />
+  </item>
+  <item name="Zamtrios Piel" short="zamtriospiel" tags="MATERIAL">
+    <price sell="6660" />
+  </item>
+  <item name="Zamtrios Shard" short="zamtriosshard" tags="MATERIAL">
+    <price sell="3690" />
+  </item>
+  <item name="Cryo Sac" short="cryosac" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Zamtrios Grandfin" short="zamtriosgrandfin" tags="MATERIAL">
+    <price sell="7470" />
+  </item>
+  <item name="Zamtrios Tailbrand" short="zamtriostailbrand" tags="MATERIAL">
+    <price sell="4320" />
+  </item>
+  <item name="Zamtrios Sawtooth+" short="zamtriossawtooth+" tags="MATERIAL">
+    <price sell="4800" />
+  </item>
+  <item name="T.Zamtrios Piel" short="tzamtriospiel" tags="MATERIAL">
+    <price sell="4790" />
+  </item>
+  <item name="T.Zamtrios Shard" short="tzamtriosshard" tags="MATERIAL">
+    <price sell="8650" />
+  </item>
+  <item name="T.Zamtrios Grandfin" short="tzamtriosgrandfin" tags="MATERIAL">
+    <price sell="9710" />
+  </item>
+  <item name="T.Zamtrios Tailbrand" short="tzamtriostailbrand" tags="MATERIAL">
+    <price sell="5610" />
+  </item>
+  <item name="T.Zamtrios Sawtooth+" short="tzamtriossawtooth+" tags="MATERIAL">
+    <price sell="6240" />
+  </item>
+  <item name="Zinogre Shell" short="zinogreshell" tags="MATERIAL">
+    <price sell="650" />
+  </item>
+  <item name="Zinogre Shockfur" short="zinogreshockfur" tags="MATERIAL">
+    <price sell="490" />
+  </item>
+  <item name="Zinogre Shocker" short="zinogreshocker" tags="MATERIAL">
+    <price sell="800" />
+  </item>
+  <item name="Zinogre Claw" short="zinogreclaw" tags="MATERIAL">
+    <price sell="700" />
+  </item>
+  <item name="Zinogre Plate" short="zinogreplate" tags="MATERIAL">
+    <price sell="4850" />
+  </item>
+  <item name="Zinogre Tail" short="zinogretail" tags="MATERIAL">
+    <price sell="1200" />
+  </item>
+  <item name="Zinogre Horn" short="zinogrehorn" tags="MATERIAL">
+    <price sell="840" />
+  </item>
+  <item name="Zinogre Carapace" short="zinogrecarapace" tags="MATERIAL">
+    <price sell="1950" />
+  </item>
+  <item name="Zinogre Electrofur" short="zinogreelectrofur" tags="MATERIAL">
+    <price sell="1470" />
+  </item>
+  <item name="Zinogre Claw+" short="zinogreclaw+" tags="MATERIAL">
+    <price sell="2100" />
+  </item>
+  <item name="Zinogre Shocker+" short="zinogreshocker+" tags="MATERIAL">
+    <price sell="2400" />
+  </item>
+  <item name="Zinogre Jasper" short="zinogrejasper" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="Zinogre Horn+" short="zinogrehorn+" tags="MATERIAL">
+    <price sell="2520" />
+  </item>
+  <item name="Zinogre Cortex" short="zinogrecortex" tags="MATERIAL">
+    <price sell="5850" />
+  </item>
+  <item name="Zinogre Electrofur+" short="zinogreelectrofur+" tags="MATERIAL">
+    <price sell="4410" />
+  </item>
+  <item name="Zinogre Hardclaw" short="zinogrehardclaw" tags="MATERIAL">
+    <price sell="6300" />
+  </item>
+  <item name="Zinogre D-Shocker" short="zinogredshocker" tags="MATERIAL">
+    <price sell="7200" />
+  </item>
+  <item name="Zinogre Skymerald" short="zinogreskymerald" tags="MATERIAL">
+    <price sell="14200" />
+  </item>
+  <item name="Zinogre Lash" short="zinogrelash" tags="MATERIAL">
+    <price sell="9200" />
+  </item>
+  <item name="Zinogre Hardhorn" short="zinogrehardhorn" tags="MATERIAL">
+    <price sell="7560" />
+  </item>
+  <item name="S.Zinogre Carapace" short="szinogrecarapace" tags="MATERIAL">
+    <price sell="2500" />
+  </item>
+  <item name="S.Zinogre Dragonhair" short="szinogredragonhair" tags="MATERIAL">
+    <price sell="1900" />
+  </item>
+  <item name="S.Zinogre Claw+" short="szinogreclaw+" tags="MATERIAL">
+    <price sell="2730" />
+  </item>
+  <item name="S.Zin Drakeshell" short="szindrakeshell" tags="MATERIAL">
+    <price sell="3120" />
+  </item>
+  <item name="S.Zinogre Umbrage" short="szinogreumbrage" tags="MATERIAL">
+    <price sell="9700" />
+  </item>
+  <item name="S.Zinogre Tail" short="szinogretail" tags="MATERIAL">
+    <price sell="3200" />
+  </item>
+  <item name="Dracophage Bug" short="dracophagebug" tags="MATERIAL">
+    <price sell="500" />
+  </item>
+  <item name="S.Zinogre Horn+" short="szinogrehorn+" tags="MATERIAL">
+    <price sell="3300" />
+  </item>
+  <item name="S.Zinogre Cortex" short="szinogrecortex" tags="MATERIAL">
+    <price sell="6440" />
+  </item>
+  <item name="S.Zin Dragonlocks" short="szindragonlocks" tags="MATERIAL">
+    <price sell="5700" />
+  </item>
+  <item name="S.Zinogre Hardclaw" short="szinogrehardclaw" tags="MATERIAL">
+    <price sell="6930" />
+  </item>
+  <item name="S.Zinogre Drakehold" short="szinogredrakehold" tags="MATERIAL">
+    <price sell="7920" />
+  </item>
+  <item name="S.Zinogre Skymerald" short="szinogreskymerald" tags="MATERIAL">
+    <price sell="15620" />
+  </item>
+  <item name="S.Zinogre Lash" short="szinogrelash" tags="MATERIAL">
+    <price sell="10120" />
+  </item>
+  <item name="S.Zinogre Hardhorn" short="szinogrehardhorn" tags="MATERIAL">
+    <price sell="8320" />
+  </item>
+</items>

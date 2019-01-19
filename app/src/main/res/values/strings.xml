@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Monster Hunter Database</string>
+    <string name="app_name_short">MHDB</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="search_hint_quicksearch">Search MHDB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_in_database">Item not in database!</string>
+    <string name="no_info">Information not available.</string>
+</resources>

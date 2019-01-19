@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item name="Book of Combos 1" short="bookofbook_combinations1" tags="book,book_combination">
+    <description text="An introductory text for first-time combiners. Improves your success rate." />
+    <price sell="100" />
+  </item>
+  <item name="Book of Combos 2" short="bookofbook_combinations3" tags="book,book_combination">
+    <description text="A basic text. Owning item 1 and this improves your combining success rate." />
+    <price sell="200" />
+  </item>
+  <item name="Book of Combos 3" short="bookofbook_combinations3" tags="book,book_combination">
+    <description text="An intermediate text. Owning items 1, 2 and this improves your combining success rate." />
+    <price sell="500" />
+  </item>
+  <item name="Book of Combos 4" short="bookofbook_combinations4" tags="book,book_combination">
+    <description text="An advanced text. Owning items 1-3 and this improves your combining success rate." />
+    <price sell="1000" />
+  </item>
+  <item name="Book of Combos 5" short="bookofbook_combinations5" tags="book,book_combination">
+    <description text="A pro-level text. Owning items 1-4 and this improves your combining success rate." />
+    <price sell="1500" />
+  </item>
+  <item name="Organizer Guide" short="organizerguide" tags="book,book_box_space">
+    <description text="An issue of Hunting Life magazine which explains how to maximize Item Box space." />
+  </item>
+  <item name="Pack Rat Guide" short="packratguide" tags="book,book_box_space">
+    <description text="An issue of Hunting Life magazine containing advanced item-cramming techniques." />
+  </item>
+  <item name="Lynians" short="lynians" tags="book,book_monster_guide" />
+  <item name="Neopterons Vol 1" short="neopteronsvol1" tags="book,book_monster_guide" />
+  <item name="Neopterons Vol 2" short="neopteronsvol2" tags="book,book_monster_guide" />
+  <item name="Neopterons Vol 3" short="neopteronsvol3" tags="book,book_monster_guide" />
+  <item name="Nerscylla" short="nerscylla" tags="book,book_monster_guide" />
+  <item name="Seltas Queen" short="seltasqueen" tags="book,book_monster_guide" />
+  <item name="Carapaceons Vol 1" short="carapaceonsvol1" tags="book,book_monster_guide" />
+  <item name="Carapaceons Vol 2" short="carapaceonsvol2" tags="book,book_monster_guide" />
+  <item name="Piscene Wyverns Vol 1" short="piscenewyvernsvol1" tags="book,book_monster_guide" />
+  <item name="Piscene Wyverns Vol 2" short="piscenewyvernsvol2" tags="book,book_monster_guide" />
+  <item name="Herbivores Vol 1" short="herbivoresvol1" tags="book,book_monster_guide" />
+  <item name="Herbivores Vol 2" short="herbivoresvol2" tags="book,book_monster_guide" />
+  <item name="Herbivores Vol 3" short="herbivoresvol3" tags="book,book_monster_guide" />
+  <item name="Bird Wyverns Vol 1" short="birdwyvernsvol1" tags="book,book_monster_guide" />
+  <item name="Bird Wyverns Vol 2" short="birdwyvernsvol2" tags="book,book_monster_guide" />
+  <item name="Bird Wyverns Vol 3" short="birdwyvernsvol3" tags="book,book_monster_guide" />
+  <item name="Fanged Beasts Vol 1" short="fangedbeastsvol1" tags="book,book_monster_guide" />
+  <item name="Fanged Beasts Vol 2" short="fangedbeastsvol2" tags="book,book_monster_guide" />
+  <item name="Fanged Beasts Vol 3" short="fangedbeastsvol3" tags="book,book_monster_guide" />
+  <item name="Fanged Beasts Vol 4" short="fangedbeastsvol4" tags="book,book_monster_guide" />
+  <item name="Rajang" short="rajang" tags="book,book_monster_guide" />
+  <item name="tetsucabra" short="tetsucabra" tags="book,book_monster_guide" />
+  <item name="Zamtrios" short="zamtrios" tags="book,book_monster_guide" />
+  <item name="Amphibians" short="amphibians" tags="book,book_monster_guide" />
+  <item name="Temnocerans" short="temnocerans" tags="book,book_monster_guide" />
+  <item name="Snake Wyverns Vol 1" short="snakewyvernsvol1" tags="book,book_monster_guide" />
+  <item name="Snake Wyverns Vol 2" short="snakewyvernsvol2" tags="book,book_monster_guide" />
+  <item name="Brachydios" short="brachydios" tags="book,book_monster_guide" />
+  <item name="Deviljho" short="deviljho" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 1" short="flyingwyvernsvol1" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 2" short="flyingwyvernsvol2" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 3" short="flyingwyvernsvol3" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 4" short="flyingwyvernsvol4" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 5" short="flyingwyvernsvol5" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 6" short="flyingwyvernsvol6" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 7" short="flyingwyvernsvol7" tags="book,book_monster_guide" />
+  <item name="Flying Wyverns Vol 8" short="flyingwyvernsvol8" tags="book,book_monster_guide" />
+  <item name="Seregios" short="seregios" tags="book,book_monster_guide" />
+  <item name="Gore Magala" short="goremagala" tags="book,book_monster_guide" />
+  <item name="Akantor" short="akantor" tags="book,book_monster_guide" />
+  <item name="Ukanlos" short="ukanlos" tags="book,book_monster_guide" />
+  <item name="Fanged Wyverns Vol 1" short="fangedwyvernsvol1" tags="book,book_monster_guide" />
+  <item name="Fanged Wyverns Vol 2" short="fangedwyvernsvol2" tags="book,book_monster_guide" />
+  <item name="Elder Dragons" short="elderdragons" tags="book,book_monster_guide" />
+  <item name="Kirin" short="kirin" tags="book,book_monster_guide" />
+  <item name="Shagaru Magala" short="shagarumagala" tags="book,book_monster_guide" />
+  <item name="Dah'Ren Mohran" short="dahrenmohran" tags="book,book_monster_guide" />
+  <item name="Kushala Daora" short="kushaladaora" tags="book,book_monster_guide" />
+  <item name="Teostra" short="teostra" tags="book,book_monster_guide" />
+  <item name="Dalamadur" short="dalamadur" tags="book,book_monster_guide" />
+  <item name="Fatalis" short="fatalis" tags="book,book_monster_guide" />
+  <item name="Gogmazios" short="gogmazios" tags="book,book_monster_guide" />
+</items>

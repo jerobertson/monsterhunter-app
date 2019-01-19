@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<monsters>
+  <monster name="Akantor" short="akantor" aka="The Black God, Tyrant of Fire">
+    <description text="A wyvern truly wrapped in mystery. Known to some as the black god and to others as the tyrant of fire, this large and brutal creature is known to the Guild simply as Akantor..." />
+    <physiology text="It has strong forelimbs, thick spikes, a clawed tail and large tusks. The Akantor bears a strong resemblance to Tigrex, the differences being that Akantor has only the barest nubs of forewings left, making it incapable of flight, and its immense size, which dramatically slows down its movements." />
+    <bombs sonic="5,0,5" flash="5,5,5" />
+    <element primary="fire" secondary="dragon" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="50,35,35,20,30,25,30" broken="50,35,45,40,30,25,30" />
+        <hit default="50,30,40,25,25,35,30" broken="55,40,50,35,25,35,30" />
+        <shot default="60,20,30,30,30,15,15" broken="65,25,30,40,35,20,20" />
+      </physical>
+      <elemental>
+        <fire broken="0,0,10,0,0,0,0" />
+        <water default="5,5,5,5,5,5,5" broken="15,10,25,15,10,10,10" />
+        <ice default="0,0,0,0,0,5,0" broken="5,5,10,5,5,10,5" />
+        <thunder default="20,15,15,15,30,15,15" broken="20,15,30,15,30,15,15" />
+        <dragon default="20,20,15,20,30,20,20" broken="25,20,20,25,30,25,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="400" inc="150" max="1000" dur="60" dmg="240" />
+      <sleep init="350" inc="150" max="950" dur="30" />
+      <paralysis init="350" inc="150" max="950" dur="10" />
+      <stun init="200" inc="150" max="800" dur="10" />
+      <blast init="140" inc="75" max="2015" dmg="300" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="60" max="350" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <dragon severe="true" />
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Basarios" short="basarios" aka="Unseen Peril">
+    <alt names="Ruby Basarios" />
+    <description text="A large wyvern found in volcanic zones. They are the juvenile form of the Gravios. They have a steel-like carapace that requires powerful items to crack. Emits poison gas." />
+    <physiology text="Basarios is a small, rocky wyvern. It is the juvenile form of Gravios. Its hard, stone-like shell can be used for protection against other large wyverns, doubling up as effective camouflage when Basarios partially buries itself in the ground." />
+    <bombs flash="15,15,30" />
+    <traps shock="8,8,15" pitfall="10,10,20" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="20,15,15,21,15,15,25,28" broken="20,15,15,50,15,15,25,28" />
+        <hit default="20,20,20,25,15,20,26,15" broken="20,20,20,50,15,20,26,15" />
+        <shot default="20,20,20,30,15,20,30,15" broken="20,20,20,55,15,20,30,15" />
+      </physical>
+      <elemental>
+        <fire default="10,10,10,10,10,10,10,10" broken="10,10,10,25,10,10,10,10" />
+        <water default="15,15,15,20,15,15,10,10" broken="15,15,15,35,15,15,10,10" />
+        <ice default="10,10,10,10,10,10,10,10" broken="10,10,10,10,10,10,10,10" />
+        <thunder default="10,10,10,10,10,10,10,10" broken="10,10,10,10,10,10,10,10" />
+        <dragon default="18,18,18,18,18,18,10,15" broken="18,18,18,33,18,18,10,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="75" max="500" dur="60" dmg="240" />
+      <sleep init="100" inc="50" max="300" dur="40" />
+      <paralysis init="200" inc="50" max="400" dur="10" />
+      <stun init="200" inc="50" max="400" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="200" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="30" inc="30" max="120" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <poison severe="true" />
+      <sleep />
+    </ailments>
+  </monster>
+  <monster name="Ruby Basarios" short="rubybasarios" aka="Peach Rock">
+    <alt isAlt="true" />
+    <description text="A Basarios variant that scatters crystals from its back to fend off attackers, offering those nearby a chance to mine for rare minerals. Jump on one when its back carapace is broken to make it roll over and expose its weak underbelly." />
+    <physiology text="The most notable feature of this species of Basarios is the assortment of pink crystals protruding from all over its back, suggesting a considerable variation in its diet compared to its rocky cousin. Its body is also heavily covered in moss, due to it living in a vegetation-rich environment." />
+    <bombs flash="15,15,30" />
+    <traps shock="8,8,15" pitfall="10,10,20" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="20,15,15,21,15,15,25,28" broken="20,15,15,50,15,15,25,28" />
+        <hit default="20,20,20,25,15,20,26,15" broken="20,20,20,50,15,20,26,15" />
+        <shot default="20,20,20,30,15,20,30,15" broken="20,20,20,55,15,20,30,15" />
+      </physical>
+      <elemental>
+        <fire default="10,10,10,10,10,10,10,10" broken="10,10,10,20,10,10,10,10" />
+        <water default="13,13,13,18,13,13,10,10" broken="13,13,13,25,13,13,10,10" />
+        <ice default="18,18,18,20,18,18,13,15" broken="18,18,18,35,18,18,13,15" />
+        <thunder default="10,10,10,10,10,10,10,10" broken="10,10,10,10,10,10,10,10" />
+        <dragon default="5,5,5,5,5,5,5,5" broken="5,5,5,10,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="75" max="500" dur="60" dmg="240" />
+      <sleep init="100" inc="50" max="300" dur="40" />
+      <paralysis init="200" inc="50" max="400" dur="10" />
+      <stun init="200" inc="50" max="400" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="200" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="30" inc="30" max="120" />
+    </status>
+    <ailments>
+      <fire />
+      <poison severe="true" />
+      <stun />
+      <sleep />
+    </ailments>
+  </monster>
+  <monster name="Brachydios" short="brachydios" aka="Crushing Wyvern">
+    <alt names="Raging Brachydios" />
+    <description text="Brute wyverns coated with an explosive green substance, a material that is thought to be a unique slime mold that is primed to explode by an element in the monster's saliva. They are also capable of powerful foreleg strikes." />
+    <physiology text="Brachydios are easily identifiable by their glowing, green slime-covered horns and &quot;fists&quot;, as well as their shiny, armored hide covered in many plates and ridges that are made of obsidian. Unlike other Brute Wyverns, Brachydios sports a pair of long, highly developed forelimbs that it uses as its primary means of defense. Brachydios' forelimbs and horn seem to secrete a mysterious slime. According to in-game information, Brachydios &quot;primes&quot; this mucus to explode with its saliva, hence why it licks its arms, making it appear brighter green. Despite initial appearances, Brachydios does possess claws on its forearms that are tucked away underneath, and serve no apparent purpose in battle." />
+    <bombs flash="20,20,30" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <bodyparts names="Horn,Head,Body,Front Legs,Back Legs,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="19,70,40,45,30,35,20" />
+        <hit default="24,65,35,50,35,25,10" />
+        <shot default="15,50,20,30,35,45,10" />
+      </physical>
+      <elemental>
+        <water default="25,20,15,10,10,15,5" />
+        <ice default="20,15,10,5,5,10,5" />
+        <thunder default="5,10,0,5,5,5,0" />
+        <dragon default="5,5,5,0,0,5,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="150" max="750" dur="40" dmg="200" />
+      <sleep init="150" inc="100" max="550" dur="40" />
+      <paralysis init="200" inc="100" max="600" dur="10" />
+      <stun init="90" inc="100" max="490" dur="10" />
+      <fatigue init="150" inc="100" max="550" />
+      <blast init="200" inc="100" max="3000" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="55" max="600" />
+    </status>
+    <ailments>
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="Raging Brachydios" short="ragingbrachydios">
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <bodyparts names="Horn,Head,Body,Front Legs,Back Legs,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="22,65,34,38,25,40,24" enraged="17,55,34,28,25,30,19" />
+        <hit default="24,60,34,45,30,30,14" enraged="19,50,34,35,30,20,9" />
+        <shot default="18,46,20,25,30,50,14" enraged="13,36,20,15,30,40,9" />
+      </physical>
+      <elemental>
+        <water default="20,15,10,5,5,10,5" enraged="20,15,10,5,5,10,5" />
+        <ice default="25,20,15,10,10,15,5" enraged="25,20,15,10,10,15,5" />
+        <thunder default="5,10,0,5,5,5,0" enraged="5,10,0,5,5,5,0" />
+        <dragon default="5,5,5,0,0,5,0" enraged="5,5,5,0,0,5,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="150" max="750" dur="40" dmg="200" />
+      <sleep init="150" inc="100" max="550" dur="40" />
+      <paralysis init="200" inc="100" max="600" dur="10" />
+      <stun init="90" inc="100" max="490" dur="10" />
+      <fatigue init="150" inc="100" max="550" />
+      <blast init="200" inc="100" max="3000" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="55" max="600" />
+    </status>
+    <ailments>
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="Cephadrome" short="cephadrome" aka="Sand Wyvern">
+    <description text="The leaders of Cephalos herds, these individuals are set apart by their larger size and hard, black scales. Like their smaller counterparts, they have excellent hearing, making them sensitive to loud noises. Their fins also secrete a paralytic agent." />
+    <physiology text="Cephadrome have yellow eyes, yellow or pink fins and blue or purple scale covered skin. This skin appears brownish black due to sand covering their body. They have a flat, diamond-shaped head (much like a hammerhead shark), fins, and tail, which helps propel them through the sand." />
+    <bombs sonic="10,0,10" />
+    <traps shock="10,8,15" pitfall="10,10,20" />
+    <element primary="water" />
+    <bodyparts names="Head,Neck,Back/Wing,Belly,Wing Flaps,Legs,Tail" />
+    <weakness>
+      <physical>
+        <cut default="35,65,60,50,42,35,30" />
+        <hit default="40,60,50,55,35,40,30" />
+        <shot default="50,80,80,50,50,40,30" />
+      </physical>
+      <elemental>
+        <fire default="0,5,0,0,0,0,0" />
+        <water default="10,10,12,15,10,10,15" />
+        <ice default="30,15,17,20,15,15,20" />
+        <thunder default="15,15,20,15,10,10,10" />
+        <dragon default="5,5,5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="100" max="400" dur="30" dmg="120" />
+      <sleep init="110" inc="100" max="410" dur="40" />
+      <paralysis init="150" inc="100" max="550" dur="10" />
+      <stun init="100" inc="100" max="500" dur="10" />
+      <fatigue init="200" inc="100" max="600" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <water />
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Chameleos" short="chameleos" aka="The Elder Dragon of Mist">
+    <description text="Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon -- hence its name. Witnesses report attacks can come out of nowhere, but that Smoke Bombs keep the beast visible." />
+    <physiology text="Chameleos's body is covered by a purple and white hide, and its head ends with a protruding horn at the tip of its nose. Its eyes are similar to a real life chameleon's; large and orb-like, with the ability to control eye movement individually. The long and elastic tongue can extend to grasp and steal items from a distance. Its wings are a purple color with a grayish white membrane, and are used for flight and controlling the direction of its poison fog. Chameleos's large tail is reminiscent of a leaf and has a curled, spiraling tip." />
+    <bombs flash="30,20,0" />
+    <element primary="dragon" />
+    <bodyparts names="Head,Neck/Belly,Back,Back Legs,Wing,Front Legs,Tail" />
+    <weakness>
+      <physical>
+        <cut default="45,25,25,22,30,22,25" guarded="40,22,22,20,25,20,22" />
+        <hit default="50,30,22,25,25,22,22" guarded="45,25,20,22,22,20,20" />
+        <shot default="30,22,25,20,20,30,20" guarded="25,20,22,15,15,25,20" />
+      </physical>
+      <elemental>
+        <fire default="35,35,25,15,25,10,10" guarded="40,40,30,20,30,15,15" />
+        <ice default="0,5,0,0,0,0,0" guarded="0,5,0,0,0,0,0" />
+        <thunder default="20,15,15,20,10,15,10" guarded="20,15,15,10,15,15,10" />
+        <dragon default="35,20,25,10,25,15,5" guarded="35,20,25,10,25,15,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="75" max="500" dur="60" dmg="120" />
+      <sleep init="150" inc="75" max="500" dur="30" />
+      <paralysis init="110" inc="120" max="590" dur="5" />
+      <stun init="200" inc="75" max="500" dur="10" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="50" max="380" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <poison severe="" />
+      <fatigue />
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Congalala" short="congalala" aka="The Mischief-Maker, Jungle Outlaw">
+    <description text="A large fanged beast with pink fur, often found in warm, damp regions. Found of mushrooms, Congalala possess either poisonous or flaming breath, depending on the food available in their local habitat." />
+    <physiology text="It resembles a giant, tailed gorilla with pink fur, a hippo-like head, and long front claws. The spike on its head is actually hair that the Congalala has smoothed into shape to signify that they are the pack leader. Congalalas are surprisingly intelligent beasts." />
+    <alt names="Emerald Congalala" />
+    <bombs flash="30,30,30" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Front Legs,Back Legs,Body,Tail" />
+    <weakness>
+      <physical>
+        <cut default="65,45,36,30,40" enraged="65,65,65,5,25" />
+        <hit default="70,40,36,30,36" enraged="75,15,15,5,25" />
+        <shot default="60,35,35,40,25" enraged="60,15,15,5,25" />
+      </physical>
+      <elemental>
+        <fire default="25,15,15,10,15" enraged="25,15,15,10,10" />
+        <water default="10,10,10,5,10" enraged="10,10,10,0,5" />
+        <ice default="15,15,15,10,15" enraged="5,5,5,0,10" />
+        <thunder default="10,10,10,5,10" enraged="10,10,10,0,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="75" max="500" dur="60" dmg="240" />
+      <sleep init="200" inc="100" max="600" dur="40" />
+      <paralysis init="200" inc="125" max="700" dur="10" />
+      <stun init="150" inc="75" max="450" dur="10" />
+      <fatigue init="180" inc="100" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <fire />
+      <poison />
+      <paralysis />
+      <sleep />
+      <soiled />
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="Emerald Congalala" short="emeraldcongalala">
+    <description text="A Congalala variant with green fur and a more prominent crest. Even more ravenous than ordinary Congalalas, they can store a greater amount of gas in their body, which means that they can produce a wider-reaching flatulence when threatened or provoked." />
+    <physiology text="In addition to its green and white colouration, it has a large beard and a taller hair spike than the normal Congalala. It can also produce greater amounts of gas." />
+    <alt isAlt="true" />
+    <bombs flash="30,30,30" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Front Legs,Back Legs,Body,Tail" />
+    <weakness>
+      <physical>
+        <cut default="45,30,45,30,65" enraged="30,30,45,5,38" />
+        <hit default="65,25,45,30,30" enraged="50,25,45,5,25" />
+        <shot default="60,20,20,40,35" enraged="60,15,15,5,25" />
+      </physical>
+      <elemental>
+        <fire default="5,5,5,5,10" enraged="5,5,5,0,5" />
+        <water default="10,10,10,15,20" enraged="10,10,10,10,10" />
+        <ice default="15,15,15,18,30" enraged="15,15,15,18,10" />
+        <thunder default="10,10,10,10,15" enraged="10,10,10,0,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="125" max="700" dur="60" dmg="240" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="150" inc="75" max="450" dur="10" />
+      <fatigue init="180" inc="100" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <fire />
+      <poison />
+      <paralysis />
+      <sleep />
+      <soiled />
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="Dah'ren Mohran" short="dahrenmohran" aka="Huge Mountain Dragon">
+    <description text="Colossal elder dragons that swim through the Great Desert, smashing obstacles with their spiral horns. Their unique color comes from the thick layer of oxidized metals and other rare minerals that lodge in their hides over their long lives." />
+    <physiology text="Dah'ren Mohran is a large, whale-like dragon that is covered in armor plating. Unlike its relative, Jhen Mohran, its body is jagged and sharp, with spine-like protrusions on the forelegs and back. In addition, Dah'ren Mohran's face features a single gigantic, knife-like horn that extends several meters from its head rather than the pair of horn-like tusks found on Jhen Mohran." />
+    <bodyparts names="Horn/Back Fin,Body,Front Legs,Belly,Front Fin,Mouth,Blowhole" />
+    <weakness>
+      <physical>
+        <cut default="18,21,38,60,40,90,50" broken="18,21,30,60,40,90,50" />
+        <hit default="18,21,38,55,40,80,45" broken="18,21,30,55,40,60,45" />
+        <shot default="18,20,30,38,40,60,40" broken="18,20,24,38,40,60,40" />
+      </physical>
+      <elemental>
+        <water default="3,3,5,5,5,10,5" broken="3,3,5,5,5,10,5" />
+        <thunder default="15,8,15,22,22,25,20" broken="15,8,15,22,22,25,20" />
+        <dragon default="15,8,15,22,22,20,10" broken="15,8,15,22,22,20,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <blast init="140" inc="75" max="2015" dmg="500" />
+    </status>
+  </monster>
+  <monster name="Daimyo Hermitaur" short="daimyohermitaur" aka="The Lurking Desert Giant">
+    <description text="This large Carapaceon attacks prey primarily with its large pincers and bubble breath. If the massive monster skull it wears on its back is destroyed, it will flee in search of a new husk to call home." />
+    <physiology text="Daimyo Hermitaur has a large, crab-like body. It is covered in a red and white carapace and wears the skull of a Monoblos as a shell. It has broad, shield-like claws and long antennae." />
+    <alt names="Plum Daimyo Hermitaur" />
+    <bombs sonic="12,12,12" />
+    <traps shock="12,10,15" pitfall="12,12,25" />
+    <element primary="water" />
+    <bodyparts names="Head,Body,Shell,Legs,Claw,Arms,Broken Claw" />
+    <weakness>
+      <physical>
+        <cut default="50,40,22,35,25,40" guarded="20,20,20,20,15,20,30" />
+        <hit default="60,50,40,40,30,45" guarded="40,30,30,30,20,30,40" />
+        <shot default="40,30,25,30,15,30" guarded="20,15,15,15,10,15,25" />
+      </physical>
+      <elemental>
+        <fire default="30,15,20,15,35,15" guarded="30,15,20,15,35,15,35" />
+        <water default="10,5,5,5,5,5" guarded="10,5,5,5,5,5,5" />
+        <ice default="20,10,10,10,10,10" guarded="20,10,10,10,10,10,10" />
+        <thunder default="35,20,25,15,20,15" guarded="35,20,25,15,20,15,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="75" max="500" dur="60" dmg="240" />
+      <sleep init="150" inc="100" max="550" dur="30" />
+      <paralysis init="125" inc="100" max="525" dur="10" />
+      <stun init="120" inc="75" max="420" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="40" max="450" />
+    </status>
+    <ailments>
+      <water severe="true" />
+      <poison />
+    </ailments>
+  </monster>
+  <monster name="Plum Daimyo Hermitaur" short="plumdaimyohermitaur" aka="Daimyo of Sengoku Flame">
+    <description text="A large Carapaceon characterized by its distinct coloring and the massive monster skull it carries on its back. Unlike more common varieties, it leaps high into the air and onto foes, making it especially deadly." />
+    <physiology text="Unlike the common Daimyo Hermitaur, this subspecies sports a purple and white carapace, and wears a Diablos skullshell instead of a Monoblos skullshell. Unlike its red counterpart, the Plum Daimyo Hermitaur is weak against Ice, rather than Thunder. The horns on its shell can be broken, just like those of a Diablos." />
+    <alt names="" isAlt="" />
+    <bombs sonic="12,12,12" />
+    <traps shock="12,10,15" pitfall="12,12,25" />
+    <element primary="water" />
+    <bodyparts names="Head,Body,Shell,Legs,Claw,Arms,Broken Claw" />
+    <weakness>
+      <physical>
+        <cut default="50,40,22,35,25,40" guarded="20,20,20,20,15,20,30" />
+        <hit default="60,50,40,40,30,45" guarded="40,30,30,30,20,30,40" />
+        <shot default="40,30,25,30,15,30" guarded="20,15,15,15,10,15,25" />
+      </physical>
+      <elemental>
+        <fire default="20,10,10,10,10,10" guarded="20,10,10,10,10,10,10" />
+        <water default="10,5,5,5,5,5" guarded="10,5,5,5,5,5,5" />
+        <ice default="35,20,25,15,35,15" guarded="35,20,25,15,35,15,35" />
+        <thunder default="25,10,20,10,20,10" guarded="25,10,20,10,20,10,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="75" max="500" dur="60" dmg="240" />
+      <sleep init="150" inc="100" max="550" dur="30" />
+      <paralysis init="125" inc="100" max="525" dur="10" />
+      <stun init="120" inc="75" max="420" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="40" max="450" />
+    </status>
+  </monster>
+  <monster name="Dalamadur" short="dalamadur" aka="Serpernt King Dragon">
+    <description text="A huge elder dragon, massive beyond human comprehension. The only mention of its existence is found in fairy tales, which claim it can warp the very surface of the world and level mountains with a single twitch." />
+    <physiology text="Its appearance is similar to Najarala in terms of body type. It has a snake-like face, with bright red eyes, numerous fangs, and many hook-like spikes along its body which start out clustered around its head and neck, and becoming more spread out along its long body, with a small cluster near the tip of its tail, which is topped with a pair of red barbs that it can rattle in a manner similar to rattlesnakes. Its has a pair of large clawed forearms like Najarala, but the only remnant of hind legs it has are small spurs, similar to pythons, boas, and anacondas. Its chest has glowing vents, which huff steam when it is enraged. Its face and tail will also glow red when in its Raged state. " />
+    <alt names="Shah Dalamadur" />
+    <bodyparts names="Head,Back Blade/Thorn,Breast,Front Legs,Upper Body,Head Weakness,Lowermost Lower Body,Uppermost Lower Body,Tail" />
+    <weakness>
+      <physical>
+        <cut default="67,67,17,17,24,160,58,33,63" enraged="55,67,17,55,24,160,58,33,33" broken="90,90,24,58,24,160,58,33,66" />
+        <hit default="67,67,17,17,24,150,58,33,63" enraged="55,67,17,55,24,150,58,33,33" broken="90,90,24,58,24,150,58,33,66" />
+        <shot default="50,45,20,20,15,20,10,15,15" enraged="30,45,20,15,15,50,10,15,10" broken="50,50,20,20,15,50,10,15,10" />
+      </physical>
+      <elemental>
+        <fire default="10,10,0,0,0,10,5,5,5" enraged="0,10,0,5,0,10,5,5,5" broken="10,10,5,5,0,10,5,5,5" />
+        <water default="10,10,0,0,0,10,5,5,10" enraged="0,10,0,5,0,10,5,5,5" broken="10,10,5,5,0,10,5,5,5" />
+        <ice default="20,15,5,5,5,25,10,5,20" enraged="10,15,5,10,5,25,10,5,10" broken="20,15,10,15,5,25,10,5,10" />
+        <thunder default="20,15,5,5,5,25,10,5,20" enraged="10,15,5,10,5,25,10,5,10" broken="20,15,10,15,5,25,10,5,10" />
+        <dragon default="30,30,5,10,5,30,15,10,30" enraged="15,30,5,20,5,30,15,10,15" broken="30,40,20,25,5,30,15,10,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <blast init="140" inc="75" max="2015" dmg="300" />
+      <jump init="5" inc="120" max="725" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Shah Dalamadur" short="shahdalamadur" aka="Serpent Emperor Dragon">
+    <physiology text="This subspecies features a lighter, sand-colored hide with red-orange spines. It is roughly the same size as its common counterpart." />
+    <alt isAlt="true" />
+    <bodyparts names="Head,Back Blade/Thorn,Breast,Front Legs,Upper Body,Head Weakness,Lowermost Lower Body,Uppermost Lower Body,Tail" />
+    <weakness>
+      <physical>
+        <cut default="10,10,10,10,10,160,58,33,63" enraged="20,10,20,20,10,160,58,33,33" broken="75,75,75,75,10,160,58,33,66" />
+        <hit default="17,17,17,17,17,150,58,33,63" enraged="30,17,30,30,17,150,58,33,33" broken="75,75,75,75,17,150,58,33,66" />
+        <shot default="10,10,10,10,10,50,10,15,15" enraged="30,10,30,30,10,50,10,15,10" broken="56,56,56,56,10,50,10,15,10" />
+      </physical>
+      <elemental>
+        <fire default="10,10,0,0,0,10,5,5,5" enraged="0,10,0,5,0,10,5,5,5" broken="0,10,10,5,0,10,5,5,5" />
+        <water default="10,10,0,0,0,10,5,5,10" enraged="0,10,0,5,0,10,5,5,5" broken="0,10,10,5,0,10,5,5,5" />
+        <ice default="20,15,5,5,5,25,10,5,20" enraged="10,15,5,10,5,25,10,5,10" broken="5,15,15,15,5,25,10,5,10" />
+        <thunder default="20,15,5,5,5,25,10,5,20" enraged="10,15,5,10,5,25,10,5,10" broken="5,15,15,15,5,25,10,5,10" />
+        <dragon default="30,30,5,10,5,30,15,10,25" enraged="15,30,5,20,5,30,15,10,15" broken="5,40,40,25,5,30,15,10,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <blast init="140" inc="75" max="2015" dmg="300" />
+      <jump init="125" inc="120" max="725" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Deviljho" short="deviljho" aka="The Great Devourer">
+    <description text="The dreaded, nomadic Deviljho have no specific territory of their own. Their muscles swell if provoked, revealing old wounds. They need to feed constantly due to high body heat and can hunt nearby animals to extinction." />
+    <physiology text="Deviljho is a very large, bipedal Brute Wyvern characterized by its uniform forest green colouration and muscular upper body. Its thick hide is littered with short, jagged spines that reach a maximum height along the back and tail. Deviljho has a narrow snout with a large lower jaw, covered in multiple rows of spines spreading outwards from the teeth. It has massive, powerful hind legs, but tiny, poorly developed forelegs that it rarely utilizes. When provoked, Deviljho's back and shoulder muscles swell considerably. During this period, areas of its skin will take on a bright red colouration." />
+    <alt names="Savage Deviljho" />
+    <bombs flash="15,15,30" />
+    <traps shock="5,5,15" pitfall="10,10,20" />
+    <element primary="dragon" />
+    <bodyparts names="Head,Breast,Body,Front Legs,Back Legs,Tail" />
+    <weakness>
+      <physical>
+        <cut default="65,37,25,30,43,35" enraged="30,76,22,27,35,38" />
+        <hit default="65,37,25,30,38,32" enraged="34,76,22,27,32,35" />
+        <shot default="60,35,25,30,35,30" enraged="30,60,20,30,25,30" />
+      </physical>
+      <elemental>
+        <fire default="10,15,5,10,5,5" enraged="10,10,5,15,10,5" />
+        <water default="10,15,5,10,5,5" enraged="15,10,5,15,10,5" />
+        <ice default="5,10,5,5,5,5" enraged="10,15,5,10,5,5" />
+        <thunder default="15,20,20,15,10,20" enraged="20,15,25,20,15,20" />
+        <dragon default="15,20,20,15,10,20" enraged="20,15,25,20,15,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="600" dur="45" dmg="360" />
+      <sleep init="180" inc="200" max="980" dur="60" />
+      <paralysis init="180" inc="200" max="980" dur="15" />
+      <stun init="180" inc="150" max="780" dur="15" />
+      <fatigue init="180" inc="150" max="780" />
+      <blast init="130" inc="45" max="1030" dmg="300" />
+      <jump init="50" inc="120" max="410" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <fire />
+      <water />
+      <ice severe="true" />
+      <dragon severe="true" />
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Savage Deviljho" short="savagedeviljho" aka="Fear and Violence">
+    <physiology text="Its standard appearance and abilities are the same as that of a normal Deviljho in rage mode. When enraged, it has a dark red haze surrounding its face, eyes turn into a blood red hue and skin changes to a light brownish color." />
+    <alt isAlt="true" />
+    <bombs flash="15,15,30" />
+    <traps shock="5,5,15" pitfall="10,10,20" />
+    <element primary="dragon" />
+    <bodyparts names="Head,Breast,Body,Front Legs,Back Legs,Tail" />
+    <weakness>
+      <physical>
+        <cut default="28,69,21,25,28,26" enraged="69,48,20,25,27,24" />
+        <hit default="31,69,21,25,28,22" enraged="76,45,20,25,27,21" />
+        <shot default="25,55,21,30,20,25" enraged="55,45,15,30,20,25" />
+      </physical>
+      <elemental>
+        <fire default="20,15,20,15,20,20" enraged="0,15,20,15,20,20" />
+        <water default="20,15,20,15,20,20" enraged="0,15,20,15,20,20" />
+        <ice default="20,15,20,15,20,20" enraged="0,15,20,15,20,20" />
+        <thunder default="30,25,30,25,30,35" enraged="0,25,30,25,30,35" />
+        <dragon default="20,15,20,15,20,20" enraged="0,15,20,15,20,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="600" dur="45" dmg="360" />
+      <sleep init="180" inc="200" max="980" dur="60" />
+      <paralysis init="180" inc="200" max="980" dur="15" />
+      <stun init="180" inc="150" max="780" dur="15" />
+      <fatigue init="180" inc="150" max="780" />
+      <blast init="130" inc="45" max="1030" dmg="200" />
+      <jump init="50" inc="120" max="410" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <fire />
+      <water />
+      <ice severe="true" />
+      <dragon severe="true" />
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Diablos" short="diablos" aka="Desert Tyrant">
+    <description text="A desert wyvern that takes its name from the giant horns that crown its head. Like the Monoblos, the Diablos charges its prey or strikes from underground, moving more quickly once it is angered. Their sensitive ears make them susceptible to Sonic Bombs." />
+    <physiology text="Diablos are large, bipedal wyverns with powerful armor plating covering much of their body. Their most noteworthy feature is a pair of massive, solid horns above their eyes. Diablos also possess a pair of tusk-like fangs and a large, spiny neck frill. Their tail ends with a heavy, studded club that can be used to ward off attackers. Diablos stand on a pair of stocky, wide-set legs and possess a broad upper body complete with thick, muscular wings." />
+    <alt names="Black Diablos" />
+    <bombs sonic="12,0,15" flash="20,15,25" />
+    <traps shock="10,10,15" pitfall="10,10,20" />
+    <bodyparts names="Head,Neck,Back/Wings,Belly,Wing Flaps,Legs,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="24,45,23,68,40,35,50,22" />
+        <hit default="15,45,42,75,30,35,24,35" />
+        <shot default="20,30,20,40,45,35,60,10" />
+      </physical>
+      <elemental>
+        <fire default="0,0,10,0,0,0,0,10" />
+        <water default="15,10,15,10,10,5,10,15" />
+        <ice default="20,15,25,10,20,8,15,30" />
+        <thunder default="15,10,15,10,10,5,10,15" />
+        <dragon default="15,10,15,10,10,5,10,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="600" dur="80" dmg="400" />
+      <sleep init="150" inc="50" max="500" dur="40" />
+      <paralysis init="200" inc="100" max="700" dur="15" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <fatigue init="300" inc="100" max="800" />
+      <blast init="70" inc="55" max="1445" dmg="200" />
+      <jump init="80" inc="120" max="530" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+  </monster>
+  <monster name="Black Diablos" short="blackdiablos" aka="The Fierce Black Horn">
+    <description text="These black-shelled Diablos are treated as a subspecies, but are actually just female Diablos in heat. The color change is a signal to other creatures, as they tend to become extremely aggressive during mating season." />
+    <physiology text="The change in color is meant to act as a warning to other monsters, as she becomes extremely aggressive during this state. This aggression translates into her combat approach, with a significant boost of speed and power becoming highly evident." />
+    <alt isAlt="true" />
+    <bombs sonic="12,0,15" flash="20,15,25" />
+    <traps shock="10,10,15" pitfall="10,10,20" />
+    <bodyparts names="Head,Neck,Back/Wings,Belly,Wing Flaps,Legs,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="24,45,23,68,40,35,50,22" />
+        <hit default="15,45,42,75,30,35,24,35" />
+        <shot default="20,30,20,40,45,35,60,10" />
+      </physical>
+      <elemental>
+        <fire default="0,0,10,0,0,0,0,10" />
+        <water default="15,10,15,10,10,5,10,15" />
+        <ice default="20,15,25,10,20,8,15,30" />
+        <thunder default="15,10,15,10,10,5,10,15" />
+        <dragon default="15,10,15,10,10,5,10,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="600" dur="80" dmg="400" />
+      <sleep init="150" inc="50" max="500" dur="40" />
+      <paralysis init="200" inc="100" max="700" dur="15" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <fatigue init="300" inc="100" max="800" />
+      <blast init="70" inc="55" max="1445" dmg="200" />
+      <jump init="80" inc="120" max="530" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+  </monster>
+  <monster name="Fatalis" short="fatalis" aka="The Legend of Schrade">
+    <description text="Stories of this legendary dragon date back to antiquity. Many skilled hunters have sought to challenge it, but none have ever returned. A monster shrouded in mystery..." />
+    <physiology text="Fatalis is a traditional black dragon, with a long, serpentine neck and tail, along with a pair of large wings. Its body is covered in rigid black scales and lined with white spines. Its head features four backwards-facing horns and a row of enlarged bottom teeth." />
+    <alt names="Crimson Fatalis,White Fatalis" />
+    <element primary="dragon" secondary="fire" />
+    <bodyparts names="Face,Neck,Chest,Head,Back/Tail,Back Legs,Wing" />
+    <weakness>
+      <physical>
+        <cut default="80,30,30,50,10,20,30" />
+        <hit default="75,25,15,55,20,20,25" />
+        <shot default="45,25,20,30,20,20,20" />
+      </physical>
+      <elemental>
+        <fire default="15,15,15,15,15,15,15" />
+        <water default="5,5,5,5,5,5,5" />
+        <ice default="5,5,5,5,5,5,5" />
+        <thunder default="10,10,10,10,10,10,10" />
+        <dragon default="80,30,10,50,10,20,10" />
+      </elemental>
+    </weakness>
+    <ailments>
+      <fire severe="true" />
+      <dragon severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Crimson Fatalis" short="crimsonfatalis" aka="Crimson Disaster">
+    <physiology text="Crimson Fatalis is a Fatalis whose shells and scales have become a reddish-crimson color after generations of exposure to the Volcano. One of its four horns is extremely overgrown in comparison to the rest." />
+    <alt isAlt="true" />
+    <element primary="dragon" secondary="fire" />
+    <bodyparts names="Face,Neck,Chest,Head,Back/Tail,Back Legs,Wing" />
+    <ailments>
+      <fire />
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="White Fatalis" short="whitefatalis" aka="The King of Disaster">
+    <physiology text="White Fatalis is strikingly different in appearance from its relatives. It is covered in luminous white scales, and a line of fur runs down its back and tail. Its horns are antler-like in nature, and the structure of its head is significantly less reptilian than that of its counterparts. Like Kirin, the coat of a White Fatalis produces a bright white aura. When enraged, the throat and chest of the White Fatalis glow a menacing red and becomes surrounded with red lightning sparks." />
+    <alt isAlt="true" />
+    <element primary="thunder" secondary="dragon" />
+    <bodyparts names="Face,Neck,Chest,Head,Back/Tail,Back Legs,Wing" />
+  </monster>
+  <monster name="Gendrome" short="gendrome" aka="Alpha Raptor">
+    <description text="Alpha monsters that lead Genprey packs. Larger than their brothers and with a more prominent crest, Gendrome use the venom in their highly evolved fangs and claws to paralyze their prey." />
+    <physiology text="Hunters can easily identify a Gendrome by their big crest and slightly larger size compared to a Genprey. The crest signifies leadership over the pack." />
+    <bombs flash="20,15,30" />
+    <traps shock="15,12,18" pitfall="18,15,25" />
+    <bodyparts names="Head,Body" />
+    <weakness>
+      <physical>
+        <cut default="75,47" />
+        <hit default="80,47" />
+        <shot default="70,45" />
+      </physical>
+      <elemental>
+        <fire default="20,15" />
+        <water default="20,15" />
+        <ice default="40,30" />
+        <thunder default="30,25" />
+        <dragon default="10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="300" dur="30" dmg="150" />
+      <sleep init="70" inc="40" max="230" dur="40" />
+      <paralysis init="200" inc="100" max="500" dur="5" />
+      <stun init="120" inc="60" max="300" dur="10" />
+      <fatigue init="150" inc="75" max="300" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="30" inc="40" max="210" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Gogmazios" short="gogmazios" aka="Giant Halberd Dragon">
+    <description text="Coated in a thick, sticky fluid, this massive elder dragon appears unhindered by the Dragonator lodged in its back. Eyewitness reports suggest that, despite its massive size, this mysterious behemoth is indeed capable of flight." />
+    <physiology text="Gogmazios is a massive Elder Dragon with a body structure similar in nature to that of Gore Magala and Shagaru Magala. It has a large, heavy head with red eyes and rows of sharp teeth. When enraged, a glowing pattern, reminiscent of a scowl, is present beneath its chin, giving it the semblance of a second face. Its wingarms feature membranes that almost completely retract when not in use, and its body is covered in thick, powerful scales, carapaces, and spines of an indigo colouration. Perhaps the most notable features of Gogmazios's body are the ever-present covering of a sticky, tar-like substance which it uses to incapacitate prey, and the presence of an ancient dragonator lodged in its back." />
+    <element primary="fire" />
+    <bodyparts names="Head,Wing,Tail Tip,Breast,Back Legs/Lower Body,Front Legs/Upper Body" />
+    <weakness>
+      <physical>
+        <cut default="23,22,22,23,35,40" />
+        <hit default="27,23,25,25,40,35" />
+        <shot default="30,25,25,30,40,45" />
+      </physical>
+      <elemental>
+        <fire default="20,25,20,15,5,5" />
+        <ice default="5,10,0,5,0,0" />
+        <thunder default="10,0,5,0,0,0" />
+        <dragon default="60,40,10,10,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <blast init="180" inc="100" max="2180" dmg="500" />
+      <jump init="80" inc="120" max="650" />
+      <mount init="50" inc="60" max="1130" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <tarred />
+    </ailments>
+  </monster>
+  <monster name="Gore Magala" short="goremagala" aka="The Black Eclipse">
+    <description text="A curious monster that, when threatened, scatters pollen-like scales that heighten its own senses while causing detrimental effects to any other creatures that inhale them. As elusive as they are mysterious." />
+    <physiology text="Gore Magala is a very unique wyvern, sharing traits and similarities to that of the Elder Dragons, possessing six limbs, including the clawed wings on its back. Though, its overall appearance and stance resembles a quadrupedal wyvern like the Nargacuga. Its body is covered in dark exoskeleton plates, with notable features including the hidden feelers that are folded alongside its face, the lack of visible eyes and fanged jaws that are actually parts of its external armor plates. The other unique part is its wings, which are covered in jet-black fur that resemble a tattered and ragged cape. The claws on its wings are extremely prehensile, and even seem to possess opposable thumbs. They are used for grabbing, help at running and maintaining stability. When not engaged in combat, Gore Magala tends to cloak its body with its wings by latching them onto its back." />
+    <alt names="Chaotic Gore Magala,Shagaru Magala" />
+    <traps shock="8,8,15" pitfall="10,10,20" />
+    <bodyparts names="Head,Neck,Body,Winglegs,Front Legs,Back Legs,Wing,Tail" />
+    <weakness>
+      <physical>
+        <cut default="65,50,25,30,45,42,26,45" enraged="75,50,25,30,45,42,26,45" />
+        <hit default="55,50,25,30,45,42,26,45" enraged="70,50,25,30,45,42,26,45" />
+        <shot default="55,50,35,30,40,50,20,40" enraged="65,50,35,30,40,50,20,40" />
+      </physical>
+      <elemental>
+        <fire default="15,15,10,25,10,10,15,10" enraged="25,15,10,30,10,10,15,10" />
+        <ice default="5,5,5,5,5,5,0,5" enraged="5,5,5,5,5,5,0,5" />
+        <thunder default="15,10,5,15,5,5,10,10" enraged="15,10,5,15,5,5,10,10" />
+        <dragon default="15,5,5,10,5,5,5,5" enraged="30,5,5,10,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="120" max="660" dur="60" dmg="300" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="180" inc="120" max="780" dur="10" />
+      <stun init="200" inc="150" max="800" dur="10" />
+      <fatigue init="180" inc="100" max="680" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="650" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+  </monster>
+  <monster name="Chaotic Gore Magala" short="chaoticgoremagala">
+    <physiology text="Despite the unique name, Chaotic Gore Magala is actually just a normal Gore Magala which has been traumatized or otherwise interrupted during the process of molting into a Shagaru Magala. As a result, only half of one side of its body has fully molted. Because of its improper molting process, it is left looking like an amalgamation of Shagaru Magala and Gore Magala." />
+    <alt isAlt="true" />
+    <traps shock="8,8,15" pitfall="10,10,20" />
+    <bodyparts names="Head,Neck,Body,Winglegs,Front Legs,Back Legs,Wing,Tail" />
+    <weakness>
+      <physical>
+        <cut default="65,20,25,30,40,35,26,45" enraged="55,16,25,35,45,42,26,45" />
+        <hit default="55,20,25,30,40,36,26,45" enraged="42,16,25,35,45,42,26,45" />
+        <shot default="55,25,35,30,40,45,20,40" enraged="42,20,35,35,40,50,20,40" />
+      </physical>
+      <elemental>
+        <fire default="25,30,10,25,10,10,15,10" enraged="25,30,10,25,10,10,15,10" />
+        <ice default="5,5,5,5,5,5,0,5" enraged="5,5,5,5,5,5,0,5" />
+        <thunder default="15,15,5,15,5,5,10,10" enraged="15,15,5,15,5,5,10,10" />
+        <dragon default="30,30,5,10,5,5,5,5" enraged="30,30,5,10,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="120" max="660" dur="60" dmg="300" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="180" inc="120" max="780" dur="10" />
+      <stun init="200" inc="150" max="800" dur="10" />
+      <fatigue init="180" inc="100" max="680" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="650" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+  </monster>
+  <monster name="Shagaru Magala" short="shagarumagala" aka="Heaven's Wheel">
+    <description text="The distinctive radiant light of this mature Gore Magala has been seen in the Sanctuary of Heaven's Mount. Some believe Shagaru Magala was the &quot;foul wind that withered a mountain&quot;, a calamity spoken of in ancient texts." />
+    <physiology text="Overall, Shagaru Magala's body structure is similar to its juvenile form, Gore Magala. However, following the skin-shedding, its body is now covered in glittering golden scales, as well as its horns, claws and other spiky protrusions, which changed colors from crimson red / purple to dark brown. The once hidden eyes underneath the horns are also now fully opened. Its ragged-tattered wings also became golden scaly sheets that when fully expanded, resembles a star shape." />
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <bodyparts names="Head,Neck,Body,Winglegs,Front Legs,Back Legs,Wing,Tail" />
+    <weakness>
+      <physical>
+        <cut default="65,50,25,20,40,36,26,36" broken="65,50,25,36,40,36,36,26,36" />
+        <hit default="60,40,25,20,40,36,26,36" broken="60,40,25,36,40,36,26,36" />
+        <shot default="60,45,25,25,40,45,20,35" broken="60,45,25,30,40,45,20,35" />
+      </physical>
+      <elemental>
+        <fire default="25,15,10,30,10,10,15,10" broken="25,15,10,20,10,10,15,10" />
+        <ice default="5,5,5,5,5,5,5,5" />
+        <thunder default="15,10,5,15,5,5,10,10" broken="15,10,5,15,5,5,10,10" />
+        <dragon default="30,20,10,30,10,10,20,15" broken="30,20,10,20,10,10,20,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="120" max="660" dur="60" dmg="300" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="180" inc="120" max="780" dur="10" />
+      <stun init="200" inc="150" max="800" dur="10" />
+      <fatigue init="180" inc="100" max="680" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="650" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+  </monster>
+  <monster name="Gravios" short="gravios" aka="Armoured Supremacy">
+    <description text="Large wyverns found in volcanic areas. They possess a fiery breath attack and the ability to emit sleeping gas. Their bony carapaces are extremely tough, but expose a surprisingly brittle interior once destroyed." />
+    <physiology text="Gravios is covered in a dense, stone-like armored shell which protects its body from physical damage. It is very large in size, towering over most other wyverns and measuring several dozen feet in length. Because of its size and incredible weight, it is only capable of limited flight, despite having large and seemingly-developed wings. It has a thick tail with a mace-like club at the end." />
+    <alt names="Black Gravios" />
+    <bombs flash="15,15,30" />
+    <traps shock="8,8,15" pitfall="10,10,20" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck/Tail,Back,Belly,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="21,25,24,26,24,21" broken="25,25,45,70,26,26" />
+        <hit default="28,30,30,30,25,20" broken="35,30,20,45,70,26,30" />
+        <shot default="20,20,25,30,23,20" broken="25,20,40,60,26,25" />
+      </physical>
+      <elemental>
+        <fire broken="0,0,5,15,0,0" />
+        <water default="15,30,25,35,20,30" broken="15,30,35,45,20,30" />
+        <ice default="5,10,10,15,5,5" broken="5,10,10,15,0,5" />
+        <thunder default="5,5,5,5,5,5" />
+        <dragon default="25,20,15,30,15,10" broken="30,20,15,40,0,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="75" max="450" dur="60" dmg="240" />
+      <sleep init="200" inc="50" max="400" dur="60" />
+      <paralysis init="200" inc="75" max="500" dur="10" />
+      <stun init="200" inc="75" max="500" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="200" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="30" inc="40" max="220" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <poison />
+      <sleep />
+    </ailments>
+  </monster>
+  <monster name="Black Gravios" short="blackgravios" aka="Black Armour">
+    <description text="A Gravios subspecies distinguished by a hard black carapace that allows them to contain their own extraordinarily high internal temperatures. They sometimes discharge this thermal energy as an extremely powerful heat ray." />
+    <physiology text="Black Gravios is covered in a black hide with red spines. They are larger and heavier than the common Gravios." />
+    <alt isAlt="true" />
+    <bombs flash="15,15,30" />
+    <traps shock="8,8,15" pitfall="10,10,20" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck/Tail,Back,Belly,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="21,25,24,25,24,20" broken="26,25,45,65,26,24" />
+        <hit default="24,30,30,30,25,20" broken="28,30,45,65,26,30" />
+        <shot default="20,20,25,30,20,20" broken="25,20,40,55,26,25" />
+      </physical>
+      <elemental>
+        <fire broken="0,0,5,15,0,0" />
+        <water default="15,30,25,35,15,25" broken="15,30,35,45,15,25" />
+        <thunder default="5,5,5,5,5,5" />
+        <dragon broken="0,0,20,30,0,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="75" max="450" dur="60" dmg="300" />
+      <sleep init="200" inc="50" max="400" dur="60" />
+      <paralysis init="200" inc="75" max="500" dur="10" />
+      <stun init="200" inc="75" max="500" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="200" />
+      <mount init="30" inc="40" max="220" />
+    </status>
+    <ailments>
+      <sleep />
+    </ailments>
+  </monster>
+  <monster name="Great Jaggi" short="greatjaggi" aka="The Dog">
+    <description text="The alpha male that leads Jaggi packs. Most males leave the group upon reaching maturity, returning late to compete with others. The dominant male then becomes a Great Jaggi. Apparently, they can issue fairly complex orders via howling." />
+    <physiology text="Great Jaggi's distinctive feature is its frill and the lavender scales with the crimson and tangerine overrides on the frills and the abdomen part, but also the furs that grow on its neck and along the back down to the middle tip of the tail. Great Jaggi's muzzle is particularly thin and much more wrinkly than the other Bird Wyverns. While the tail has some barbs on each side, they are notably blunt." />
+    <bombs flash="20,20,30" />
+    <traps shock="12,12,20" pitfall="15,15,25" />
+    <bodyparts names="Head,Body" />
+    <weakness>
+      <physical>
+        <cut default="75,48" />
+        <hit default="75,48" />
+        <shot default="60,45" />
+      </physical>
+      <elemental>
+        <fire default="30,30" />
+        <water default="20,20" />
+        <ice default="20,20" />
+        <thunder default="20,20" />
+        <dragon default="5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="90" inc="30" max="300" dur="30" dmg="150" />
+      <sleep init="150" inc="15" max="210" dur="40" />
+      <paralysis init="150" inc="20" max="230" dur="10" />
+      <stun init="120" inc="30" max="240" dur="10" />
+      <fatigue init="150" inc="50" max="350" />
+      <blast init="55" inc="45" max="1080" dmg="100" />
+      <jump init="30" inc="40" max="210" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+  </monster>
+  <monster name="Gypceros" short="gypceros" aka="Strange Poison Bird">
+    <description text="Wyverns that can generate disorienting flashes of light by striking their prominent crests. Their rubbery hide resists blunt impacts and makes Shock Traps less effective. Beware: The poisonous saliva they spit can flow down slopes." />
+    <physiology text="Gypceros is among the largest and heaviest known Bird Wyverns. Its most notable features are the lamp-like crest on top of its head and a rubbery, shock-resistant hide. It has a long pink tail with a bulbous tip, and is a uniform blue-grey across most of its body. It possesses a poison sac which allows it to produce toxic fluids for use against attackers." />
+    <alt names="Purple Gypceros" />
+    <traps pitfall="12,12,25" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="45,50,45,45,70,42,36" />
+        <hit default="65,25,30,30,40,30,36" />
+        <shot default="70,40,20,20,80,30,30" />
+      </physical>
+      <elemental>
+        <fire default="30,20,10,20,20,20,10" />
+        <water default="10,5,5,5,5,10,5" />
+        <ice default="20,10,10,10,10,20,10" />
+        <dragon default="10,10,10,10,10,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="250" inc="150" max="800" dur="40" dmg="200" />
+      <sleep init="150" inc="75" max="450" dur="40" />
+      <paralysis init="150" inc="75" max="450" dur="10" />
+      <stun init="150" inc="75" max="450" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <poison />
+      <stun />
+    </ailments>
+  </monster>
+  <monster name="Purple Gypceros" short="purplegypceros" aka="Purple Poison Menace">
+    <description text="A Gypceros variant distinguished by its unique purple hide. They are extremely resistant to poison, and can spit copious amounts of highly venomous saliva." />
+    <physiology text="Whilst the common Gypceros' colors are blue and pink, the Purple Gypceros' are a more vivid purple and green." />
+    <alt isAlt="true" />
+    <traps pitfall="12,12,25" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="45,50,45,45,70,42,25" />
+        <hit default="65,25,30,30,40,30,25" />
+        <shot default="70,40,20,20,80,30,30" />
+      </physical>
+      <elemental>
+        <fire default="30,20,10,20,20,20,10" />
+        <water default="10,5,5,5,5,10,5" />
+        <ice default="20,10,10,10,10,20,10" />
+        <dragon default="10,10,10,10,10,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="250" inc="150" max="800" dur="40" dmg="200" />
+      <sleep init="150" inc="75" max="450" dur="40" />
+      <paralysis init="150" inc="75" max="450" dur="10" />
+      <stun init="150" inc="75" max="450" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <poison severe="true" />
+      <stun />
+    </ailments>
+  </monster>
+  <monster name="Iodrome" short="iodrome" aka="Ioprey Leader">
+    <description text="Alpha monsters that lead Ioprey. Larger than their brothers and with a more prominent crest, Iodrome spit a poison that slowly saps the life from their prey. They are found primarily in subtropical zones." />
+    <physiology text="It is significantly larger than normal Ioprey and possesses a larger crest. Unlike other pack leaders, Iodrome has a more amphibian look, with salamander-like skin that seems to glisten with moisture, and a frog-like throat sac. It also lacks the sharp claws of its relatives, relying more on poison to bring down prey like Aptonoth and enemies." />
+    <bombs flash="20,15,30" />
+    <traps shock="15,12,18" pitfall="18,15,25" />
+    <bodyparts names="Head,Body" />
+    <weakness>
+      <physical>
+        <cut default="38,56" />
+        <hit default="38,56" />
+        <shot default="45,60" />
+      </physical>
+      <elemental>
+        <fire default="20,15" />
+        <water default="30,25" />
+        <ice default="10,10" />
+        <thunder default="30,25" />
+        <dragon default="10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="100" max="500" dur="20" dmg="70" />
+      <sleep init="120" inc="60" max="300" dur="40" />
+      <paralysis init="80" inc="60" max="380" dur="10" />
+      <stun init="120" inc="30" max="300" dur="10" />
+      <fatigue init="150" inc="75" max="300" />
+      <blast init="55" inc="45" max="1080" dmg="100" />
+      <jump init="30" inc="40" max="210" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <poison />
+    </ailments>
+  </monster>
+  <monster name="Kecha Wacha" short="kechawacha" aka="Strange Monkey Fox">
+    <description text="Fanged beasts with limbs adapted for swinging through forests and membranes on their forelegs for gliding. When provoked, they shield their faces with giant ears, blocking out any loud noises or bright light." />
+    <physiology text="Kecha Wacha is a lemur-like monster with long arms and hook-like fingers and claws. It has bright yellow fur and blue skin. It can fold its spiked ears over its face, forming a &quot;mask&quot; that is likely used to intimidate would-be attackers. It also sports a tube-like trunk and large, forward-facing eyes." />
+    <alt names="Ash Kecha Wacha" />
+    <bombs sonic="6,6,6" flash="20,20,20" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="water" />
+    <bodyparts names="Head,Body,Legs,Claw,Tail" />
+    <weakness>
+      <physical>
+        <cut default="70,43,45,24,50" broken="20,43,45,30,50" />
+        <hit default="65,43,45,30,45" broken="35,43,45,30,45" />
+        <shot default="60,30,30,20,45" broken="30,30,30,25,45" />
+      </physical>
+      <elemental>
+        <fire default="30,15,10,20,15" broken="20,15,10,15,15" />
+        <ice default="10,5,5,10,5" broken="5,5,5,5,5" />
+        <thunder default="20,5,5,15,5" broken="10,5,5,10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="100" max="450" dur="10" dmg="200" />
+      <sleep init="150" inc="100" max="450" dur="30" />
+      <paralysis init="150" inc="100" max="550" dur="10" />
+      <stun init="150" inc="400" max="550" dur="10" />
+      <fatigue init="150" inc="75" max="450" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="75" max="350" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <water />
+    </ailments>
+  </monster>
+  <monster name="Ash Kecha Wacha" short="ashkechawacha" aka="White Monkey Fox">
+    <description text="As with standard Kecha Wacha, these arboreal fanged beasts shield their face with their tough ears when provoked. What makes them different, however, is their ability to spit fireballs, and, of course, their trademark pale fur." />
+    <physiology text="In contrast to the bright orange pelt of the normal species, it has a washed blueish fur with black coloration on the hands, feet and head. The mask on its ears has a yellow-orange pattern on a dark background." />
+    <alt isAlt="true" />
+    <bombs sonic="6,6,6" flash="20,20,20" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Body,Legs,Claw,Tail" />
+    <weakness>
+      <physical>
+        <cut default="70,43,45,24,50" broken="10,18,45,30,50" />
+        <hit default="65,43,45,30,45" broken="10,26,45,30,45" />
+        <shot default="60,30,30,20,45" broken="10,20,30,25,45" />
+      </physical>
+      <elemental>
+        <fire broken="0,0,10,0,15" />
+        <water default="30,15,10,20,15" />
+        <ice default="15,5,5,10,5" broken="0,0,5,5,5" />
+        <thunder default="10,5,5,10,5" broken="0,0,5,10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="100" max="450" dur="40" dmg="200" />
+      <sleep init="150" inc="100" max="450" dur="30" />
+      <paralysis init="150" inc="100" max="550" dur="10" />
+      <stun init="150" inc="100" max="550" dur="10" />
+      <fatigue init="150" inc="75" max="450" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="75" max="350" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <fire />
+    </ailments>
+  </monster>
+  <monster name="Khezu" short="khezu" aka="Walking Thunder, The Light in the Dark">
+    <description text="Loathsome wyverns that live inside caves. Near blind, they detect their prey by smell. They are capable of generating electric shocks, which they use to paralyze their prey." />
+    <physiology text="Khezu are large, pale Wyverns with a flabby, rubbery hide which they constantly keep damp, similar to that of an amphibian. Many of their blood vessels and veins can be seen through their pale skin. Their tail features a specialized orifice which bonds to the ground during electrical attacks and helps them cling onto cave ceilings. Their mouth features rows of sharp teeth. Khezu feet lack claws, and instead have suction pad-like toes to assist them in climbing and hanging from cave walls and ceilings. Spending most of their lives in the dark, their eyes have regressed greatly, though they make up for this with a superb sense of smell. A layer of fat helps to keep them warm and prolong the time they can spend hunting for food. Khezu have an extendable neck which allows them to grasp and ambush prey from afar, such as from a cave ceiling. Khezu are hermaphrodites, which means an individual that is both male and female. To reproduce they paralyze a creature and inject their young, known as Whelps. The Whelps grow inside their victim until it dies, or when they are strong enough to leave." />
+    <alt names="Red Khezu" />
+    <traps shock="10,8,15" pitfall="16,12,20" />
+    <element primary="thunder" />
+    <bodyparts names="Head,Neck,Body,Legs,Tail,Wing" />
+    <weakness>
+      <physical>
+        <cut default="63,75,45,25,20,25" />
+        <hit default="70,50,45,20,20,25" />
+        <shot default="80,50,25,35,30,25" />
+      </physical>
+      <elemental>
+        <fire default="30,25,25,15,20,20" />
+        <water default="5,5,5,5,5,5" />
+        <ice default="5,5,5,5,5,5" />
+        <dragon default="5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="110" inc="75" max="410" dur="30" dmg="60" />
+      <sleep init="200" inc="50" max="450" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="200" inc="100" max="600" dur="10" />
+      <fatigue init="200" inc="100" max="600" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="60" max="470" />
+    </status>
+    <ailments>
+      <thunder severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Red Khezu" short="redkhezu" aka="Red Shadow, Red Thunder">
+    <description text="A ghastly Khezu variant with a crimson hue and a much more aggressive temperament. Their electrical organs are further developed as well, giving them a wider variety of attacks to disable and ensnare prey." />
+    <physiology text="Red Khezu is covered in a fatty, blood-red hide. It has greater control over its extendible neck than the common species and possesses a more potent thunder sac." />
+    <alt isAlt="true" />
+    <traps shock="10,8,15" pitfall="16,12,20" />
+    <element primary="thunder" />
+    <bodyparts names="Head,Neck,Body,Legs,Tail,Wing" />
+    <weakness>
+      <physical>
+        <cut default="55,75,45,25,20,25" />
+        <hit default="70,50,45,20,20,25" />
+        <shot default="70,45,25,35,30,25" />
+      </physical>
+      <elemental>
+        <fire default="5,5,5,5,5,5" />
+        <water default="30,25,25,15,20,20" />
+        <ice default="5,5,5,5,5,5" />
+        <dragon default="5,5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="110" inc="75" max="410" dur="30" dmg="60" />
+      <sleep init="200" inc="50" max="450" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="200" inc="100" max="600" dur="10" />
+      <fatigue init="200" inc="100" max="600" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="60" max="470" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Kirin" short="kirin" aka="The Phantom Brute">
+    <description text="The Kirin is said to glow a faint blue, but so few have seen it that details are scarce. It is apparently capable of calling forth lightning at will. Kirin material is very valuable." />
+    <physiology text="Kirin are most famous for their horns, as it is incredibly sharp, yet surprisingly fragile. A strong Silver Horn is said to be one of the most powerful and valuable of Kirin horns. The Kirin's horn is present in both male and females. Kirin also have incredibly tough hides, and they are beyond the sharpness of most weapons to damage. This is because Kirin's fur is by nature incredibly strong, and it is very tightly packed, effectively forming a suit of very flexible armor around the creature. The white/blue coloration of its hide is something of a mystery, though it appears to be also covered in scales." />
+    <alt names="Oroshi Kirin" />
+    <element primary="thunder" />
+    <bodyparts names="Head,Body,Lower Body,Front Legs" />
+    <weakness>
+      <physical>
+        <cut default="40,24,27,25" enraged="50,24,15,28" />
+        <hit default="40,24,27,25" enraged="50,24,15,28" />
+        <shot default="35,20,25,30" enraged="45,20,15,32" />
+      </physical>
+      <elemental>
+        <fire default="5,15,15,5" enraged="5,10,10,5" />
+        <water default="5,15,15,5" enraged="5,10,10,5" />
+        <ice default="5,10,10,5" enraged="5,10,10,5" />
+        <dragon default="5,5,5,5" enraged="5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="90" max="560" dur="30" dmg="60" />
+      <sleep init="200" inc="50" max="450" dur="40" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Oroshi Kirin" short="oroshikirin">
+    <description text="Reliable sightings of these elusive creatures are virtually nonexistent. The few reports available claim that temperatures plummet whenever they appear, as all moisture in the air spontaneously freezes." />
+    <physiology text="Unlike the ordinary Kirin, this subspecies' body is mainly a dark navy blue, with violet stripes throughout. Its mane is black with light purple tips and its eyes are a luminous red. In addition, its horn is larger, has pink-ish color and features a spiraling ridge from base to tip. " />
+    <alt isAlt="true" />
+    <element primary="ice" />
+    <bodyparts names="Head,Body,Lower Body,Front Legs" />
+    <weakness>
+      <physical>
+        <cut default="40,24,27,25" enraged="50,24,15,28" />
+        <hit default="40,24,27,25" enraged="50,24,15,28" />
+        <shot default="35,20,25,30" enraged="45,24,15,32" />
+      </physical>
+      <elemental>
+        <fire default="5,15,15,5" enraged="5,10,10,5" />
+        <water default="5,15,15,5" enraged="5,10,10,5" />
+        <thunder default="5,10,10,5" enraged="5,10,10,5" />
+        <dragon default="5,5,5,5" enraged="5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="90" max="560" dur="30" dmg="60" />
+      <sleep init="200" inc="50" max="450" dur="40" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <ice severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Kushala Daora" short="kushaladaora" aka="The Frozen Dictator">
+    <description text="It's difficult to even get close to one of these metallic dragons, but some claim better odds if the creature is weakened with poison, or has another hunter on its back, limiting the amount of wind pressure it can muster." />
+    <physiology text="Kushala Daora is a four legged Elder Dragon with a pair of widely spreading wings. Its skin is plated with metal that makes weapons bounce off without enough sharpness. Kushala Daora has numerous horns lining its head and sharp claws on each of its legs." />
+    <alt names="Rusted Kushala Daora" />
+    <bombs flash="15,15,15" />
+    <element primary="dragon" secondary="ice" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs,Wing" />
+    <weakness>
+      <physical>
+        <cut default="50,45,35,20,35,35,35,20" guarded="45,40,25,20,35,30,30,20" />
+        <hit default="45,40,50,25,30,30,35,15" guarded="40,40,40,25,30,25,30,15" />
+        <shot default="40,30,25,30,40,20,25,20" guarded="35,30,25,20,40,20,25,20" />
+      </physical>
+      <elemental>
+        <fire default="10,10,10,10,10,10,10,10" guarded="15,10,5,5,5,5,5,5" />
+        <water default="5,5,5,5,5,5,5,5" guarded="5,5,0,0,0,0,0,0" />
+        <thunder default="30,20,15,15,30,20,15,15" guarded="35,25,20,20,30,25,20,20" />
+        <dragon default="35,25,20,20,30,20,20,20" guarded="40,35,10,10,40,10,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="50" max="350" dur="120" dmg="240" />
+      <sleep init="200" inc="50" max="450" dur="40" />
+      <paralysis init="200" inc="125" max="700" dur="10" />
+      <stun init="150" inc="75" max="450" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="55" inc="45" max="1090" dmg="200" />
+      <jump init="50" inc="75" max="500" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <ice severe="true" />
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Rusted Kushala Daora" short="rustedkushaladaora">
+    <alt isAlt="true" />
+    <bombs flash="15,15,15" />
+    <element primary="dragon" secondary="ice" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="45,40,30,20,30,30,20,20" guarded="40,35,25,20,25,25,18,20" />
+        <hit default="45,35,40,25,25,30,20,15" guarded="40,30,35,20,25,25,18,15" />
+        <shot default="35,25,20,25,35,20,18,20" guarded="30,20,20,20,25,20,16,20" />
+      </physical>
+      <elemental>
+        <fire default="5,0,0,0,0,0,0,0" guarded="10,5,0,0,0,0,0,0" />
+        <water default="35,30,20,15,30,20,10,15" guarded="40,35,25,20,40,20,15,20" />
+        <thunder default="5,5,5,5,5,5,5,5" guarded="5,5,0,0,0,0,0,0" />
+        <dragon default="30,25,20,15,25,20,10,20" guarded="35,30,10,10,35,10,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="50" max="350" dur="120" dmg="240" />
+      <sleep init="200" inc="50" max="450" dur="40" />
+      <paralysis init="200" inc="125" max="700" dur="10" />
+      <stun init="150" inc="75" max="450" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="55" inc="45" max="1090" dmg="200" />
+      <jump init="50" inc="75" max="500" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Lagombi" short="lagombi" aka="White Rabbit Beast">
+    <description text="Fanged beasts whose warm pelts and thick layers of fat help them survive in cold climates. Though mainly herbivores, Lagombi occasionally make use of their exceptional hearing and ability to glide on ice to sneak up on prey." />
+    <physiology text="A large, wombat-like Fanged Beast. Its ears are long and highly sensitive, and its face features a beak-like mouth along with small red eyes. A Lagombi's belly is made of a low-friction material and is shaped so that it can slide upon the ice like a sled. It is covered in a thick fur coat to keep it warm in its sub-zero homeland." />
+    <bombs sonic="3,0,3" flash="20,20,30" />
+    <traps shock="15,15,20" pitfall="20,20,25" />
+    <element primary="ice" />
+    <bodyparts names="Head,Upper Body,Front Legs, Butt, Belly/Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="45,44,30,63,35" />
+        <hit default="63,44,30,50,35" />
+        <shot default="50,40,20,35,20" />
+      </physical>
+      <elemental>
+        <fire default="30,30,10,20,10" />
+        <thunder default="20,15,5,10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="60" max="300" dur="60" dmg="150" />
+      <sleep init="200" inc="150" max="600" dur="60" />
+      <paralysis init="100" inc="200" max="500" dur="10" />
+      <stun init="100" inc="150" max="700" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <ice />
+    </ailments>
+  </monster>
+  <monster name="Monoblos" short="monoblos" aka="One Horn">
+    <description text="A monocerous desert-dwelling wyvern able to burrow swiftly through the sand. It puts its horn to lethal use with a charging thrust, and while it possesses no breath attack, its roar is loud enough to split human eardrums." />
+    <physiology text="They have a brown, rock-hard texture to their shell. There is a subspecies of Monoblos known as the White Monoblos. These are generally larger in size than their sand colored counterparts and seen as more dangerous by hunters. Ironically, whilst their ear splitting roar is the bane of hunters they are weak to Sonic Bombs while digging through the ground and not in Rage Mode." />
+    <alt names="White Monoblos" />
+    <bombs sonic="12,0,15" flash="25,20,30" />
+    <traps shock="12,12,18" pitfall="12,12,22" />
+    <bodyparts names="Head,Neck,Back/Wings,Belly,Wing Flaps,Legs,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="23,45,17,45,53,35,53,60" />
+        <hit default="17,70,25,40,45,35,45,40" />
+        <shot default="35,70,35,45,45,45,45,80" />
+      </physical>
+      <elemental>
+        <fire default="5,10,5,5,10,15,10,10" />
+        <ice default="25,15,25,15,10,5,15,20" />
+        <thunder default="15,30,15,25,20,10,25,30" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="75" max="550" dur="90" dmg="180" />
+      <sleep init="150" inc="50" max="450" dur="50" />
+      <paralysis init="150" inc="75" max="600" dur="20" />
+      <stun init="100" inc="150" max="550" dur="10" />
+      <fatigue init="200" inc="75" max="480" />
+      <blast init="70" inc="45" max="1030" dmg="200" />
+      <jump init="50" inc="50" max="350" />
+      <mount init="50" inc="50" max="250" />
+    </status>
+  </monster>
+  <monster name="White Monoblos" short="whitemonoblos" aka="White One Horn">
+    <description text="A rare Monoblos subspecies covered in chalk-tinted plating. More ferocious than its standard cousin, the White Monoblos is unrelenting in the pursuit of any prey it happens upon." />
+    <physiology text="This subspecies features a bright white carapace covering much of its body. As a result of this, the flushes of blood to its frill when enraged are significantly more striking. Beyond coloration however, it is identical in body structure to the common species." />
+    <alt isAlt="true" />
+    <bombs sonic="12,0,15" flash="25,20,30" />
+    <traps shock="12,12,18" pitfall="12,12,22" />
+    <bodyparts names="Head,Neck,Back/Wings,Belly,Wing Flaps,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="23,45,17,45,53,35,53,60" />
+        <hit default="17,70,25,40,45,35,45,40" />
+        <shot default="35,70,35,45,45,45,45,80" />
+      </physical>
+      <elemental>
+        <fire default="5,10,5,5,10,15,10,10" />
+        <ice default="25,15,25,15,10,5,15,20" />
+        <thunder default="15,30,15,25,20,10,25,30" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="75" max="550" dur="90" dmg="180" />
+      <sleep init="150" inc="50" max="450" dur="50" />
+      <paralysis init="150" inc="75" max="600" dur="20" />
+      <stun init="100" inc="150" max="550" dur="10" />
+      <fatigue init="200" inc="75" max="480" />
+      <blast init="70" inc="45" max="1030" dmg="200" />
+      <jump init="50" inc="50" max="350" />
+      <mount init="50" inc="50" max="250" />
+    </status>
+  </monster>
+  <monster name="Najarala" short="najarala" aka="Wing Snake">
+    <description text="A monster that stuns its prey with vibrations from its scales, then wraps around and constricts its victims. Should a Najarala start to coil around you, a quick escape or quick kill are your only chances of survival." />
+    <physiology text="Najarala is a large Snake Wyvern with bright green skin adorned with large orange-yellow plates on its back and tail. It has a long serpentine body with small though fully functional fore- and hindlimbs that aid it in moving around on uneven ground. Najarala also has a large beak-like mouth similar to that of a parrot, along with a small pair of tusks." />
+    <alt names="Tidal Najarala" />
+    <bombs flash="20,20,30" />
+    <traps shock="10,8,15" pitfall="16,12,20" />
+    <bodyparts names="Head,Neck,Body,Resonating Organs,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="85,40,30,15,50,25,60" fatigued="85,40,30,45,50,25,65" />
+        <hit default="80,40,30,20,45,35,60" fatigued="80,40,30,50,50,35,65" />
+        <shot default="75,45,30,10,45,40,65" fatigued="75,45,30,25,45,40,70" />
+      </physical>
+      <elemental>
+        <fire default="0,0,10,10,0,10,0" />
+        <water default="5,5,20,25,10,5,5" />
+        <ice default="15,5,25,30,10,35,15" />
+        <thunder default="10,0,10,5,5,5,10" />
+        <dragon default="5,0,5,5,0,5,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="230" inc="110" max="670" dur="60" dmg="120" />
+      <sleep init="180" inc="120" max="660" dur="40" />
+      <paralysis init="400" inc="100" max="800" dur="10" />
+      <stun init="400" inc="100" max="800" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="60" max="650" />
+      <mount init="50" inc="40" max="450" />
+    </status>
+    <ailments>
+      <stun />
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Tidal Najarala" short="tidalnajarala" aka="Water Wing Snake">
+    <description text="A Najarala subspecies that makes deadly use of its long body. Tidal Najarala respond to threats by spitting a watery substance at targets and have even been known to use their own scales to deflect this liquid bile so that they can snipe at more elusive prey." />
+    <physiology text="Tidal Najarala features a blue, yellow and grey hide lined with rows of purple and green spines." />
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <traps shock="10,8,15" pitfall="16,12,20" />
+    <element primary="water" />
+    <bodyparts names="Head,Neck,Body,Resonating Organs,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="20,27,25,45,30,55,23" fatigued="20,27,25,55,40,55,30" />
+        <hit default="24,25,20,40,25,50,25" fatigued="24,25,20,55,35,50,43" />
+        <shot default="16,23,18,40,20,60,50" fatigued="16,23,18,50,35,60,55" />
+      </physical>
+      <elemental>
+        <fire default="10,10,25,35,10,15,10" />
+        <water default="5,0,5,5,0,5,0" />
+        <thunder default="10,5,10,20,10,10,15" />
+        <dragon default="5,0,5,5,0,5,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="230" inc="110" max="670" dur="60" dmg="120" />
+      <sleep init="180" inc="120" max="660" dur="40" />
+      <paralysis init="400" inc="100" max="800" dur="10" />
+      <stun init="110" inc="140" max="670" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="60" max="650" />
+      <mount init="50" inc="40" max="450" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Nerscylla" short="nerscylla" aka="Shadow Spider">
+    <description text="A Temnoceran that spins webs to defend territory and hunt prey. They bind foes that have been weakened by ailments and devour them with giant mandibles. They are fond of wearing the hides left by the Gypceros prey they consume." />
+    <physiology text="Nerscylla physically resembles a real life Arachnid, but is much larger in sie. Its long, strong legs allow it to move at fast speeds, even sideways. At the tip of its abdomen is a large stinger it may use to attack. Sharp, poisonous spikes protrude from its back. Nerscylla is armed with four powerful legs and two claws, each one tipped with a formidable barbed hook, used for holding prey as well as keeping its grip while scaling walls. In addition, it possesses a massive pair of retractable jaws which can inflict a poisonous bite. It can produce a stron, sticky webbing that it uses to trap prey and build nests." />
+    <alt names="Shrouded Nerscylla" />
+    <bombs flash="20,20,30" />
+    <traps shock="10,8,12" pitfall="15,12,20" />
+    <bodyparts names="Head,Stinger,Breast,Belly,Claw Tip,Thigh,Leg Tip" />
+    <weakness>
+      <physical>
+        <cut default="50,28,36,65,20,35,28" hideless="50,28,36,65,20,35,28" />
+        <hit default="65,35,36,45,30,30,30" hideless="65,42,36,45,30,30,30" />
+        <shot default="50,65,40,45,20,25,20" hideless="50,35,40,45,20,25,20" />
+      </physical>
+      <elemental>
+        <fire default="15,25,25,15,5,20,10" hideless="5,5,5,5,5,5,5" />
+        <ice default="5,5,5,5,0,5,0" hideless="5,5,5,5,0,5,0" />
+        <thunder default="0,0,0,20,10,0,0" hideless="10,35,25,20,10,15,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="30" dmg="50" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="110" inc="130" max="500" dur="10" />
+      <stun init="120" inc="100" max="650" dur="14" />
+      <fatigue init="180" inc="100" max="480" />
+      <blast init="40" inc="20" max="440" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <poison severe="true" />
+      <sleep />
+      <webbed />
+    </ailments>
+  </monster>
+  <monster name="Shrouded Nerscylla" short="shroudednerscylla" aka="Corpse Spider">
+    <description text="Desert-dwelling Temnocerans who lure threats into sand traps, then tear into the ensnared prey using their scissor-like mandibles. Similar to their more common cousins, they wear the skins of their prey -- most often Khezu." />
+    <physiology text="It is very similar to its common counterpart; howeverm it wears a Khezu skin rather than a Gypceros skin. Its back spikes are also bright yellow in colour, indicating their paralysis attribute. its different ability likely comes from its diet of the Khezu, just like how the common Nerscylla can secrete poison due to feeding on Gypceros." />
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <traps shock="10,8,12" pitfall="15,12,20" />
+    <bodyparts names="Head,Stinger,Breast,Belly,Claw Tip,Thigh,Leg Tip" />
+    <weakness>
+      <physical>
+        <cut default="50,28,36,65,20,35,28" hideless="50,28,36,65,20,35,28" />
+        <hit default="65,35,36,45,30,30,30" hideless="65,42,36,45,30,30,30" />
+        <shot default="45,35,35,35,20,25,20" hideless="45,35,35,35,20,25,20" />
+      </physical>
+      <elemental>
+        <fire default="10,15,15,15,0,10,10" hideless="0,0,0,0,0,0,0" />
+        <ice default="0,0,0,15,5,0,0" hideless="15,25,25,15,5,20,10" />
+        <thunder default="0,0,0,0,0,0,0" hideless="5,5,5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="30" dmg="50" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="110" inc="130" max="500" dur="10" />
+      <stun init="120" inc="100" max="650" dur="14" />
+      <fatigue init="180" inc="100" max="480" />
+      <blast init="40" inc="20" max="440" dmg="100" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <poison severe="true" />
+      <paralysis />
+      <webbed />
+    </ailments>
+  </monster>
+  <monster name="Rajang" short="rajang" aka="Golden Thunder God">
+    <description text="An ultra-aggressive creature that is rarely sighted and seldom survived. Survivors report it exhibits a strange attack. The Rajang is said to be a loner, and this isolated life has made it difficult to pin down its territorial leanings." />
+    <physiology text="Rajang strongly resembles the Blangonga in its appearance and movement, even borrowing some of its attacks. However, notable differences include Rajang's broader muscles, hairy tail tip and its ability to use electricity-based attacks." />
+    <alt names="Furious Rajang" />
+    <bombs flash="30,15,15" />
+    <traps shock="8,8,15" pitfall="0,18,0" />
+    <element primary="thunder" />
+    <bodyparts names="Head,Front Legs,Back Legs,Body,Tail" />
+    <weakness>
+      <physical>
+        <cut default="60,45,45,45,50" enraged="60,10,55,45,55" />
+        <hit default="60,40,40,50,40" enraged="60,10,48,50,45" />
+        <shot default="60,40,40,45,30" enraged="60,10,48,45,30" />
+      </physical>
+      <elemental>
+        <fire default="5,0,0,0,0" />
+        <water default="5,5,5,5,5" />
+        <ice default="30,15,15,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="80" max="420" dur="60" dmg="240" />
+      <sleep init="150" inc="100" max="650" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <fatigue init="200" inc="100" max="600" />
+      <blast init="85" inc="55" max="1130" dmg="120" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <thunder />
+    </ailments>
+  </monster>
+  <monster name="Furious Rajang" short="furiousrajang" aka="Gold Lion">
+    <physiology text="Unlike its normal self, a Furious Rajang is not a Subspecies but rather a revamp Variant of a Rajang, which in its dormant state appears to be &quot;almost golden as if it were to be locked in its rage mode&quot;. Its Rage mode shows that its fur stands up and it is visibly electrified by an electric aura." />
+    <alt isAlt="true" />
+    <bombs flash="30,15,15" />
+    <traps shock="8,8,15" pitfall="18,18,20" />
+    <element primary="thunder" />
+    <bodyparts names="Head,Front Legs,Back Legs,Body,Tail" />
+    <weakness>
+      <physical>
+        <cut default="60,45,45,45,50" enraged="60,10,55,45,55" />
+        <hit default="60,40,40,50,40" enraged="60,10,48,50,45" />
+        <shot default="60,40,40,45,30" enraged="60,10,48,45,30" />
+      </physical>
+      <elemental>
+        <fire default="5,0,0,0,0" />
+        <water default="5,5,5,5,5" />
+        <ice default="30,15,15,15,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="80" max="420" dur="60" dmg="240" />
+      <sleep init="150" inc="100" max="650" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <blast init="85" inc="55" max="1130" dmg="120" />
+      <jump init="50" inc="100" max="450" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <thunder />
+    </ailments>
+  </monster>
+  <monster name="Rathalos" short="rathalos" aka="King of the Skies">
+    <description text="Terrible wyverns called the 'Kings of the Skies'. Along with Rathians, they stake wide territories centered around their nests. Rathalos descend on invaders from the sky, attacking with poison claws and breath of fire." />
+    <physiology text="Rathalos are large, bipedal wyversn with a spiny, armoured hide covering their body. Their outer shell features much brighter and more vibrant colours than that of their female counterpart, the Rathian. It is primarily bright red, with black markings throughout. Like the Rathian, Rathalos possess a flame sac which is used to produce deadly flaming projectiles from the mouth. The talons upon their feet are highly poisonous and are known to inflict toxic mortal wounds on larger prey. In addition, their long, thick tail features a heavy spiked club at the end. Rathalos' wing membranes feature ornate patterns which are likely used to attract potential mates." />
+    <alt names="Azure Rathalos,Silver Rathalos" />
+    <bombs flash="18,18,30" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="65,30,25,40,45,25,30" />
+        <hit default="65,30,30,50,40,20,25" />
+        <shot default="55,20,20,15,25,25,45" />
+      </physical>
+      <elemental>
+        <fire default="0,0,15,0,0,0,0" />
+        <water default="10,10,10,5,5,10,5" />
+        <ice default="10,10,10,5,5,10,5" />
+        <thunder default="15,10,20,20,10,25,10" />
+        <dragon default="20,10,25,10,20,35,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="150" inc="150" max="750" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="530" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <poison />
+      <stun />
+    </ailments>
+  </monster>
+  <monster name="Azure Rathalos" short="azurerathalos">
+    <description text="An azure-colored subspecies of Rathalos. More mobile than their standard cousins, they locate prey from the air and quickly swoop in for the kill. Once these master hunters select a target, there is little hope of escape." />
+    <physiology text="Azure Rathalos is a subspecies of Rathalos, and thus, it shares almost all of the same characteristics. However, its shell that is usually fiery red is now a turquoise colour, hence the Azure title. Its wing webbing is lime green and its tail has one single red spike on the end. It has higher stamina, and is considerably more aggressive." />
+    <alt isAlt="true" />
+    <bombs flash="25,25,35" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="65,35,15,35,22,25,45,40" />
+        <hit default="60,30,25,35,22,15,45,40" />
+        <shot default="55,25,30,65,20,25,30,35" />
+      </physical>
+      <elemental>
+        <fire default="0,0,10,0,0,0,0,0" />
+        <water default="10,10,15,10,5,10,15,5" />
+        <ice default="15,10,20,15,5,15,20,5" />
+        <thunder default="10,10,15,10,5,10,15,5" />
+        <dragon default="20,15,20,10,20,15,30,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="100" inc="150" max="700" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="560" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <poison />
+      <stun />
+    </ailments>
+  </monster>
+  <monster name="Silver Rathalos" short="silverrathalos" aka="The Silver Sun">
+    <description text="A rare varient of Rathalos with a beautiful silver body reminiscent of the sun. Little is known about their behaviour or physiology -- including the source of their rich silver sheen." />
+    <physiology text="This rare subspecies features a shining silver carapace with black markings along the spine. he is slightly larger than the average Rathalos." />
+    <alt isAlt="true" />
+    <bombs flash="25,25,35" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="18,15,55,25,20,44,35,35" broken="45,15,55,25,20,44,35,35" />
+        <hit default="18,15,50,30,20,44,35,35" broken="45,15,50,30,20,44,35,35" />
+        <shot default="15,15,30,30,15,25,45,24" broken="30,15,30,30,15,25,45,24" />
+      </physical>
+      <elemental>
+        <fire default="0,0,5,5,0,0,0,0" broken="0,0,5,5,0,0,0,0" />
+        <water default="35,35,20,15,10,25,10,10" broken="15,35,20,15,10,25,10,10" />
+        <ice default="20,20,5,10,5,10,5,5" broken="5,20,5,10,5,10,5,5" />
+        <thunder default="30,30,15,10,5,15,10,10" broken="10,30,15,10,5,15,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="100" inc="150" max="700" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="20" max="470" dmg="100" />
+      <jump init="60" inc="70" max="410" />
+      <mount init="40" inc="60" max="640" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <poison />
+      <stun />
+    </ailments>
+  </monster>
+  <monster name="Rathian" short="rathian" aka="Queen of the Land">
+    <description text="Fire-breathing female wyverns, also known as the &quot;Queens of the Land&quot;. With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathians and Rathalos cooperate well." />
+    <physiology text="Rathian is a medium-sized true flying wyvern similar in looks to her male counterpart, Rathalos. Her hide is a duller and more muted colour, and her lower mandible features a long, protruding chin spike. her upper back and wingtips and covered in a moss-like fur not seen on the Rathalos, and while her clubbed tail lacks bony spikes, it makes up for this with its ability to poison foes upon contact." />
+    <alt names="Pink Rathian,Gold Rathian" />
+    <bombs flash="18,18,30" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="90,40,25,60,30,25,44" />
+        <hit default="80,40,30,55,30,20,40" />
+        <shot default="70,40,30,45,25,25,45" />
+      </physical>
+      <elemental>
+        <fire default="0,0,15,0,0,0,0" />
+        <water default="15,10,10,5,5,10,5" />
+        <ice default="15,10,10,5,5,10,5" />
+        <thunder default="20,15,15,20,10,15,10" />
+        <dragon default="35,20,25,10,25,20,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="150" inc="150" max="750" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="560" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <poison />
+    </ailments>
+  </monster>
+  <monster name="Pink Rathian" short="pinkrathian">
+    <description text="A subspecies of Rathian with vibrant pink scales. Pink Rathians wield their toxis tails more skillyfully than normal Rathians, and use a wide variety of attacks to weaken their prey before eventually moving in for the kill." />
+    <physiology text="Pink Rathian has a more heavily-armoured body and has greater health than her green relative. She can often be found in various quests alongside her gender counterpart, the Azure Rathalos." />
+    <alt isAlt="true" />
+    <bombs flash="25,25,35" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="50,25,30,70,24,35,63,38" />
+        <hit default="50,25,35,65,24,35,70,30" />
+        <shot default="45,20,35,60,20,30,50,25" />
+      </physical>
+      <elemental>
+        <fire default="0,0,5,0,0,0,0,0" />
+        <water default="10,5,5,5,5,10,5,10" />
+        <ice default="10,5,5,5,5,10,5,10" />
+        <thunder default="15,10,10,20,10,15,5,20" />
+        <dragon default="25,15,20,10,20,20,5,25" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="130" inc="150" max="730" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="560" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <poison />
+    </ailments>
+  </monster>
+  <monster name="Gold Rathian" short="goldrathian" aka="The Golden Moon">
+    <description text="A rare varient of Rathian with a beautiful golden body reminiscent of the moon. Little is known about their behaviour of physiology -- including the source of their rich golden sheen." />
+    <physiology text="Her body is covered in a n exceptionally strong golden shell, making it difficult to attack without the Hunter's weapon bouncing off. She is slightly larger than the average Rathian." />
+    <alt isAlt="true" />
+    <bombs flash="25,25,35" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="19,15,55,25,20,44,35,45" broken="55,15,55,25,20,44,35,45" />
+        <hit default="19,15,50,30,20,44,35,45" broken="50,15,50,30,20,44,35,45" />
+        <shot default="15,15,30,30,15,25,45,30" broken="40,15,30,30,15,25,45,30" />
+      </physical>
+      <elemental>
+        <fire default="0,0,5,5,0,0,0,0" />
+        <water default="20,20,15,10,5,15,10,10" broken="10,20,15,10,5,15,10,10" />
+        <ice default="10,10,5,10,5,10,5,5" broken="5,10,5,10,5,10,5,5" />
+        <thunder default="30,30,20,15,10,25,10,10" broken="15,30,20,15,10,25,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="130" inc="150" max="730" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="20" max="470" dmg="100" />
+      <jump init="60" inc="70" max="410" />
+      <mount init="40" inc="60" max="640" />
+    </status>
+    <ailments>
+      <poison />
+    </ailments>
+  </monster>
+  <monster name="Seltas" short="seltas" aka="Piercing Beetle">
+    <description text="Neopterons that use swift aerial movement to attack invaders on the ground. The sharp appendages on their heads can make their lunging attacks quite dangerous, though they sometimes overshoot their targets and slam into the ground." />
+    <physiology text="Seltas is a large, mantis like insectoid with a brightly-coloured, highly resistant exoskeleton, which is covered in spines and knobs. He has six legs, the foremost pair are armoured and weaponised for combat, and a pair of collapsible wings. His head is hidden beneath a large, armoured canopy that extends far beyond the rest of his upper body. He has a pair of compound eyes and powerful slicing mandibles. Seltas is the male counterpart to the Seltas Queen." />
+    <alt names="Desert Seltas" />
+    <bombs flash="20,20,30" />
+    <traps shock="12,12,20" pitfall="15,15,25" />
+    <bodyparts names="Head,Horn,Claw,Legs,Belly" />
+    <weakness>
+      <physical>
+        <cut default="50,35,42,45,65" />
+        <hit default="55,35,45,45,55" />
+        <shot default="70,35,45,50,80" />
+      </physical>
+      <elemental>
+        <fire default="20,15,10,10,25" />
+        <water default="10,5,5,5,15" />
+        <ice default="10,5,5,5,15" />
+        <thunder default="25,20,15,15,35" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="300" dur="60" dmg="150" />
+      <sleep init="150" inc="40" max="270" dur="40" />
+      <paralysis init="150" inc="30" max="300" dur="10" />
+      <stun init="120" inc="20" max="240" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="50" inc="40" max="1050" dmg="100" />
+      <jump init="30" inc="50" max="330" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <defence />
+    </ailments>
+  </monster>
+  <monster name="Desert Seltas" short="desertseltas" aka="Axe Beetle">
+    <description text="A mid-sized Neopteron whose forked horns and broad foreleg attack range set it apart from its more common cousins. Desert Seltas have also been known to burrow freely through the ground." />
+    <physiology text="This subspecies features a green, orange and brown shell, and seems to have reduced flight capacity. Its canopy features a double-pronged structure, rather than the single barbed spine of the common species, and its eyes shine a bright green." />
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <traps shock="12,12,20" pitfall="15,15,25" />
+    <bodyparts names="Head,Horn,Claw,Legs,Belly" />
+    <weakness>
+      <physical>
+        <cut default="45,30,42,45,60" />
+        <hit default="50,30,42,45,50" />
+        <shot default="65,30,45,50,75" />
+      </physical>
+      <elemental>
+        <fire default="10,5,5,5,15" />
+        <water default="10,5,5,5,15" />
+        <ice default="20,15,10,10,25" />
+        <thunder default="15,10,5,5,20" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="50" max="300" dur="60" dmg="150" />
+      <sleep init="150" inc="40" max="270" dur="40" />
+      <paralysis init="150" inc="30" max="300" dur="10" />
+      <stun init="120" inc="20" max="240" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="50" inc="40" max="1050" dmg="100" />
+      <jump init="30" inc="50" max="330" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Seltas Queen" short="seltasqueen" aka="Heavy Beetle">
+    <description text="Unable to fly by themselves, these wingless female Neopterons release pheromones to lure in male Seltas to serve as thralls. Seltas Queens possess an extremely heavy carapace, but their mucus-spewing maw is vulnerable when exposed." />
+    <physiology text="The Seltas Queen is a very large, beetle-like Neopteron with an armour-like exoskeleton covering its body. She is primarily a lustrous green colour, but also features beige stripes and orange spines. She has siz limbs, four of which make contact with the ground, the other two being used for digging and grasping prey. In addition, she has a long, segmented tail with a large pincer-like structure at the end. Seltas Queen is the female counterpart to Seltas, although she is physically very different." />
+    <alt names="Desert Seltas Queen" />
+    <bombs flash="20,20,30" />
+    <traps shock="8,8,15" pitfall="15,15,30" />
+    <element primary="water" />
+    <bodyparts names="Head,Body/Tail,Belly,Claw/Tail Pincer,Legs" />
+    <weakness>
+      <physical>
+        <cut default="80,24,36,15,24" broken="80,24,36,15,40" />
+        <hit default="60,30,30,20,36" broken="60,30,30,20,40" />
+        <shot default="80,30,45,15,20" broken="80,30,45,15,35" />
+      </physical>
+      <elemental>
+        <fire default="30,15,25,15,5" broken="30,15,25,15,10" />
+        <ice default="25,15,5,20,15" broken="25,15,5,20,5" />
+        <thunder default="15,5,10,0,0" broken="15,5,10,0,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="120" max="660" dur="60" dmg="300" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="200" inc="150" max="800" dur="10" />
+      <fatigue init="180" inc="100" max="480" />
+      <blast init="40" inc="20" max="440" dmg="100" />
+      <jump init="50" inc="150" max="800" />
+      <mount init="50" inc="100" max="350" />
+    </status>
+    <ailments>
+      <water severe="true" />
+      <stun />
+      <soiled />
+    </ailments>
+  </monster>
+  <monster name="Desert Seltas Queen" short="desertseltasqueen" aka="Cannon Beetle">
+    <description text="A large Neopteron known to use the pincers at the tip of its long tail to grasp male Seltas -- or anything it considers a threat. Once it has a male in its grasp, this Desert subspecies may even violently throw its mate at enemies." />
+    <physiology text="She has brownish olive-green sheel and a narrower tail pincer than that of the common species. Her eyes are bright green like those of the Desert Seltas." />
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <traps shock="8,8,15" pitfall="15,15,30" />
+    <bodyparts names="Head,Body/Tail,Belly,Claw/Tail Pincer,Legs" />
+    <weakness>
+      <physical>
+        <cut default="80,24,36,15,24" broken="80,24,36,15,40" />
+        <hit default="60,30,30,20,36" broken="60,30,30,20,40" />
+        <shot default="80,30,45,15,20" broken="80,30,45,15,35" />
+      </physical>
+      <elemental>
+        <fire broken="30,15,25,15,0" />
+        <water default="5,0,10,0,10" broken="30,15,25,15,0" />
+        <ice default="25,20,15,20,15" broken="25,15,5,20,10" />
+        <thunder default="10,5,5,0,0" broken="15,5,10,0,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="120" max="660" dur="60" dmg="300" />
+      <sleep init="200" inc="150" max="800" dur="40" />
+      <paralysis init="200" inc="150" max="800" dur="10" />
+      <stun init="200" inc="150" max="800" dur="10" />
+      <fatigue init="180" inc="100" max="480" />
+      <blast init="40" inc="20" max="440" dmg="100" />
+      <jump init="50" inc="150" max="800" />
+      <mount init="50" inc="100" max="350" />
+    </status>
+    <ailments>
+      <soiled />
+    </ailments>
+  </monster>
+  <monster name="Seregios" short="seregios" aka="Thousand Blades">
+    <description text="An elusive breed of wyvern only rarely spotted throughout the lands in recent years. Known for its ability to launch razor-edged scales at prey, and for its ability to stand those scales on end to strike at any who threaten it." />
+    <physiology text="Seregios is a medium-sized bipedal wyvern covered in lustrous gold scales. Its face features red markings around the eyes which continue along its body, and its head is topped with a single, backwards-curving horn. Its feet are zygodactyl in nature, with two toes facing forward, and two toes facing backward. Each of Seregios's scales can swivel individually, and it will use them to perform a rattling display when agitated." />
+    <bombs flash="18,18,30" />
+    <traps shock="8,8,15" pitfall="12,12,25" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs,Claw" />
+    <weakness>
+      <physical>
+        <cut default="32,40,35,60,30,19,50,26" broken="32,40,35,60,30,24,50,26" />
+        <hit default="35,40,30,55,30,19,45,26" broken="35,40,30,55,30,24,45,26" />
+        <shot default="35,45,25,55,30,15,45,26" broken="35,45,25,55,30,20,45,26" />
+      </physical>
+      <elemental>
+        <fire default="0,0,15,0,0,0,0,0" />
+        <water default="10,10,10,5,5,10,5,10" />
+        <ice default="15,10,10,5,5,10,15,10" />
+        <thunder default="25,15,15,20,10,15,20,15" />
+        <dragon default="5,5,5,5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="60" dmg="150" />
+      <sleep init="180" inc="100" max="580" dur="40" />
+      <paralysis init="180" inc="110" max="730" dur="10" />
+      <stun init="150" inc="150" max="750" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="80" inc="120" max="560" />
+      <mount init="50" inc="60" max="410" />
+    </status>
+    <ailments>
+      <bleeding />
+    </ailments>
+  </monster>
+  <monster name="Teostra" short="teostra" aka="Flame King">
+    <description text="Brutal elder dragons clothed in flame that spit blazing fire. Teostra are of such a fierce and deadly nature that the Guild keeps track of their movements whenever possible." />
+    <physiology text="Teostra's control over the Fire Element is speculated to come from his two curved horns. The relationship between the two is unclear, but a hunter can cripple the monster's ability to produce a fire aura is they can manage to destoy them. As part of a sexually dimorphic species, Teostra is the male counterpart to the Lunastra, though the two are rarely seen together." />
+    <bombs flash="20,10,30" />
+    <element primary="dragon" secondary="fire" />
+    <bodyparts names="Head,Neck/Belly,Back,Tail,Front Legs,Back Legs,Wing" />
+    <weakness>
+      <physical>
+        <cut default="50,25,25,45,25,45,20" enraged="60,30,25,55,35,55,20" />
+        <hit default="50,40,25,25,25,45,20" enraged="55,45,25,35,35,55,20" />
+        <shot default="45,20,25,60,20,30,10" enraged="50,25,25,65,30,35,10" />
+      </physical>
+      <elemental>
+        <water default="25,10,5,10,15,10,5" enraged="15,10,5,10,15,5,5" />
+        <ice default="15,10,5,25,10,15,5" enraged="10,5,5,20,5,15,5" />
+        <thunder default="10,5,5,5,5,5,5" />
+        <dragon default="10,5,5,15,5,5,5" enraged="25,10,10,25,10,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="40" dmg="200" />
+      <sleep init="200" inc="100" max="600" dur="40" />
+      <paralysis init="200" inc="200" max="800" dur="10" />
+      <stun init="150" inc="100" max="650" dur="10" />
+      <blast init="180" inc="100" max="2180" dmg="100" />
+      <jump init="80" inc="50" max="380" />
+      <mount init="50" inc="50" max="600" />
+    </status>
+    <ailments>
+      <fire />
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="Tetsucabra" short="tetsucabra" aka="Demon Frog">
+    <description text="Amphibians with unique jaws and tusks that they use to sift through rocks for prey. They yse their powerful hind legs to traverse steep terrain. The tail supports movement, but can become vulnerable with exertion." />
+    <physiology text="Tetsucabra is a large Amphibian with a striking orange and indigo colouration. It harbours large tusks along with a large set of molars that are capable of curshing prey with ease. Tetsucabra also has a stubby tail that swells up when angered." />
+    <alt names="Berserk Tetsucabra" />
+    <bombs flash="30,20,30" />
+    <traps shock="10,8,12" pitfall="15,12,20" />
+    <element primary="ice" />
+    <bodyparts names="Head,Fang,Body,Front Legs,Back Legs,Tail" />
+    <weakness>
+      <physical>
+        <cut default="56,42,25,45,42,36" inflated="56,42,25,45,42,80" />
+        <hit default="56,45,25,42,42,36" inflated="56,45,25,42,42,80" />
+        <shot default="60,40,25,40,40,35" inflated="60,40,25,40,40,85" />
+      </physical>
+      <elemental>
+        <water default="30,25,20,20,15,20" inflated="30,25,20,20,15,30" />
+        <ice default="5,10,5,5,10,10" inflated="5,10,5,5,10,15" />
+        <thunder default="25,25,15,15,15,15" inflated="25,25,15,15,15,30" />
+        <dragon default="5,5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="100" max="500" dur="60" dmg="240" />
+      <sleep init="150" inc="100" max="550" dur="40" />
+      <paralysis init="200" inc="75" max="500" dur="10" />
+      <stun init="200" inc="100" max="500" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="55" inc="45" max="1080" dmg="100" />
+      <jump init="50" inc="120" max="410" />
+      <mount init="50" inc="30" max="350" />
+    </status>
+    <ailments>
+      <ice severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Berserk Tetsucabra" short="berserktetsucabra" aka="Wild Demon Frog">
+    <description text="An amphibious monster known for its distinctive markings resembling a painted face. These beasts dig up and hurl boulders in the same way as a standard Tetsucabra does, but the stones thrown by this Beserk variety explode upon impact." />
+    <physiology text="Berserk Tetsucabra has a dark green body with a grey tail and brown tusks due to the soot and gas from the explosions caused by explosive rocks. The monster's face will also become orange from each explosion as well." />
+    <alt isAlt="true" />
+    <bombs flash="30,20,30" />
+    <traps shock="10,8,12" pitfall="15,12,20" />
+    <bodyparts names="Head,Fang,Body,Front Legs,Back Legs,Tail" />
+    <weakness>
+      <physical>
+        <cut default="52,40,25,38,37,30" inflated="52,40,25,38,37,73" />
+        <hit default="52,45,25,35,34,30" inflated="52,45,25,35,34,73" />
+        <shot default="55,35,25,37,37,30" inflated="55,35,25,37,37,78" />
+      </physical>
+      <elemental>
+        <water default="10,10,5,5,5,5" inflated="10,10,5,5,5,20" />
+        <ice default="30,30,15,20,20,20" inflated="30,30,15,20,20,35" />
+        <thunder default="25,25,15,15,15,15" inflated="25,25,15,15,15,25" />
+        <dragon default="5,5,0,0,0,0" inflated="5,5,0,0,0,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="100" max="500" dur="60" dmg="240" />
+      <sleep init="150" inc="100" max="550" dur="40" />
+      <paralysis init="200" inc="75" max="500" dur="10" />
+      <stun init="200" inc="100" max="500" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="55" inc="45" max="1080" dmg="100" />
+      <jump init="50" inc="120" max="410" />
+      <mount init="50" inc="30" max="350" />
+    </status>
+  </monster>
+  <monster name="Tigrex" short="tigrex" aka="Roaring Wyern">
+    <description text="Flying wyversn whose primative origins are obvious. Prone to violence, they display incredible ferocity with their claws, jaws, and developed limbs. They inhabit a wide area, and have been spotted as far off as the Frozen Seaway." />
+    <physiology text="Tigrex is a large, quadrupedal wyvern characterised by its massive head and jaws, powerful limbs and striking yellow/blue striped colouration. The top of its head is tipped with a pair of horn-like ears, and its segmented tail ends with a spiny protrusion" />
+    <alt names="Brute Tigrex,Molten Tigrex" />
+    <bombs flash="20,20,30" />
+    <traps shock="10,8,15" pitfall="16,12,20" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="65,44,25,44,35,25,40" enraged="70,44,30,40,35,30,40" />
+        <hit default="55,44,30,40,30,25,40" enraged="65,44,35,35,30,30,40" />
+        <shot default="55,25,20,30,20,25,40" enraged="60,30,20,35,20,25,40" />
+      </physical>
+      <elemental>
+        <fire default="0,0,15,0,0,0,0" />
+        <water default="10,10,15,15,5,10,5" />
+        <ice default="5,5,10,10,0,10,0" />
+        <thunder default="20,20,15,25,15,20,10" enraged="20,20,15,25,15,15,10" />
+        <dragon default="15,15,15,5,15,10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="110" max="620" dur="60" dmg="240" />
+      <sleep init="180" inc="120" max="660" dur="40" />
+      <paralysis init="200" inc="140" max="760" dur="10" />
+      <stun init="200" inc="140" max="760" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="50" max="300" />
+      <mount init="50" inc="40" max="250" />
+    </status>
+    <ailments>
+      <water severe="true" />
+      <ice severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Brute Tigrex" short="brutetigrex" aka="Black Roaring Wyvern">
+    <description text="A subspecies of Tigrex, these beasts are as brutal as they are ravenous. They prefer volcanic regions, but can be found in a range of areas. Their howls are even more piercing than standard Tigrex roars and send shockwaves far and wide." />
+    <physiology text="Brute Tigrex features a darker, more muted colour palette of various shades of grey, brown and beige. It apparently possesses a more robust set of lungs than the common species, as evidenced by its increased roaring capacity. It has a more powerful set of forelimbs, and has adapted to live in harsher environments than any other variety of Tigrex." />
+    <alt isAlt="true" />
+    <bombs flash="20,20,30" />
+    <traps shock="10,8,15" pitfall="16,12,20" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="70,44,25,44,35,25,40" enraged="75,44,30,40,35,30,40" />
+        <hit default="65,44,30,40,30,25,40" enraged="70,44,35,35,30,25,40" />
+        <shot default="55,25,20,30,20,25,40" enraged="60,30,20,35,20,25,40" />
+      </physical>
+      <elemental>
+        <fire default="0,0,5,0,0,0,0" />
+        <water default="25,15,15,20,10,15,10" />
+        <ice default="10,10,12,12,0,12,0" />
+        <thunder default="15,15,15,18,10,10,5" />
+        <dragon default="15,15,15,5,10,10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="110" max="620" dur="60" dmg="240" />
+      <sleep init="180" inc="120" max="660" dur="40" />
+      <paralysis init="200" inc="140" max="760" dur="10" />
+      <stun init="200" inc="140" max="760" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="50" inc="50" max="300" />
+      <mount init="50" inc="40" max="250" />
+    </status>
+    <ailments>
+      <fire severe="true" />
+      <water severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Molten Tigrex" short="moltentigrex" aka="Great Roaring Wyvern">
+    <description text="A rare Tigrex varient theorized to exist after the discovery of claw marks and prints far larger than those of an ordinary Tigrex. With no confirmed first-hand sightings, its existence remains a matter of debate among hunters." />
+    <physiology text="Molten Tigrex features a striking blood red colouration interspersed with bright blue spines and claws. It is slightly larger than the other two varieties of Tigrex." />
+    <alt isAlt="true" />
+    <bombs flash="20,5,10" />
+    <traps shock="15,5,8" pitfall="20,8,12" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs,Claw" />
+    <weakness>
+      <physical>
+        <cut default="20,25,40,30,45,20,43,25" enraged="63,43,32,43,35,55,30,66" />
+        <hit default="20,23,35,30,43,20,45,25" enraged="66,45,32,43,32,55,30,63" />
+        <shot default="30,20,25,25,40,20,40,30" enraged="60,30,30,45,35,45,30,70" />
+      </physical>
+      <elemental>
+        <water default="15,10,15,10,20,10,20,15" enraged="25,10,15,15,20,10,20,25" />
+        <ice default="10,5,10,10,15,5,15,10" enraged="20,5,10,10,15,5,15,20" />
+        <thunder default="5,0,5,0,5,0,5,5" enraged="5,0,5,5,5,0,5,5" />
+        <dragon default="5,5,5,5,10,5,10,5" enraged="10,5,5,5,10,5,10,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="200" inc="150" max="800" dur="60" dmg="300" />
+      <sleep init="200" inc="200" max="1000" dur="40" />
+      <paralysis init="200" inc="200" max="1000" dur="10" />
+      <stun init="200" inc="200" max="1000" dur="10" />
+      <fatigue init="180" inc="100" max="580" />
+      <blast init="180" inc="100" max="2180" dmg="50" />
+      <jump init="50" inc="80" max="450" />
+      <mount init="100" inc="75" max="475" />
+    </status>
+    <ailments>
+      <blast />
+    </ailments>
+  </monster>
+  <monster name="Ukanlos" short="ukanlos" aka="Tyrant of Ice, The White God">
+    <description text="An enigmatic dragon sighted only deep within the most remote extremes. Its jaws are capable of crushing ice and rock alike. The natives of one region claim its appearance mirrors that of the white god of their legends." />
+    <physiology text="Ukanlos closely resembles Akantor in body structure and possesses the same quadrupedal gait. It has a silvery-white carapace which features a row of large, jagged fins along its back. It  has a small, compact face which features glowing yellow eyes, sharp teeth and a massive, shovel-like chin." />
+    <bombs sonic="5,0,5" flash="5,5,5" />
+    <element primary="ice" />
+    <bodyparts names="Head,Neck,Belly,Back,Tail,Front Legs,Back Legs" />
+    <weakness>
+      <physical>
+        <cut default="45,20,35,20,30,25,30" broken="50,30,40,25,30,30,30" />
+        <hit default="45,30,40,25,35,20,25" broken="45,40,50,30,35,25,30" />
+        <shot default="65,20,25,15,15,15,30" broken="70,30,30,20,20,15,40" />
+      </physical>
+      <elemental>
+        <fire default="20,15,15,20,15,15,25" broken="25,15,20,20,15,20,25" />
+        <water default="5,5,5,5,5,5,5" />
+        <thunder default="20,15,15,25,15,10,10" broken="20,15,15,25,15,10,10" />
+        <dragon default="15,10,10,10,15,10,15" broken="20,10,15,10,20,10,15" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="400" inc="150" max="1000" dur="60" dmg="150" />
+      <sleep init="350" inc="150" max="950" dur="30" />
+      <paralysis init="350" inc="150" max="950" dur="10" />
+      <stun init="250" inc="150" max="850" dur="10" />
+      <blast init="140" inc="75" max="2015" dmg="300" />
+      <jump init="50" inc="120" max="530" />
+      <mount init="50" inc="60" max="350" />
+    </status>
+    <ailments>
+      <ice />
+    </ailments>
+  </monster>
+  <monster name="Velocidrome" short="velocidrome" aka="Alpha Raptor">
+    <description text="Alpha monsters that lead Velociprey packs. Larger than their brothers and with a more prominent crest, Velocidrome use their strong hind legs to leap at prey, pinning them with sharp claws before calling for others." />
+    <physiology text="Its large, bright red crest over its blue hide signifies to other Velociprey that it is fit to be their leader." />
+    <bombs flash="20,15,30" />
+    <traps shock="15,12,18" pitfall="18,15,25" />
+    <bodyparts names="Head,Body" />
+    <weakness>
+      <physical>
+        <cut default="85,55" />
+        <hit default="85,55" />
+        <shot default="80,55" />
+      </physical>
+      <elemental>
+        <fire default="30,25" />
+        <water default="30,25" />
+        <ice default="40,30" />
+        <thunder default="30,25" />
+        <dragon default="10,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="80" inc="40" max="200" dur="30" dmg="150" />
+      <sleep init="70" inc="40" max="230" dur="40" />
+      <paralysis init="80" inc="40" max="240" dur="10" />
+      <stun init="80" inc="40" max="240" dur="10" />
+      <fatigue init="150" inc="75" max="300" />
+      <blast init="70" inc="30" max="670" dmg="100" />
+      <jump init="30" inc="40" max="210" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+  </monster>
+  <monster name="Yian Garuga" short="yiangaruga" aka="Black Wolf Bird">
+    <description text="A close relative of the Yian Kut-Ku known for its hard black shell and tufts of white mane. These clever monsters are known to avoid traps and use their poisonous tail to deadly effect; they are not to be taken lightly." />
+    <physiology text="Yian Garuga has a striking purple colouration, large defensive spikes and an extremely tough shell. Its beak is sharp and jagged, and it possesses a silver mane around the edge of its face." />
+    <bombs flash="30,30,30" />
+    <traps shock="8,8,15" pitfall="17,0,25" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="65,40,10,24,50,24,24" />
+        <hit default="60,40,10,20,30,45,24" />
+        <shot default="50,25,10,35,15,20,10" />
+      </physical>
+      <elemental>
+        <fire default="0,0,5,15,5,0,0" />
+        <water default="20,15,50,20,15,15,10" />
+        <ice default="10,10,20,15,10,10,10" />
+        <thunder default="0,0,10,10,0,0,5" />
+        <dragon default="5,5,30,10,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <sleep init="150" inc="75" max="750" dur="40" />
+      <paralysis init="200" inc="100" max="700" dur="10" />
+      <stun init="150" inc="130" max="670" dur="10" />
+      <fatigue init="280" inc="200" max="680" />
+      <blast init="55" inc="45" max="1090" dmg="100" />
+      <jump init="50" inc="70" max="400" />
+      <mount init="50" inc="40" max="450" />
+    </status>
+    <ailments>
+      <poison />
+    </ailments>
+  </monster>
+  <monster name="Yian Kut-Ku" short="yiankutku" aka="Jungle Menace">
+    <description text="A bird wyvern with a huge beak and large ears that splay open when it is angered. Due to its sensitive hearing it dislikes loud noises. It is smaller but faster than other wyverns." />
+    <physiology text="The Yian Kut-Ku is characterized by its large, fan-like ears that unfurl when excited. They have a large, yellow beak with a pink stripe running down its length. The lower jaw of this beak is significantly bigger than the top jaw. Yian Kut-Ku's body is covered in orange-pink plating and beige scales. Its wing membranes are a deep blue and its eyes are a bright yellow. These wyverns are small and relatively light, making them quick and agile. They have an extremely powerful sense of hearing, thanks to their large ears." />
+    <alt names="Blue Yian Kut-Ku" />
+    <bombs sonic="6,0,6" flash="20,20,30" />
+    <traps shock="12,10,15" pitfall="15,12,20" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="56,42,33,66,60,80,28" />
+        <hit default="75,42,42,63,56,42,28" />
+        <shot default="80,45,40,60,50,70,30" />
+      </physical>
+      <elemental>
+        <fire default="10,10,5,5,5,5,5" />
+        <water default="15,25,15,15,15,10,5" />
+        <ice default="30,40,20,20,20,15,5" />
+        <thunder default="20,30,15,15,15,25,5" />
+        <dragon default="0,20,0,0,0,0,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="100" inc="100" max="400" dur="10" dmg="200" />
+      <sleep init="110" inc="100" max="410" dur="40" />
+      <paralysis init="100" inc="100" max="400" dur="10" />
+      <stun init="120" inc="100" max="520" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="100" />
+      <jump init="50" inc="50" max="200" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+    <ailments>
+      <fire />
+    </ailments>
+  </monster>
+  <monster name="Blue Yian Kut-Ku" short="blueyiankutku" aka="Blue Jungle Menace">
+    <description text="A Yian Kut-Ku variant protected by a blue carapace. They share the same weakness to loud noises that ordinary Yian Kut-Ku have, but when angered, they display significantly greater physical strength." />
+    <physiology text="Although they are usually smaller than their pink counterparts, they are stronger and more aggressive. They are covered in an indigo carapace, and blue streaks can be found on its beak and ears." />
+    <alt isAlt="true" />
+    <bombs sonic="6,0,6" flash="20,15,25" />
+    <traps shock="10,8,12" pitfall="12,10,20" />
+    <element primary="fire" />
+    <bodyparts names="Head,Neck,Back,Belly,Tail,Wing,Legs" />
+    <weakness>
+      <physical>
+        <cut default="56,50,24,70,25,66,24" />
+        <hit default="66,60,40,70,24,35,25" />
+        <shot default="70,50,20,65,25,60,30" />
+      </physical>
+      <elemental>
+        <fire default="10,10,5,5,5,5,5" />
+        <water default="30,35,20,20,20,15,5" />
+        <ice default="20,30,10,10,10,5,5" />
+        <thunder default="25,30,15,15,15,20,5" />
+        <dragon default="0,20,0,0,0,0,0" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="120" max="510" dur="40" dmg="200" />
+      <sleep init="160" inc="120" max="520" dur="40" />
+      <paralysis init="150" inc="120" max="510" dur="10" />
+      <stun init="160" inc="120" max="660" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="100" />
+      <jump init="50" inc="50" max="200" />
+      <mount init="50" inc="50" max="200" />
+    </status>
+  </monster>
+  <monster name="Zamtrios" short="zamtrios" aka="Monster Shark">
+    <description text="Amphibians that strike from frozen waters, using the cold to stun their prey. They secrete a special liquid that both coats their own body with icy armor and freezes any nearby foes. Frogs are their favorite food." />
+    <physiology text="Zamtrios is a large, quadrupedal monster with grey-blue skin and yellow fins. It is superficially shark-like in appearance, with a long, pointed snout and a mouth filled with multiple rows of sharp teeth. Zamtrios is sometimes seen encased in an ice-like armour, which forms many spines and horns all over its body. As the adult form of Zamite, its limbs are powerful and fully-developed. Its skin is extremely elastic in order to accommodate its inflation abilities." />
+    <alt names="Tigerstripe Zamtrios" />
+    <bombs flash="30,20,30" />
+    <traps shock="10,8,12" pitfall="15,12,20" />
+    <element primary="water" secondary="ice" />
+    <bodyparts names="Head,Body,Fin,Front Legs,Back Legs,Tail,Belly" />
+    <weakness>
+      <physical>
+        <cut default="43,36,45,42,36,45,75" guarded="24,33,42,20,33,24,75" />
+        <hit default="45,36,45,42,36,43,66" guarded="24,33,42,21,33,24,66" />
+        <shot default="45,30,40,40,35,40,60" guarded="20,28,40,20,30,25,60" />
+      </physical>
+      <elemental>
+        <fire default="15,10,15,10,10,10,30" guarded="20,15,20,20,15,20,30" />
+        <thunder default="20,15,15,15,15,15,30" guarded="20,15,15,15,15,10,30" />
+        <dragon default="5,5,5,5,5,5,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="100" max="550" dur="60" dmg="300" />
+      <sleep init="150" inc="100" max="550" dur="40" />
+      <paralysis init="200" inc="75" max="500" dur="10" />
+      <stun init="200" inc="100" max="500" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="100" />
+      <jump init="50" inc="120" max="410" />
+      <mount init="50" inc="30" max="350" />
+    </status>
+    <ailments>
+      <water />
+      <ice severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Tigerstripe Zamtrios" short="tigerstripezamtrios" aka="Tiger Shark">
+    <description text="Unlike its standard counterpart, this distinctively-striped Zamtrios subspecies dwells primarily in desert climates, and can employ its ability to expand and contract its body even while in motion, making it an even more formidable adversary." />
+    <physiology text="It has an orange-brown body color with some red shades mixed in while its fins and belly are more blueish." />
+    <alt isAlt="true" />
+    <bombs flash="30,20,30" />
+    <traps shock="10,8,12" pitfall="15,12,20" />
+    <element primary="water" secondary="ice" />
+    <bodyparts names="Head,Body,Fin,Front Legs,Back Legs,Tail,Belly" />
+    <weakness>
+      <physical>
+        <cut default="40,36,45,38,36,42,65" enraged="24,33,42,20,33,24,75" />
+        <hit default="45,36,45,33,36,40,58" enraged="24,33,42,21,33,24,66" />
+        <shot default="42,30,40,35,35,38,55" enraged="20,28,40,20,30,25,60" />
+      </physical>
+      <elemental>
+        <fire default="0,0,0,10,0,0,15" enraged="20,15,20,20,15,20,30" />
+        <ice default="25,20,20,15,15,20,30" enraged="0,0,0,0,0,0,0" />
+        <thunder default="15,10,15,10,10,15,25" enraged="20,15,15,15,15,10,30" />
+        <dragon default="5,5,5,0,5,5,15" enraged="5,5,5,5,5,5,10" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="150" inc="100" max="550" dur="60" dmg="360" />
+      <sleep init="150" inc="100" max="550" dur="40" />
+      <paralysis init="200" inc="150" max="950" dur="10" />
+      <stun init="200" inc="100" max="500" dur="10" />
+      <fatigue init="180" inc="75" max="480" />
+      <blast init="130" inc="45" max="1030" dmg="100" />
+      <jump init="50" inc="120" max="410" />
+      <mount init="50" inc="30" max="350" />
+    </status>
+    <ailments>
+      <water severe="true" />
+      <paralysis />
+    </ailments>
+  </monster>
+  <monster name="Zinogre" short="zinogre" aka="Monarch, Usurper">
+    <description text="Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain. During hunts, they gather numerous Thunderbugs to boost their power and enter a supercharged state." />
+    <physiology text="Zinogre has highly developed limbs, sharp fangs and claws. Its forelegs are extremely powerful and can kill prey in one brutal blow. Despite its hulking size, Zinogre is very agile and is able to perform many impressive maneuvers. The spikes on its body mostly lie flat, but when it has built up an electric charge they stick out vertically into the air." />
+    <alt names="Stygian Zinogre" />
+    <bombs flash="20,15,30" />
+    <traps shock="12,0,15" pitfall="12,12,25" />
+    <element primary="thunder" />
+    <bodyparts names="Head,Body,Back,Front Legs,Back Legs,Thigh,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="65,25,45,25,45,44,30,21" enraged="65,30,70,43,50,45,30,21" />
+        <hit default="65,25,40,30,45,44,25,19" enraged="65,30,65,46,50,45,25,19" />
+        <shot default="70,30,35,30,35,30,25,10" enraged="70,35,55,30,40,35,25,10" />
+      </physical>
+      <elemental>
+        <fire default="10,5,10,5,5,5,5,10" enraged="10,5,15,5,10,10,5,10" />
+        <water default="10,5,20,5,5,5,5,15" enraged="10,10,25,5,10,10,10,15" />
+        <ice default="15,5,25,10,10,10,5,20" enraged="15,10,30,15,15,15,10,20" />
+        <dragon default="5,5,5,5,5,5,5,5" enraged="10,5,5,5,5,5,5,5" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="40" dmg="200" />
+      <sleep init="180" inc="180" max="900" dur="40" />
+      <paralysis init="180" inc="180" max="900" dur="10" />
+      <stun init="150" inc="150" max="750" dur="10" />
+      <fatigue init="250" inc="150" max="850" />
+      <blast init="85" inc="50" max="585" dmg="100" />
+      <jump init="50" inc="50" max="850" />
+      <mount init="50" inc="50" max="550" />
+    </status>
+    <ailments>
+      <thunder severe="true" />
+    </ailments>
+  </monster>
+  <monster name="Stygian Zinogre" short="stygianzinogre" aka="Emperor of Hell">
+    <description text="A subspecies of Zinogre with a jet-black body. It gathers bugs that eat Dragonfell Berries and uses their Dragon Element energy to boost its own power. Perhaps this is why it can survive in scorching heat or freezing cold." />
+    <physiology text="Its thunder-like attacks are different in coloring from the ordinary Zinogre; this crimson red/black lightning deals Dragon-Element damage. It is able to imbue its attacks with Dragon Element due to its absorption of multiple bugs that feed on Dragonfell berries. These bugs are red colored orbs that float around Stygian Zinogre; they closely resemble the Great Thunderbug from previous games. When released, these orbs can fly directly at the Hunter and explode on contact, dealing significant damage." />
+    <alt isAlt="true" />
+    <bombs flash="20,15,30" />
+    <traps shock="12,8,15" pitfall="12,8,15" />
+    <element primary="dragon" />
+    <bodyparts names="Head,Body,Back,Front Legs,Back Legs,Thigh,Tail,Tail Tip" />
+    <weakness>
+      <physical>
+        <cut default="63,25,45,25,40,30,30,21" enraged="55,25,70,22,40,25,30,21" />
+        <hit default="63,25,40,30,40,30,25,19" enraged="55,25,65,22,40,25,25,19" />
+        <shot default="55,30,35,25,35,30,25,10" enraged="55,35,55,30,30,35,25,10" />
+      </physical>
+      <elemental>
+        <fire default="10,5,15,5,5,5,5,10" enraged="15,5,0,5,5,5,5,10" />
+        <water default="20,10,15,15,15,20,5,10" enraged="25,5,0,20,20,20,5,10" />
+        <ice default="10,5,15,10,10,10,5,10" enraged="15,5,0,10,10,10,5,10" />
+        <thunder default="20,10,20,20,20,25,20,25" enraged="30,15,0,30,25,25,20,25" />
+      </elemental>
+    </weakness>
+    <status>
+      <poison init="180" inc="100" max="580" dur="40" dmg="200" />
+      <sleep init="180" inc="180" max="900" dur="40" />
+      <paralysis init="180" inc="180" max="900" dur="10" />
+      <stun init="150" inc="150" max="750" dur="10" />
+      <fatigue init="250" inc="150" max="850" />
+      <blast init="60" inc="30" max="960" dmg="100" />
+      <jump init="50" inc="50" max="850" />
+      <mount init="50" inc="50" max="550" />
+    </status>
+    <ailments>
+      <dragon severe="true" />
+    </ailments>
+  </monster>
+</monsters>

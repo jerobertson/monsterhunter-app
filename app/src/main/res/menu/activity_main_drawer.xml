@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_quicksearch"
+            android:icon="@drawable/ic_menu_unknown"
+            android:title="Quick Search" />
+        <item
+            android:id="@+id/nav_monsters"
+            android:icon="@drawable/ic_menu_claw"
+            android:title="Monsters" />
+        <item
+            android:id="@+id/nav_items"
+            android:icon="@drawable/ic_menu_herb"
+            android:title="Items" />
+        <item
+            android:id="@+id/nav_weapons"
+            android:icon="@drawable/ic_menu_cut"
+            android:enabled="false"
+            android:title="Coming soon" />
+        <item
+            android:id="@+id/nav_armour"
+            android:icon="@drawable/ic_menu_body"
+            android:enabled="false"
+            android:title="Coming soon" />
+        <item
+            android:id="@+id/nav_skills"
+            android:icon="@drawable/ic_menu_jewel"
+            android:enabled="false"
+            android:title="Coming soon" />
+        <item
+            android:id="@+id/nav_locations"
+            android:icon="@drawable/ic_menu_map"
+            android:enabled="false"
+            android:title="Coming soon" />
+        <item
+            android:id="@+id/nav_none"
+            android:visible="false"
+            android:title="" />
+    </group>
+
+</menu>
